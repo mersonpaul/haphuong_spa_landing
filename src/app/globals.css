@@ -1309,10 +1309,11 @@ a {
   box-shadow: 0 8px 22px rgba(24, 119, 242, 0.4);
 }
 
+/* The Zalo doodle icon carries its own decoration — no extra chrome around it */
 .floating-contacts__zalo {
-  background: #ffffff;
-  border: 1px solid #e5eefb;
-  box-shadow: 0 8px 22px rgba(0, 104, 255, 0.3);
+  background: transparent;
+  border: none;
+  box-shadow: none;
 }
 
 .floating-contacts__phone {

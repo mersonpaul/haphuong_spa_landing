@@ -23,7 +23,7 @@ export function FloatingContacts() {
         title="Zalo"
         className="floating-contacts__zalo"
       >
-        <Image src="/images/icons/zalo.png" alt="" width={34} height={34} />
+        <Image src="/images/icons/zalo.png" alt="" width={48} height={48} />
       </a>
       <a href={site.telHref} aria-label="Gọi điện thoại" title="Gọi ngay" className="floating-contacts__phone">
         <PhoneIcon size={20} />
