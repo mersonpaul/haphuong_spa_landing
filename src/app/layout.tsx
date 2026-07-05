@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Prata, Be_Vietnam_Pro } from 'next/font/google';
 import { site } from '@/config/site';
 import './globals.css';
@@ -41,7 +42,23 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="vi" className={`${prata.variable} ${beVietnamPro.variable}`}>
-      <body>{children}</body>
+      <body>
+        {children}
+        {site.gaId && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${site.gaId}`}
+              strategy="afterInteractive"
+            />
+            <Script id="ga4" strategy="afterInteractive">
+              {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${site.gaId}');`}
+            </Script>
+          </>
+        )}
+      </body>
     </html>
   );
 }

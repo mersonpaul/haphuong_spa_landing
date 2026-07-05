@@ -12,6 +12,7 @@ export function localBusinessJsonLd() {
   return {
     '@context': 'https://schema.org',
     '@type': 'HealthAndBeautyBusiness',
+    '@id': `${site.url}/#business`,
     name: site.name,
     alternateName: site.alternateName,
     description:
@@ -79,8 +80,8 @@ export function articleJsonLd(post: PostMeta) {
     datePublished: post.date,
     dateModified: post.updated,
     inLanguage: 'vi',
-    author: { '@type': 'Organization', name: site.name, url: site.url },
-    publisher: { '@type': 'Organization', name: site.name, url: site.url },
+    author: { '@type': 'Organization', '@id': `${site.url}/#business`, name: site.name, url: site.url },
+    publisher: { '@type': 'Organization', '@id': `${site.url}/#business`, name: site.name, url: site.url },
     mainEntityOfPage: `${site.url}/bai-viet/${post.slug}`,
   };
 }

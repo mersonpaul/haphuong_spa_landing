@@ -51,6 +51,10 @@ ${faqSection}
 ## Bài viết hướng dẫn chăm sóc mẹ & bé
 
 ${postsSection}
+
+## Tài nguyên cho AI agent
+- Toàn văn mọi bài viết + thông tin doanh nghiệp trong một file: ${site.url}/llms-full.txt
+- Sitemap: ${site.url}/sitemap.xml
 `;
 
   return new Response(body, {

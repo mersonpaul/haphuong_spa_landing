@@ -28,6 +28,9 @@ export const site = {
   gioMoCua: '8:00 – 17:30, cả Thứ 7 & Chủ nhật · Trông bé buổi tối theo hẹn',
   gioMoCuaNgan: '8:00 – 17:30, cả T7 & CN',
 
+  /** GA4 Measurement ID (G-XXXXXXXXXX). Empty string = analytics disabled. */
+  gaId: '',
+
   description:
     'Ha Phuong Mom & Baby Care — dịch vụ spa mẹ và bé: tắm bé 150.000đ/buổi (gói 10 buổi 1.200.000đ), bơi float 150.000đ, thông tắc tia sữa từ 350.000đ, massage mẹ từ 300.000đ, gội & xông hơi tại nhà, trông bé theo giờ. Đặt lịch qua điện thoại, Zalo hoặc Facebook.',
 } as const;
