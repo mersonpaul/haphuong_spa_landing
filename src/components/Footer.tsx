@@ -7,7 +7,7 @@ export function Footer() {
         <div className="site-footer__brand">
           <span className="site-footer__mark">HP</span>
           <span>
-            <span className="site-footer__name">Hà Phương Mom &amp; Baby Care</span>
+            <span className="site-footer__name">Ha Phuong Mom &amp; Baby Care</span>
             <span className="site-footer__tagline">{site.tagline}</span>
           </span>
         </div>
@@ -21,7 +21,7 @@ export function Footer() {
           </a>
         </nav>
         <p className="site-footer__meta">
-          {site.diaChi} · Hotline <a href={site.telHref}>{site.hotline}</a> · © 2026 Hà Phương Mom
+          {site.diaChi} · Hotline <a href={site.telHref}>{site.hotline}</a> · © 2026 Ha Phuong Mom
           &amp; Baby Care
         </p>
       </div>

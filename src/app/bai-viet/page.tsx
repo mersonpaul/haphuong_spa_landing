@@ -8,7 +8,7 @@ export const dynamic = 'force-static';
 export const metadata: Metadata = {
   title: 'Bài viết chăm sóc mẹ & bé',
   description:
-    'Cẩm nang chăm sóc mẹ và bé của Hà Phương Mom & Baby Care: tắc tia sữa, tắm bé sơ sinh, bơi float, massage sau sinh, ở cữ khoa học, chọn dịch vụ tại nhà — kèm bảng giá minh bạch.',
+    'Cẩm nang chăm sóc mẹ và bé của Ha Phuong Mom & Baby Care: tắc tia sữa, tắm bé sơ sinh, bơi float, massage sau sinh, ở cữ khoa học, chọn dịch vụ tại nhà — kèm bảng giá minh bạch.',
   alternates: { canonical: '/bai-viet' },
   openGraph: {
     title: `Bài viết chăm sóc mẹ & bé — ${site.name}`,

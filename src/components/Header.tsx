@@ -9,7 +9,7 @@ export function Header() {
         <a href="/" className="logo">
           <span className="logo__mark">HP</span>
           <span className="logo__text">
-            <span className="logo__name">Hà Phương</span>
+            <span className="logo__name">Ha Phuong</span>
             <span className="logo__sub">Mom &amp; Baby Care</span>
           </span>
         </a>

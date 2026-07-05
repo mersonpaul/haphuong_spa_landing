@@ -40,7 +40,7 @@ export function localBusinessJsonLd() {
     areaServed: 'Vinhomes Smart City, Nam Từ Liêm, Hà Nội và khu vực lân cận',
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
-      name: 'Bảng giá dịch vụ Hà Phương Mom & Baby Care',
+      name: 'Bảng giá dịch vụ Ha Phuong Mom & Baby Care',
       itemListElement: allPriceItems.map((item) => ({
         '@type': 'Offer',
         itemOffered: { '@type': 'Service', name: item.schemaName },

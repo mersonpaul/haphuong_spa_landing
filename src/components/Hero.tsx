@@ -9,7 +9,7 @@ export function Hero() {
       <div className="hero__blob-2" aria-hidden="true" />
       <div className="hero__inner">
         <div className="hero__copy">
-          <p className="eyebrow">Hà Phương Mom &amp; Baby Care · Tại spa &amp; tận nhà</p>
+          <p className="eyebrow">Ha Phuong Mom &amp; Baby Care · Tại spa &amp; tận nhà</p>
           <h1>
             Nâng niu mẹ,
             <br />
