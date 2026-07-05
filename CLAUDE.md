@@ -170,7 +170,7 @@ SVG stroke inline (stroke-width 1.8–2, round cap/join): điện thoại, đồ
 
 | # | Tên card | Badge | Mô tả | Giá hiển thị | Ảnh |
 |---|---|---|---|---|---|
-| 1 | Tắm Bé & Float | Spa · Tại nhà | Tắm thảo dược dịu nhẹ, bơi float thư giãn và bài vận động chuyên sâu — kích thích phát triển vận động, giúp bé ăn ngon ngủ sâu. | Tắm bé 60.000đ · Float 75.000đ / buổi | tam-be.png |
+| 1 | Tắm & Massage bé | Spa · Tại nhà | Tắm thảo dược dịu nhẹ, bơi float thư giãn và bài vận động chuyên sâu — kích thích phát triển vận động, giúp bé ăn ngon ngủ sâu. | Tắm bé 60.000đ · Float 75.000đ / buổi | tam-be.png |
 | 2 | Thông Tắc Tia Sữa | Tại nhà | Xử lý cương sữa sinh lý, tắc sữa non, tắc sữa viêm và kích sữa — massage không đau, hỗ trợ khẩn trong ngày để mẹ cho bé bú lại ngay. | Từ 120.000đ / buổi | tia-sua.png |
 | 3 | Massage Cho Mẹ | Spa · Tại nhà | Gói 60 – 120 phút giúp mẹ giảm đau mỏi vai gáy, lưng hông và ngủ ngon hơn. Đặt kèm xông hơi tại nhà chỉ thêm 50.000đ. | 90.000đ – 150.000đ / buổi | massage.png |
 | 4 | Gội Đầu Tại Nhà | Tại nhà | Gội dưỡng sinh thảo dược kết hợp massage đầu — cổ — vai ngay tại nhà, mẹ ở cữ vẫn được thư giãn mà không phải ra ngoài. | 70.000đ / buổi | goi-dau.png |

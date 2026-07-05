@@ -7,7 +7,7 @@
 export interface ServiceCard {
   id: string;
   name: string;
-  badge: 'Spa · Tại nhà' | 'Tại nhà';
+  badge: 'Spa · Tại nhà' | 'Tại nhà' | 'Tại spa';
   description: string;
   priceLabel: string;
   image: string;
@@ -19,7 +19,7 @@ export interface ServiceCard {
 export const serviceCards: ServiceCard[] = [
   {
     id: 'tam-be',
-    name: 'Tắm Bé & Float',
+    name: 'Tắm & Massage bé',
     badge: 'Spa · Tại nhà',
     description:
       'Tắm thảo dược dịu nhẹ, bơi float thư giãn và bài vận động chuyên sâu — kích thích phát triển vận động, giúp bé ăn ngon ngủ sâu.',
@@ -28,6 +28,18 @@ export const serviceCards: ServiceCard[] = [
     imageAlt: 'Minh hoạ bé bơi float trong làn nước ấm',
     imageWidth: 900,
     imageHeight: 520,
+  },
+  {
+    id: 'float',
+    name: 'Floating Baby — Bơi Thuỷ Liệu',
+    badge: 'Tại spa',
+    description:
+      'Bé thả nổi thư giãn trong làn nước ấm với phao chuyên dụng — kích thích giác quan, hỗ trợ tiêu hoá, bé vận động toàn thân và ngủ sâu hơn sau mỗi buổi bơi.',
+    priceLabel: '75.000đ / buổi',
+    image: '/images/bai-viet/boi-float-cho-be.png',
+    imageAlt: 'Minh hoạ bé bơi float thuỷ liệu trong làn nước ấm tại spa',
+    imageWidth: 900,
+    imageHeight: 560,
   },
   {
     id: 'tia-sua',
