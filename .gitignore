@@ -6,3 +6,9 @@ out/
 *.log
 .env
 .env.local
+credentials/
+
+# Secrets — never commit
+credentials/
+*.env
+.dev.vars

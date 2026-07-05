@@ -16,8 +16,8 @@ export function Header() {
           <a href="/#dich-vu">Dịch vụ</a>
           <a href="/#bang-gia">Bảng giá</a>
           <a href="/#cam-nhan">Cảm nhận</a>
-          <a href="/#hoi-dap">Hỏi đáp</a>
           <a href="/bai-viet">Bài viết</a>
+          <a href="/#hoi-dap">Hỏi đáp</a>
           <a href="/#lien-he">Liên hệ</a>
         </nav>
         <div className="header-actions">
