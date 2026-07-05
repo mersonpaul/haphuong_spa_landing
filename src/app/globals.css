@@ -447,26 +447,30 @@ a {
   flex: 1;
 }
 
+/* Chip flows inline right after the title text (stays on the same line when it fits) */
+.service-card__head .badge {
+  display: inline-block;
+  vertical-align: 3px;
+  margin-left: 8px;
+  padding: 4px 9px;
+  font-size: 11px;
+}
+
 .service-card__name {
   font-family: var(--font-heading), serif;
   font-weight: 400;
   font-size: 22px;
   margin: 0;
+  display: inline;
+  line-height: 1.35;
 }
 
 .badge {
-  margin-left: auto;
   font-size: 12px;
   font-weight: 600;
   padding: 5px 12px;
   border-radius: 999px;
   white-space: nowrap;
-}
-
-/* Chip shown above the service title (own row, never wraps with the title) */
-.badge--top {
-  margin-left: 0;
-  align-self: flex-start;
 }
 
 .badge--sage {
