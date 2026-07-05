@@ -22,6 +22,8 @@ export const site = {
   /** GPS pin — must match the Google Business Profile pin exactly */
   geo: { latitude: 21.0077734, longitude: 105.7394727 },
   googleMapsUrl: 'https://www.google.com/maps?q=21.0077734,105.7394727',
+  /** Directions from the visitor's current location (Google Maps fills the origin) */
+  directionsUrl: 'https://www.google.com/maps/dir/?api=1&destination=21.0077734,105.7394727',
   khuVuc: 'Vinhomes Smart City & khu vực lân cận (Hà Nội)',
   gioMoCua: '8:00 – 17:30, cả Thứ 7 & Chủ nhật · Trông bé buổi tối theo hẹn',
   gioMoCuaNgan: '8:00 – 17:30, cả T7 & CN',

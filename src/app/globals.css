@@ -1217,6 +1217,25 @@ a {
   min-width: 96px;
 }
 
+.btn-directions {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  background: var(--accent);
+  color: var(--surface);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 11px 22px;
+  border-radius: 999px;
+  transition: background 0.2s ease;
+}
+
+.btn-directions:hover {
+  background: var(--accent-hover);
+}
+
 /* ---------- Footer ---------- */
 .site-footer {
   background: var(--ink);
