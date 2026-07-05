@@ -1,4 +1,4 @@
 # Cloudflare Pages project config — deploy with `wrangler pages deploy`
-name = "haphuong-spa"
+name = "haphuongcare"
 compatibility_date = "2026-07-01"
 pages_build_output_dir = "out"

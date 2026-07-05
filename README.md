@@ -1,7 +1,7 @@
 # Ha Phuong Mom & Baby Care — Landing Page
 
 Static Vietnamese landing page + blog for a mom & baby spa, optimized for SEO and GEO (Generative Engine Optimization). Live at:
-**https://haphuong-spa.pages.dev**
+**https://haphuongcare.pages.dev**
 
 ## Architecture
 
@@ -48,8 +48,8 @@ Overwrite files in `public/images/` keeping the same file names and aspect ratio
 Secrets (same names as the spa-bot Worker project):
 
 ```bash
-npx wrangler pages secret put BOT_TOKEN --project-name haphuong-spa      # Telegram bot token (@BotFather)
-npx wrangler pages secret put OWNER_CHAT_ID --project-name haphuong-spa # owner chat/channel id
+npx wrangler pages secret put BOT_TOKEN --project-name haphuongcare      # Telegram bot token (@BotFather)
+npx wrangler pages secret put OWNER_CHAT_ID --project-name haphuongcare # owner chat/channel id
 ```
 
 Optional `BOOKING_WEBHOOK_URL` receives JSON `{name, phone, service, date, note}`.

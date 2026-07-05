@@ -8,7 +8,7 @@ export const site = {
   shortName: 'Hà Phương',
   alternateName: 'Ha Phuong Baby Care',
   tagline: 'Nâng niu mẹ, ôm ấp bé — tại spa & tận nhà',
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://haphuong-spa.pages.dev',
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://haphuongcare.pages.dev',
 
   hotline: '0987 475 822',
   hotlineDigits: '0987475822',
