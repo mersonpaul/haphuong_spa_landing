@@ -53,13 +53,28 @@ html {
   }
 }
 
-/* These sections carry 60-76px of internal top padding; pull the anchor
-   landing point up so the visible gap below the header is halved. */
-#dich-vu,
-#bang-gia,
-#cam-nhan,
+/* Per-section offsets so every anchor lands with a uniform ~20px gap between
+   the sticky header and the section title (each section has different
+   internal top padding: dich-vu 68, bang-gia 60, cam-nhan 76, dat-lich 72). */
+#dich-vu {
+  scroll-margin-top: -58px;
+}
+
+#bang-gia {
+  scroll-margin-top: -50px;
+}
+
+#cam-nhan {
+  scroll-margin-top: -66px;
+}
+
 #dat-lich {
-  scroll-margin-top: -30px;
+  scroll-margin-top: -62px;
+}
+
+#hoi-dap,
+#lien-he {
+  scroll-margin-top: 10px;
 }
 
 body {
