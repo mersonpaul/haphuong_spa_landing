@@ -1,70 +1,81 @@
-# Hà Phương Mom & Baby Care — Landing Page
+# Ha Phuong Mom & Baby Care — Landing Page
 
-Landing page tĩnh (tiếng Việt) cho spa mẹ & bé, tối ưu SEO + GEO. Live tại:
+Static Vietnamese landing page + blog for a mom & baby spa, optimized for SEO and GEO (Generative Engine Optimization). Live at:
 **https://haphuong-spa.pages.dev**
 
-## Kiến trúc
+## Architecture
 
-- **Next.js 14 (App Router, TypeScript)** — `output: 'export'` → toàn bộ trang là **HTML tĩnh thuần** (view-source thấy đầy đủ giá, FAQ, JSON-LD; AI agent/crawler đọc không cần JS).
-- **Cloudflare Pages** hosting. Endpoint động duy nhất `POST /api/booking` chạy bằng **Pages Function** (`functions/api/booking.ts`) — cùng repo, cùng deploy.
-- Không database — booking forward qua webhook/Telegram (cấu hình env, xem bên dưới).
+- **Next.js 14 (App Router, TypeScript)** with `output: 'export'` — every page is **pre-rendered static HTML** (view-source shows all prices, FAQ and JSON-LD; AI crawlers read content without executing JS).
+- Hosted on **Cloudflare Pages**. The only dynamic endpoint, `POST /api/booking`, runs as a **Pages Function** (`functions/api/booking.ts`) in the same repo and deployment.
+- No database — bookings are forwarded to Telegram and/or a webhook (configured via secrets, see below).
 
-## Cấu trúc
+## Project structure
 
 ```
 src/
-  app/            # layout, page (landing), bai-viet/, robots.ts, sitemap.ts, llms.txt/
-  components/     # Header, Hero, Services, PriceTable, WhyUs, Testimonials,
-                  # Faq, BookingForm (client), ContactPanel, Footer, FloatingContacts
-  config/site.ts  # ★ MỌI thông tin liên hệ (hotline, Zalo, FB, địa chỉ) sửa TẠI ĐÂY
-  data/           # 17 dịch vụ + giá, FAQ, cảm nhận (nguồn: handoff docs/content.md)
-  lib/            # posts.ts (đọc markdown blog), jsonld.ts (schema builders)
-content/bai-viet/ # 20 bài viết markdown (frontmatter: title/description/faq[]...)
-public/images/    # ảnh mock landing + covers blog (thay ảnh thật giữ nguyên tên file)
+  app/            # layout, landing page, bai-viet/ (blog + pagination),
+                  # robots.ts, sitemap.ts, llms.txt/
+  components/     # Header, Hero, Services, WhyUs, Testimonials, Faq,
+                  # BookingForm (client), DatePicker (client), MainNav (client),
+                  # ContactPanel, Footer, FloatingContacts, BlogList, Pagination
+  config/site.ts  # ★ ALL contact info, GPS pin, hours — edit HERE only
+  data/           # services + prices, FAQ, testimonials (single source of truth)
+  lib/            # posts.ts (markdown blog loader), jsonld.ts (schema builders),
+                  # phone.ts (VN phone validation/formatting)
+content/bai-viet/ # 50 markdown articles (frontmatter: title/description/faq[]/photo...)
+public/images/    # landing illustrations, blog covers, downloaded real photos
 functions/api/    # Cloudflare Pages Function: POST /api/booking
 ```
 
-## Vận hành
+## Operations
 
 ```bash
 npm install
-npm run dev      # dev server localhost:3000 (không có /api/booking — dùng wrangler pages dev)
-npm run build    # build static ra out/
-npm run deploy   # build + wrangler pages deploy (cần wrangler login)
+npm run dev      # Next dev server (no /api/booking — use wrangler pages dev)
+npm run build    # static export to out/
+npm run deploy   # build + wrangler pages deploy (requires wrangler login)
+npx wrangler pages dev --port 4002   # full local preview incl. booking API
 ```
 
-### Thêm / sửa bài viết
-1. Thêm file `content/bai-viet/<slug>.md` (copy frontmatter từ bài có sẵn) + cover `public/images/bai-viet/<slug>.png` (900×560).
-2. `npm run deploy`. Sitemap, blog index, JSON-LD tự cập nhật.
+### Adding / editing blog posts
+1. Add `content/bai-viet/<slug>.md` (copy frontmatter from an existing post). Cover resolution: `public/images/bai-viet/<slug>.png` if present, otherwise the real photo at `public/images/bai-viet/photos/<slug>.jpg`.
+2. `npm run deploy`. Blog index, pagination (20 posts/page), sitemap and JSON-LD update automatically.
 
-### Thay ảnh thật của spa
-Ghi đè file trong `public/images/` (giữ nguyên tên + tỉ lệ khung): `hero.png` (1100×1000), `tam-be.png`, `tia-sua.png`, `massage.png` (900×520), `goi-dau.png`, `xong-nha.png`, `trong-tre.png` (700×420). Chạy lại deploy.
+### Replacing placeholder images
+Overwrite files in `public/images/` keeping the same file names and aspect ratios, then redeploy.
 
-### Nhận thông báo booking
-Đặt secrets qua wrangler (dùng chung tên với project spa-bot / dainv_spa_manager):
+### Booking notifications
+Secrets (same names as the spa-bot Worker project):
 
 ```bash
-npx wrangler pages secret put BOT_TOKEN --project-name haphuong-spa      # Telegram Bot Token (@BotFather)
-npx wrangler pages secret put OWNER_CHAT_ID --project-name haphuong-spa # Chat ID của chủ spa
+npx wrangler pages secret put BOT_TOKEN --project-name haphuong-spa      # Telegram bot token (@BotFather)
+npx wrangler pages secret put OWNER_CHAT_ID --project-name haphuong-spa # owner chat/channel id
 ```
 
-Hoặc `BOOKING_WEBHOOK_URL` — webhook nhận JSON `{name, phone, service, date, note}` (Google Sheet Apps Script / Zapier / n8n...).
+Optional `BOOKING_WEBHOOK_URL` receives JSON `{name, phone, service, date, note}`.
+Without any channel configured, bookings are only logged (Pages → Functions logs).
+Anti-spam: hidden honeypot field + best-effort per-IP rate limit. Secrets apply from the next deployment.
 
-Chưa cấu hình thì booking chỉ ghi log (Pages → Functions logs); form vẫn báo thành công cho khách.
-Chống spam: honeypot field + rate-limit 5 request/10 phút/IP.
+## SEO / GEO checklist (implemented)
 
-## SEO / GEO checklist (đã implement)
+- ✅ 100% static HTML — prices written as plain text next to service names
+- ✅ JSON-LD: `HealthAndBeautyBusiness` (offers, `GeoCoordinates`, `hasMap`, opening hours) + `FAQPage` matching visible FAQ verbatim on the landing page; `Article` + `FAQPage` + `BreadcrumbList` per blog post; `Blog` list schema on the index
+- ✅ `robots.txt` allows all crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bingbot)
+- ✅ `sitemap.xml` (landing + blog index + paginated pages + 50 posts, lastmod from frontmatter)
+- ✅ `/llms.txt` — one-page markdown summary for AI agents: NAP, services + prices, FAQ, article links
+- ✅ Semantic HTML: one `h1` per page, section `h2`s, landmarks, `<details>` FAQ, `<figure>/<blockquote>` quotes
+- ✅ Prata + Be Vietnam Pro (vietnamese subset) self-hosted via `next/font`
+- ✅ 1200×630 og-image, canonical URLs, `lang="vi"`
+- ✅ Lighthouse (production): Performance 94 · SEO 100 · Best Practices 100 · A11y 97
 
-- ✅ SSG 100% — giá viết dạng text cạnh tên dịch vụ, curl thấy đầy đủ nội dung
-- ✅ JSON-LD: `HealthAndBeautyBusiness` (17 Offer) + `FAQPage` (khớp nguyên văn FAQ hiển thị) trên trang chủ; `Article` + `FAQPage` + `BreadcrumbList` mỗi bài viết; `Blog` + `ItemList` trang danh sách
-- ✅ `robots.txt` allow tất cả bot (GPTBot, ClaudeBot, PerplexityBot... không chặn)
-- ✅ `sitemap.xml` 22 URL (landing + blog index + 20 bài, lastmod theo `updated`)
-- ✅ `/llms.txt` — tóm tắt markdown cho AI agent: NAP, 17 dịch vụ + giá, FAQ, links bài viết
-- ✅ Semantic HTML: 1 h1/trang, section h2, landmark, `<details>` FAQ (nội dung trong DOM), `<figure>/<blockquote>` quote
-- ✅ Fonts Prata + Be Vietnam Pro subset vietnamese qua next/font (self-host, swap)
-- ✅ og-image 1200×630, metadata + canonical đầy đủ, lang="vi"
+## Custom domain
 
-### Khi có domain riêng
-1. Cloudflare Pages → Custom domains → thêm domain.
-2. Đặt env `NEXT_PUBLIC_SITE_URL=https://domain-moi` khi build (hoặc sửa fallback trong `src/config/site.ts`) rồi deploy lại — canonical/sitemap/JSON-LD tự đổi theo.
-3. Trỏ Google Business Profile + Facebook về domain (entity consistency).
+1. Cloudflare Pages → Custom domains → add the domain.
+2. Set `NEXT_PUBLIC_SITE_URL=https://new-domain` at build time (or change the fallback in `src/config/site.ts`) and redeploy — canonical/sitemap/JSON-LD follow automatically.
+3. Point Google Business Profile + Facebook to the domain (entity consistency).
+
+## Notes
+
+- Business data (name, hotline, Zalo, Facebook, address, GPS pin, hours) lives only in `src/config/site.ts`.
+- Booking form: only the phone number is required; Vietnamese numbers are validated and auto-formatted client + server side.
+- Blog article prices are being synced to the new package-based price list (owner's menu pending).
