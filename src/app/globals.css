@@ -367,6 +367,16 @@ a {
   align-items: center;
 }
 
+/* All three hero CTAs share the exact same height */
+.hero__ctas .btn-primary,
+.hero__ctas .btn-outline {
+  height: 54px;
+  display: inline-flex;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .hero__hours {
   margin: 28px 0 0;
   font-size: 14px;
