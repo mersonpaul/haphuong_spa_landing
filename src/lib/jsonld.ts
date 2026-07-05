@@ -15,7 +15,7 @@ export function localBusinessJsonLd() {
     name: site.name,
     alternateName: site.alternateName,
     description:
-      'Dịch vụ spa mẹ và bé tại spa và tại nhà: tắm bé, bơi float, vận động chuyên sâu cho bé, thông tắc tia sữa, kích sữa, massage sau sinh 60–120 phút, gội đầu và xông hơi tại nhà, trông bé theo giờ.',
+      'Dịch vụ spa mẹ và bé tại spa và tại nhà: tắm bé, bơi float, thông tắc tia sữa, massage mẹ bầu và sau sinh 60–120 phút, gội đầu và xông hơi tại nhà, trông bé theo giờ.',
     telephone: site.telephoneIntl,
     url: site.url,
     sameAs: [site.facebookUrl],
@@ -41,7 +41,7 @@ export function localBusinessJsonLd() {
         closes: '17:30',
       },
     ],
-    priceRange: '50.000đ – 180.000đ',
+    priceRange: '85.000đ – 350.000đ',
     currenciesAccepted: 'VND',
     areaServed: 'Vinhomes Smart City, Nam Từ Liêm, Hà Nội và khu vực lân cận',
     hasOfferCatalog: {

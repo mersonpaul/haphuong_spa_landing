@@ -13,7 +13,6 @@ export function Footer() {
         </div>
         <nav aria-label="Liên kết cuối trang" className="site-footer__nav">
           <a href="/#dich-vu">Dịch vụ</a>
-          <a href="/#bang-gia">Bảng giá</a>
           <a href="/bai-viet">Bài viết</a>
           <a href="/#hoi-dap">Hỏi đáp</a>
           <a href={site.facebookUrl} target="_blank" rel="noopener">

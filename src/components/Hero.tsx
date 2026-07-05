@@ -52,8 +52,8 @@ export function Hero() {
               <HeartIcon />
             </span>
             <span>
-              <span className="hero__card-title">Tắm bé chỉ từ 60.000đ</span>
-              <span className="hero__card-sub">Float 75.000đ · tại spa hoặc tại nhà</span>
+              <span className="hero__card-title">Tắm bé 150.000đ / buổi</span>
+              <span className="hero__card-sub">Gói 10 buổi chỉ 1.200.000đ · tại spa hoặc tại nhà</span>
             </span>
           </div>
         </div>

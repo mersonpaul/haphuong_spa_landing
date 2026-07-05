@@ -16,7 +16,6 @@ interface NavLink {
 
 const LINKS: NavLink[] = [
   { href: '/#dich-vu', id: 'dich-vu', label: 'Dịch vụ' },
-  { href: '/#bang-gia', id: 'bang-gia', label: 'Bảng giá' },
   { href: '/#cam-nhan', id: 'cam-nhan', label: 'Cảm nhận' },
   { href: '/bai-viet', id: 'bai-viet', label: 'Bài viết' },
   { href: '/#hoi-dap', id: 'hoi-dap', label: 'Hỏi đáp' },
@@ -24,7 +23,7 @@ const LINKS: NavLink[] = [
 ];
 
 /** Landing sections tracked by the scrollspy, in page order */
-const SECTION_IDS = ['dich-vu', 'bang-gia', 'cam-nhan', 'hoi-dap', 'lien-he'];
+const SECTION_IDS = ['dich-vu', 'cam-nhan', 'hoi-dap', 'lien-he'];
 
 export function MainNav() {
   const pathname = usePathname();
