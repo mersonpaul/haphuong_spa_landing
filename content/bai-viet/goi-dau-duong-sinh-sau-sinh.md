@@ -37,6 +37,6 @@ faq:
 - Kỹ thuật viên mang **ghế gội chuyên dụng** đến tận nhà, gội tại phòng kín gió, **sấy khô tạo kiểu** trước khi rời đi — mẹ không phải động tay khâu nào.
 - Kết hợp cùng buổi massage (từ 90.000đ) hoặc xông hơi (100.000đ) thành "buổi spa tại giường" trọn vẹn.
 
-Khu vực phục vụ: Vinhomes Smart City — Tây Mỗ — Nam Từ Liêm, Hà Nội. Đặt lịch hotline/Zalo: **0987 475 822**, 8:00–19:00 hằng ngày.
+Khu vực phục vụ: Vinhomes Smart City — Tây Mỗ — Nam Từ Liêm, Hà Nội. Đặt lịch hotline/Zalo: **0987 475 822**, 8:00–17:30 hằng ngày.
 
 *Bài viết mang tính tham khảo, không thay thế tư vấn y khoa.*

@@ -32,6 +32,6 @@ export const faqItems: FaqItem[] = [
   {
     question: 'Đặt lịch bằng cách nào?',
     answer:
-      'Gọi hotline 0987 475 822, nhắn Zalo, nhắn tin fanpage Facebook hoặc điền form đặt lịch — spa xác nhận trong khoảng 15 phút (8:00 – 19:00 hằng ngày).',
+      'Gọi hotline 0987 475 822, nhắn Zalo, nhắn tin fanpage Facebook hoặc điền form đặt lịch — spa xác nhận trong khoảng 15 phút (8:00 – 17:30 hằng ngày).',
   },
 ];

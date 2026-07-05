@@ -155,7 +155,7 @@ SVG stroke inline (stroke-width 1.8–2, round cap/join): điện thoại, đồ
 - Zalo: https://zalo.me/0987475822
 - Địa chỉ: Vinhomes Smart City, Tây Mỗ, Nam Từ Liêm, Hà Nội
 - Khu vực phục vụ tại nhà: Vinhomes Smart City & khu vực lân cận (Hà Nội)
-- Giờ mở cửa: 8:00 – 19:00, cả Thứ 7 & Chủ nhật · Trông bé buổi tối theo hẹn
+- Giờ mở cửa: 8:00 – 17:30, cả Thứ 7 & Chủ nhật · Trông bé buổi tối theo hẹn
 
 ## Hero
 - Eyebrow: HÀ PHƯƠNG MOM & BABY CARE · TẠI SPA & TẬN NHÀ
@@ -219,7 +219,7 @@ SVG stroke inline (stroke-width 1.8–2, round cap/join): điện thoại, đồ
 2. **Thông tắc tia sữa có những mức dịch vụ nào?** — Cương sữa sinh lý & tắc sữa non 120.000đ, tắc sữa 150.000đ, tắc sữa viêm 180.000đ, kích sữa 120.000đ mỗi buổi. Kỹ thuật viên đến tận nhà, thao tác không đau, hỗ trợ khẩn trong ngày.
 3. **Những dịch vụ nào làm tại nhà được?** — Gội đầu 70.000đ, xông hơi 100.000đ (chỉ 50.000đ khi kèm buổi massage), thông tắc tia sữa, massage sau sinh, trông bé ngày 50.000đ/giờ — tối 70.000đ/giờ. Khu vực phục vụ: Vinhomes Smart City & khu vực lân cận (Hà Nội).
 4. **Massage cho mẹ có những gói nào?** — Các gói 60 / 70 / 90 / 100 / 120 phút, từ 90.000đ đến 150.000đ mỗi buổi — phù hợp cả mẹ bầu và mẹ sau sinh.
-5. **Đặt lịch bằng cách nào?** — Gọi hotline 0987 475 822, nhắn Zalo, nhắn tin fanpage Facebook hoặc điền form đặt lịch — spa xác nhận trong khoảng 15 phút (8:00 – 19:00 hằng ngày).
+5. **Đặt lịch bằng cách nào?** — Gọi hotline 0987 475 822, nhắn Zalo, nhắn tin fanpage Facebook hoặc điền form đặt lịch — spa xác nhận trong khoảng 15 phút (8:00 – 17:30 hằng ngày).
 
 ## Đặt lịch & Liên hệ
 - Form: H2 "Đặt lịch hẹn" — sub "Để lại thông tin, chúng tôi gọi lại xác nhận trong 15 phút."
@@ -253,7 +253,7 @@ canonical: domain chính thức khi có
 ```
 
 ## 3. JSON-LD (2 block, đặt trong <head>, server-rendered)
-Block 1 — LocalBusiness (`@type: HealthAndBeautyBusiness`): name "Hà Phương Mom & Baby Care", alternateName "Hà Phương Baby Care", description, telephone "+84-987-475-822", url + sameAs [facebook], openingHoursSpecification Mo–Su 08:00–19:00, priceRange "50.000đ – 180.000đ", currenciesAccepted VND, areaServed "Vinhomes Smart City, Nam Từ Liêm, Hà Nội và khu vực lân cận", address PostalAddress {streetAddress: "Vinhomes Smart City, Tây Mỗ", addressLocality: "Nam Từ Liêm", addressRegion: "Hà Nội", addressCountry: "VN"}, hasOfferCatalog: 17 Offer — mỗi Offer = itemOffered Service {name} + price (số, VND) đúng theo docs/content.md.
+Block 1 — LocalBusiness (`@type: HealthAndBeautyBusiness`): name "Hà Phương Mom & Baby Care", alternateName "Hà Phương Baby Care", description, telephone "+84-987-475-822", url + sameAs [facebook], openingHoursSpecification Mo–Su 08:00–17:30, priceRange "50.000đ – 180.000đ", currenciesAccepted VND, areaServed "Vinhomes Smart City, Nam Từ Liêm, Hà Nội và khu vực lân cận", address PostalAddress {streetAddress: "Vinhomes Smart City, Tây Mỗ", addressLocality: "Nam Từ Liêm", addressRegion: "Hà Nội", addressCountry: "VN"}, hasOfferCatalog: 17 Offer — mỗi Offer = itemOffered Service {name} + price (số, VND) đúng theo docs/content.md.
 Block 2 — FAQPage: 5 Question/Answer NGUYÊN VĂN khớp FAQ hiển thị trên trang (Google phạt nếu schema ≠ nội dung nhìn thấy).
 
 Bản JSON-LD hoàn chỉnh đã viết sẵn trong `design-reference.html` (2 thẻ `<script type="application/ld+json">`) — copy ra và thay giá trị TODO.

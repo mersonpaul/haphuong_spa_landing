@@ -104,7 +104,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
             <p>
               Tắm bé 60.000đ, thông tắc tia sữa từ 120.000đ, massage sau sinh từ 90.000đ — phục vụ
               tại spa &amp; tại nhà khu vực {site.khuVuc}. Spa xác nhận lịch trong 15 phút
-              (8:00 – 19:00).
+              (8:00 – 17:30).
             </p>
             <div className="article-cta__actions">
               <a href={site.telHref} className="article-cta__btn">

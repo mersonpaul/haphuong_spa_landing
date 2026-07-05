@@ -44,6 +44,6 @@ Tất cả các gói làm được **tại spa hoặc tại nhà** (Tây Mỗ, N
 
 Massage tránh trực tiếp vùng bụng sau sinh mổ đến khi vết thương lành hẳn; báo kỹ thuật viên nếu mẹ đang sốt, có bệnh da liễu, huyết áp bất thường. Đau lưng kèm tê lan xuống chân, sốt, hoặc đau không giảm sau vài tuần — nên khám bác sĩ.
 
-Đặt lịch: **0987 475 822** (Zalo cùng số), xác nhận trong ~15 phút, 8:00–19:00.
+Đặt lịch: **0987 475 822** (Zalo cùng số), xác nhận trong ~15 phút, 8:00–17:30.
 
 *Bài viết mang tính tham khảo, không thay thế tư vấn y khoa.*

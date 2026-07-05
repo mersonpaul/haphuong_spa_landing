@@ -32,7 +32,7 @@ export function localBusinessJsonLd() {
         '@type': 'OpeningHoursSpecification',
         dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
         opens: '08:00',
-        closes: '19:00',
+        closes: '17:30',
       },
     ],
     priceRange: '50.000đ – 180.000đ',

@@ -41,6 +41,6 @@ faq:
 
 ## Khi nào nên có kỹ thuật viên đồng hành?
 
-Nếu mẹ đã theo lịch 5–7 ngày mà sữa không cải thiện, hoặc kèm cương tắc, đau — buổi kích sữa chuyên môn giúp đánh giá khớp ngậm, kỹ thuật hút, massage tuyến sữa đúng điểm. Tại Hà Phương: **kích sữa 120.000đ/buổi tại nhà**, kết hợp hướng dẫn để mẹ tự duy trì. Đặt lịch: **0987 475 822** (Zalo cùng số), 8:00–19:00.
+Nếu mẹ đã theo lịch 5–7 ngày mà sữa không cải thiện, hoặc kèm cương tắc, đau — buổi kích sữa chuyên môn giúp đánh giá khớp ngậm, kỹ thuật hút, massage tuyến sữa đúng điểm. Tại Hà Phương: **kích sữa 120.000đ/buổi tại nhà**, kết hợp hướng dẫn để mẹ tự duy trì. Đặt lịch: **0987 475 822** (Zalo cùng số), 8:00–17:30.
 
 *Bài viết mang tính tham khảo. Trường hợp bé chậm tăng cân, mẹ nên đưa bé khám dinh dưỡng song song với kích sữa.*
