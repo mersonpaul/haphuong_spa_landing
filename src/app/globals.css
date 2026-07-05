@@ -370,11 +370,18 @@ a {
 /* All three hero CTAs share the exact same height */
 .hero__ctas .btn-primary,
 .hero__ctas .btn-outline {
-  height: 54px;
+  height: 48px;
   display: inline-flex;
   align-items: center;
   padding-top: 0;
   padding-bottom: 0;
+}
+
+/* Zalo doodle icon has its own transparent margins — drop the button's left
+   padding and let the bigger icon fill the pill */
+.hero__ctas .btn-outline--zalo {
+  padding-left: 8px;
+  gap: 5px;
 }
 
 .hero__hours {
@@ -1309,11 +1316,16 @@ a {
   box-shadow: 0 8px 22px rgba(24, 119, 242, 0.4);
 }
 
-/* The Zalo doodle icon carries its own decoration — no extra chrome around it */
+/* White disc like the other buttons, but no padding: the Zalo doodle icon
+   (which has built-in transparent margins) fills the whole 48px button. */
 .floating-contacts__zalo {
-  background: transparent;
-  border: none;
-  box-shadow: none;
+  background: #ffffff;
+  box-shadow: 0 8px 22px rgba(0, 104, 255, 0.3);
+}
+
+.floating-contacts__zalo img {
+  width: 48px;
+  height: 48px;
 }
 
 .floating-contacts__phone {
