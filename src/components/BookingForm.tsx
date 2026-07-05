@@ -39,7 +39,8 @@ export function BookingForm() {
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    if (!form.name.trim() || !form.phone.trim()) {
+    // Only the phone number is required — the spa calls back to confirm details.
+    if (!form.phone.trim()) {
       setError('validation');
       return;
     }
@@ -80,8 +81,9 @@ export function BookingForm() {
           </span>
           <h2>Đã nhận yêu cầu!</h2>
           <p>
-            Cảm ơn mẹ {form.name}. Hà Phương sẽ gọi số <strong>{form.phone}</strong> trong 15 phút
-            để xác nhận lịch <strong>{form.service}</strong>
+            Cảm ơn mẹ{form.name.trim() ? ` ${form.name.trim()}` : ''}. Hà Phương sẽ gọi số{' '}
+            <strong>{form.phone}</strong> trong 15 phút để xác nhận lịch{' '}
+            <strong>{form.service}</strong>
             {dateText}.
           </p>
           <button type="button" onClick={handleReset} className="booking-success__again">
@@ -162,7 +164,7 @@ export function BookingForm() {
         </div>
         {error === 'validation' && (
           <p className="booking-form__error">
-            Vui lòng nhập họ tên và số điện thoại để spa gọi lại xác nhận.
+            Vui lòng nhập số điện thoại để spa gọi lại xác nhận.
           </p>
         )}
         {error === 'api' && (

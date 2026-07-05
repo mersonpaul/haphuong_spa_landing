@@ -81,7 +81,7 @@ function validate(raw: Record<string, unknown>): { payload?: BookingPayload; err
   const date = sanitizeText(raw.date, 10);
   const note = sanitizeText(raw.note, 500);
 
-  if (!name) return { error: 'missing_name' };
+  // Only the phone is mandatory — name and the rest may be empty.
   if (!VN_PHONE_REGEX.test(phone)) return { error: 'invalid_phone' };
   if (date && !/^\d{4}-\d{2}-\d{2}$/.test(date)) return { error: 'invalid_date' };
 
@@ -108,7 +108,7 @@ async function forwardWebhook(url: string, payload: BookingPayload): Promise<boo
 async function forwardTelegram(token: string, chatId: string, payload: BookingPayload): Promise<boolean> {
   const lines = [
     'Đặt lịch mới từ website Hà Phương Spa',
-    `Họ tên: ${payload.name}`,
+    payload.name ? `Họ tên: ${payload.name}` : null,
     `SĐT: ${payload.phone}`,
     `Dịch vụ: ${payload.service}`,
     payload.date ? `Ngày mong muốn: ${payload.date}` : null,
