@@ -1,7 +1,7 @@
 # Ha Phuong Mom & Baby Care — Landing Page
 
 Static Vietnamese landing page + blog for a mom & baby spa, optimized for SEO and GEO (Generative Engine Optimization). Live at:
-**https://haphuongcare.pages.dev**
+**https://haphuongcare.com**
 
 ## Architecture
 
