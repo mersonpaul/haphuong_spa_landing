@@ -447,13 +447,17 @@ a {
   flex: 1;
 }
 
-/* Chip flows inline right after the title text (stays on the same line when it fits) */
+/* Title left, chip pinned to the card's right edge, level with the title's first line */
+.service-card__head {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
 .service-card__head .badge {
-  display: inline-block;
-  vertical-align: 3px;
-  margin-left: 8px;
-  padding: 4px 9px;
-  font-size: 11px;
+  flex-shrink: 0;
+  margin-left: auto;
+  margin-top: 3px;
 }
 
 .service-card__name {
@@ -461,7 +465,6 @@ a {
   font-weight: 400;
   font-size: 22px;
   margin: 0;
-  display: inline;
   line-height: 1.35;
 }
 
@@ -809,11 +812,18 @@ a {
 }
 
 .booking-form select {
-  padding: 13px 14px;
+  padding: 13px 40px 13px 14px;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23B05F70' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  background-size: 16px;
 }
 
-.booking-form input[type='date'] {
-  padding: 12px 14px;
+/* Required-field marker on labels */
+.req {
+  color: var(--accent);
 }
 
 .booking-form textarea {
@@ -849,6 +859,154 @@ a {
   .booking-form__submit {
     grid-column: auto;
   }
+}
+
+/* ---------- Date picker (custom, brand-styled) ---------- */
+.dp-root {
+  position: relative;
+}
+
+.dp-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  padding: 13px 16px;
+  border: 1px solid var(--border-input);
+  border-radius: 12px;
+  background: #faf6f0;
+  font-size: 15px;
+  color: var(--ink);
+  cursor: pointer;
+  text-align: left;
+}
+
+.dp-trigger:focus {
+  outline: none;
+  border-color: var(--accent);
+  background: var(--surface);
+}
+
+.dp-trigger--empty {
+  color: var(--ink-muted);
+}
+
+.dp-popup {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 40;
+  width: 292px;
+  max-width: calc(100vw - 48px);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 14px 14px 10px;
+  box-shadow: 0 18px 44px rgba(63, 50, 55, 0.16);
+}
+
+.dp-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.dp-title {
+  font-weight: 600;
+  font-size: 14.5px;
+}
+
+.dp-nav {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.dp-nav:hover {
+  border-color: var(--accent);
+}
+
+.dp-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--ink-muted);
+  margin-bottom: 4px;
+}
+
+.dp-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+}
+
+.dp-day {
+  height: 34px;
+  border: none;
+  background: transparent;
+  border-radius: 10px;
+  font-size: 13.5px;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.dp-day:hover:not(:disabled) {
+  background: var(--blush);
+}
+
+.dp-day--selected,
+.dp-day--selected:hover:not(:disabled) {
+  background: var(--accent);
+  color: var(--surface);
+  font-weight: 600;
+}
+
+.dp-day--today {
+  box-shadow: inset 0 0 0 1px var(--sage-soft);
+}
+
+.dp-day:disabled {
+  color: var(--dots);
+  cursor: default;
+}
+
+.dp-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+
+.dp-action {
+  border: none;
+  background: transparent;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-muted);
+  cursor: pointer;
+  padding: 6px 8px;
+  transition: color 0.2s ease;
+}
+
+.dp-action:hover {
+  color: var(--accent);
+}
+
+.dp-action--strong {
+  color: var(--accent);
 }
 
 /* Honeypot field — hidden from humans, bots fill it in */

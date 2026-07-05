@@ -4,6 +4,7 @@ import { useState, type FormEvent } from 'react';
 import { site } from '@/config/site';
 import { bookingServiceOptions } from '@/data/services';
 import { CheckIcon } from '@/components/icons';
+import { DatePicker } from '@/components/DatePicker';
 
 interface FormState {
   name: string;
@@ -100,17 +101,9 @@ export function BookingForm() {
       <p className="booking-card__sub">Để lại thông tin, chúng tôi gọi lại xác nhận trong 15 phút.</p>
       <form onSubmit={handleSubmit} className="booking-form" noValidate>
         <label>
-          Họ tên mẹ
-          <input
-            name="name"
-            value={form.name}
-            onChange={(event) => setField('name')(event.target.value)}
-            placeholder="Nguyễn Thu Trang"
-            autoComplete="name"
-          />
-        </label>
-        <label>
-          Số điện thoại
+          <span>
+            Số điện thoại <span className="req">*</span>
+          </span>
           <input
             name="phone"
             value={form.phone}
@@ -118,6 +111,16 @@ export function BookingForm() {
             placeholder="09xx xxx xxx"
             type="tel"
             autoComplete="tel"
+          />
+        </label>
+        <label>
+          Họ tên mẹ
+          <input
+            name="name"
+            value={form.name}
+            onChange={(event) => setField('name')(event.target.value)}
+            placeholder="Nguyễn Thu Trang"
+            autoComplete="name"
           />
         </label>
         <label>
@@ -132,12 +135,7 @@ export function BookingForm() {
         </label>
         <label>
           Ngày mong muốn
-          <input
-            name="date"
-            value={form.date}
-            onChange={(event) => setField('date')(event.target.value)}
-            type="date"
-          />
+          <DatePicker value={form.date} onChange={setField('date')} />
         </label>
         <label className="span-2">
           Ghi chú
