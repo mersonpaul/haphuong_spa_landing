@@ -22,7 +22,7 @@ export function localBusinessJsonLd() {
     image: `${site.url}/og-image.png`,
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Vinhomes Smart City, Tây Mỗ',
+      streetAddress: 'Tòa A Masteri, Vinhomes Smart City, Tây Mỗ',
       addressLocality: 'Nam Từ Liêm',
       addressRegion: 'Hà Nội',
       addressCountry: 'VN',

@@ -17,7 +17,7 @@ export const site = {
   facebookUrl: 'https://www.facebook.com/haphuongbabycare/',
   facebookLabel: 'fb.com/haphuongbabycare',
 
-  diaChi: 'Vinhomes Smart City, Tây Mỗ, Nam Từ Liêm, Hà Nội',
+  diaChi: 'Tòa A Masteri, Vinhomes Smart City, Tây Mỗ, Nam Từ Liêm, Hà Nội',
   khuVuc: 'Vinhomes Smart City & khu vực lân cận (Hà Nội)',
   gioMoCua: '8:00 – 19:00, cả Thứ 7 & Chủ nhật · Trông bé buổi tối theo hẹn',
   gioMoCuaNgan: '8:00 – 19:00, cả T7 & CN',
