@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { site } from '@/config/site';
 import { PhoneIcon } from '@/components/icons';
 
@@ -12,7 +13,7 @@ export function FloatingContacts() {
         title="Facebook"
         className="floating-contacts__fb"
       >
-        f
+        <Image src="/images/icons/facebook.png" alt="" width={48} height={48} />
       </a>
       <a
         href={site.zaloHref}
@@ -22,7 +23,7 @@ export function FloatingContacts() {
         title="Zalo"
         className="floating-contacts__zalo"
       >
-        Z
+        <Image src="/images/icons/zalo.png" alt="" width={34} height={34} />
       </a>
       <a href={site.telHref} aria-label="Gọi điện thoại" title="Gọi ngay" className="floating-contacts__phone">
         <PhoneIcon size={20} />

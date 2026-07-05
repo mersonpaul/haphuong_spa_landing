@@ -25,11 +25,11 @@ export function Hero() {
               Đặt lịch hẹn
             </a>
             <a href={site.zaloHref} target="_blank" rel="noopener" className="btn-outline btn-outline--zalo">
-              <span className="glyph-zalo">Z</span>
+              <Image src="/images/icons/zalo.png" alt="" width={22} height={22} />
               Nhắn Zalo
             </a>
             <a href={site.facebookUrl} target="_blank" rel="noopener" className="btn-outline btn-outline--facebook">
-              <span className="glyph-fb">f</span>
+              <Image src="/images/icons/facebook.png" alt="" width={22} height={22} />
               Facebook
             </a>
           </div>

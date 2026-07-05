@@ -9,6 +9,9 @@ import { marked } from 'marked';
  */
 
 const CONTENT_DIR = path.join(process.cwd(), 'content', 'bai-viet');
+const COVERS_DIR = path.join(process.cwd(), 'public', 'images', 'bai-viet');
+
+export const POSTS_PER_PAGE = 20;
 
 export const BLOG_CATEGORIES = [
   'Sữa mẹ',
@@ -50,6 +53,18 @@ function toIsoDate(value: unknown): string {
   return String(value ?? '').slice(0, 10);
 }
 
+/**
+ * Cover resolution: prefer the vector illustration PNG when it exists,
+ * otherwise fall back to the downloaded real photo (newer articles ship
+ * with a Pexels photo only).
+ */
+function resolveCover(slug: string): string {
+  if (fs.existsSync(path.join(COVERS_DIR, `${slug}.png`))) {
+    return `/images/bai-viet/${slug}.png`;
+  }
+  return `/images/bai-viet/photos/${slug}.jpg`;
+}
+
 function parseMeta(slug: string, data: Record<string, unknown>): PostMeta {
   const hasPhoto = typeof data.photo === 'string' && data.photo.length > 0;
   return {
@@ -58,7 +73,7 @@ function parseMeta(slug: string, data: Record<string, unknown>): PostMeta {
     description: String(data.description ?? ''),
     keywords: Array.isArray(data.keywords) ? data.keywords.map(String) : [],
     category: String(data.category ?? BLOG_CATEGORIES[3]),
-    cover: `/images/bai-viet/${slug}.png`,
+    cover: resolveCover(slug),
     date: toIsoDate(data.date),
     updated: toIsoDate(data.updated ?? data.date),
     author: String(data.author ?? 'Hà Phương Mom & Baby Care'),
@@ -92,7 +107,8 @@ export function getAllPostMeta(): PostMeta[] {
  * sits between the quick answer and the article body.
  */
 function injectPhoto(html: string, meta: PostMeta): string {
-  if (!meta.photo) return html;
+  // Skip when the photo already serves as the cover (would duplicate it)
+  if (!meta.photo || meta.photo === meta.cover) return html;
   const figure =
     `<figure class="article-photo">` +
     `<img src="${meta.photo}" alt="${meta.photoAlt ?? ''}" width="1200" height="800" loading="lazy" />` +

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { site } from '@/config/site';
 import { PhoneIcon } from '@/components/icons';
 
@@ -15,11 +16,8 @@ export function ContactPanel() {
         </span>
       </a>
       <a href={site.zaloHref} target="_blank" rel="noopener" className="contact-card contact-card--zalo">
-        <span
-          className="contact-card__icon"
-          style={{ background: '#E5EEFB', color: '#0068FF', fontWeight: 700, fontSize: 15 }}
-        >
-          Z
+        <span className="contact-card__icon" style={{ background: '#E5EEFB' }}>
+          <Image src="/images/icons/zalo.png" alt="" width={30} height={30} />
         </span>
         <span style={{ lineHeight: 1.4 }}>
           <span className="contact-card__label">Nhắn Zalo — gửi ảnh, hỏi giá</span>
@@ -27,11 +25,8 @@ export function ContactPanel() {
         </span>
       </a>
       <a href={site.facebookUrl} target="_blank" rel="noopener" className="contact-card contact-card--facebook">
-        <span
-          className="contact-card__icon"
-          style={{ background: '#E5EEFB', color: '#1877F2', fontWeight: 700, fontSize: 19, fontFamily: 'Georgia, serif' }}
-        >
-          f
+        <span className="contact-card__icon" style={{ background: '#E5EEFB' }}>
+          <Image src="/images/icons/facebook.png" alt="" width={28} height={28} />
         </span>
         <span style={{ lineHeight: 1.4 }}>
           <span className="contact-card__label">Facebook — xem ảnh thật mỗi ngày</span>

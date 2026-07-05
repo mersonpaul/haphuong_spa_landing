@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { site } from '@/config/site';
-import { getAllPostMeta } from '@/lib/posts';
+import { getAllPostMeta, POSTS_PER_PAGE } from '@/lib/posts';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPostMeta();
@@ -8,8 +8,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     (latest, post) => (post.updated > latest ? post.updated : latest),
     '2026-01-01',
   );
+  const totalPages = Math.max(1, Math.ceil(posts.length / POSTS_PER_PAGE));
+  const pagedUrls = Array.from({ length: Math.max(0, totalPages - 1) }, (_, index) => ({
+    url: `${site.url}/bai-viet/trang/${index + 2}`,
+    lastModified: latestUpdate,
+    changeFrequency: 'weekly' as const,
+    priority: 0.6,
+  }));
 
   return [
+    ...pagedUrls,
     {
       url: site.url,
       lastModified: latestUpdate,

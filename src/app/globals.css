@@ -1295,51 +1295,19 @@ a {
 }
 
 .floating-contacts__fb {
-  background: var(--facebook);
-  font-size: 20px;
-  font-family: Georgia, serif;
+  background: transparent;
   box-shadow: 0 8px 22px rgba(24, 119, 242, 0.4);
 }
 
 .floating-contacts__zalo {
-  background: var(--zalo);
-  font-size: 15px;
-  box-shadow: 0 8px 22px rgba(0, 104, 255, 0.4);
+  background: #ffffff;
+  border: 1px solid #e5eefb;
+  box-shadow: 0 8px 22px rgba(0, 104, 255, 0.3);
 }
 
 .floating-contacts__phone {
   background: var(--accent);
   box-shadow: 0 8px 22px rgba(176, 95, 112, 0.45);
-}
-
-/* ---------- Chat channel glyphs ---------- */
-.glyph-zalo {
-  width: 20px;
-  height: 20px;
-  border-radius: 6px;
-  background: var(--zalo);
-  color: #ffffff;
-  font-size: 10px;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-.glyph-fb {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: var(--facebook);
-  color: #ffffff;
-  font-size: 12px;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: Georgia, serif;
-  flex-shrink: 0;
 }
 
 /* ============================================================
@@ -1461,6 +1429,44 @@ a {
   padding-top: 6px;
   font-size: 12.5px;
   color: var(--ink-muted);
+}
+
+/* ---------- Pagination ---------- */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 0 24px 70px;
+}
+
+.pagination__page,
+.pagination__arrow {
+  min-width: 38px;
+  height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid var(--border-input);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.pagination__page:hover,
+.pagination__arrow:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.pagination__page--current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--surface);
 }
 
 /* ---------- Article page ---------- */
