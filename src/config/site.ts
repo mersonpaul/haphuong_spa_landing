@@ -20,10 +20,10 @@ export const site = {
 
   diaChi: 'Tòa West A, Masteri West Heights, Vinhomes Smart City, Tây Mỗ, Nam Từ Liêm, Hà Nội',
   /** GPS pin — must match the Google Business Profile pin exactly */
-  geo: { latitude: 21.0077734, longitude: 105.7394727 },
-  googleMapsUrl: 'https://www.google.com/maps?q=21.0077734,105.7394727',
+  geo: { latitude: 20.9981841, longitude: 105.7356405 },
+  googleMapsUrl: 'https://www.google.com/maps?q=20.9981841,105.7356405',
   /** Directions from the visitor's current location (Google Maps fills the origin) */
-  directionsUrl: 'https://www.google.com/maps/dir/?api=1&destination=21.0077734,105.7394727',
+  directionsUrl: 'https://www.google.com/maps/dir/?api=1&destination=20.9981841,105.7356405',
   khuVuc: 'Vinhomes Smart City & khu vực lân cận (Hà Nội)',
   gioMoCua: '8:00 – 17:30, cả Thứ 7 & Chủ nhật · Trông bé buổi tối theo hẹn',
   gioMoCuaNgan: '8:00 – 17:30, cả T7 & CN',
