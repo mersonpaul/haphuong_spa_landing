@@ -1,7 +1,7 @@
 ---
 title: "Ăn gì sau sinh mổ để nhanh lành vết mổ? Đạm, vitamin C và kẽm"
 slug: an-gi-sau-sinh-mo-nhanh-lanh-vet-mo
-description: "Sau sinh mổ nên ăn gì để nhanh lành vết mổ? Ưu tiên đạm, vitamin C, kẽm và sắt giúp tái tạo mô; hạn chế dầu mỡ và đừng kiêng khem quá mức kẻo thiếu chất, ít sữa."
+description: "Sau sinh mổ nên ăn gì để nhanh lành vết mổ? Ưu tiên đạm, vitamin C, kẽm và sắt giúp tái tạo mô; hạn chế dầu mỡ, đừng kiêng khem quá mức kẻo thiếu chất."
 keywords: ["ăn gì sau sinh mổ", "sau sinh mổ nên ăn gì nhanh lành", "dinh dưỡng sau sinh mổ", "kiêng gì sau sinh mổ", "thực phẩm lành vết mổ"]
 category: "Mẹ sau sinh"
 cover: images/an-gi-sau-sinh-mo-nhanh-lanh-vet-mo.png

@@ -24,6 +24,8 @@ faq:
 
 ## Vì sao bé bị hăm tã?
 
+Hăm tã là một trong những vấn đề da phổ biến nhất ở trẻ sơ sinh và trẻ nhỏ, hầu như bé nào cũng gặp ít nhất một lần trong những tháng đầu đời. Hiểu đúng nguyên nhân giúp mẹ phòng và xử lý nhẹ nhàng hơn:
+
 - **Ẩm ướt kéo dài:** nước tiểu và phân giữ trong tã làm da mềm, mất hàng rào bảo vệ.
 - **Cọ xát:** tã chật hoặc chất liệu thô cọ vào da bẹn, mông.
 - **Kích ứng hóa chất:** một số loại khăn ướt có cồn, hương liệu, hoặc xà phòng mạnh.

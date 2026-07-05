@@ -21,7 +21,7 @@ Bạn (Claude Code) sẽ implement website này như MỘT service Node.js duy n
 ## Quy tắc
 - Tái tạo đúng thiết kế trong `design-reference.html` bằng React/Next — KHÔNG copy nguyên file HTML.
 - Nội dung lấy nguyên văn từ `docs/content.md`. Không bịa thêm dịch vụ/giá.
-- Thông tin liên hệ tập trung trong `src/config/site.ts`: hotline 0987 475 822 · zalo https://zalo.me/0987475822 · facebook https://www.facebook.com/haphuongbabycare/ · địa chỉ Tòa A Masteri, Vinhomes Smart City, Tây Mỗ, Nam Từ Liêm, Hà Nội.
+- Thông tin liên hệ tập trung trong `src/config/site.ts`: hotline 0987 475 822 · zalo https://zalo.me/0987475822 · facebook https://www.facebook.com/haphuongbabycare/ · địa chỉ Tòa West A, Masteri West Heights, Vinhomes Smart City, Tây Mỗ, Nam Từ Liêm, Hà Nội.
 - Ảnh trong `(ảnh mock đã nhúng sẵn dạng data-URL trong design-reference.html)` là mock tạm — dùng `next/image`, đặt sẵn chỗ để chủ spa thay ảnh thật (giữ đúng kích thước khung).
 - Fonts: Prata (heading) + Be Vietnam Pro (body) qua `next/font/google`, subset `vietnamese`.
 - Lighthouse mục tiêu: Performance ≥ 90, SEO = 100. Kiểm tra JSON-LD bằng Google Rich Results Test.
@@ -153,7 +153,7 @@ SVG stroke inline (stroke-width 1.8–2, round cap/join): điện thoại, đồ
 - Facebook: https://www.facebook.com/haphuongbabycare/
 - Hotline: **0987 475 822**
 - Zalo: https://zalo.me/0987475822
-- Địa chỉ: Tòa A Masteri, Vinhomes Smart City, Tây Mỗ, Nam Từ Liêm, Hà Nội
+- Địa chỉ: Tòa West A, Masteri West Heights, Vinhomes Smart City, Tây Mỗ, Nam Từ Liêm, Hà Nội
 - Khu vực phục vụ tại nhà: Vinhomes Smart City & khu vực lân cận (Hà Nội)
 - Giờ mở cửa: 8:00 – 17:30, cả Thứ 7 & Chủ nhật · Trông bé buổi tối theo hẹn
 
@@ -253,7 +253,7 @@ canonical: domain chính thức khi có
 ```
 
 ## 3. JSON-LD (2 block, đặt trong <head>, server-rendered)
-Block 1 — LocalBusiness (`@type: HealthAndBeautyBusiness`): name "Hà Phương Mom & Baby Care", alternateName "Hà Phương Baby Care", description, telephone "+84-987-475-822", url + sameAs [facebook], openingHoursSpecification Mo–Su 08:00–17:30, priceRange "50.000đ – 180.000đ", currenciesAccepted VND, areaServed "Vinhomes Smart City, Nam Từ Liêm, Hà Nội và khu vực lân cận", address PostalAddress {streetAddress: "Tòa A Masteri, Vinhomes Smart City, Tây Mỗ", addressLocality: "Nam Từ Liêm", addressRegion: "Hà Nội", addressCountry: "VN"}, hasOfferCatalog: 17 Offer — mỗi Offer = itemOffered Service {name} + price (số, VND) đúng theo docs/content.md.
+Block 1 — LocalBusiness (`@type: HealthAndBeautyBusiness`): name "Hà Phương Mom & Baby Care", alternateName "Hà Phương Baby Care", description, telephone "+84-987-475-822", url + sameAs [facebook], openingHoursSpecification Mo–Su 08:00–17:30, priceRange "50.000đ – 180.000đ", currenciesAccepted VND, areaServed "Vinhomes Smart City, Nam Từ Liêm, Hà Nội và khu vực lân cận", address PostalAddress {streetAddress: "Tòa West A, Masteri West Heights, Vinhomes Smart City, Tây Mỗ", addressLocality: "Nam Từ Liêm", addressRegion: "Hà Nội", addressCountry: "VN"}, hasOfferCatalog: 17 Offer — mỗi Offer = itemOffered Service {name} + price (số, VND) đúng theo docs/content.md.
 Block 2 — FAQPage: 5 Question/Answer NGUYÊN VĂN khớp FAQ hiển thị trên trang (Google phạt nếu schema ≠ nội dung nhìn thấy).
 
 Bản JSON-LD hoàn chỉnh đã viết sẵn trong `design-reference.html` (2 thẻ `<script type="application/ld+json">`) — copy ra và thay giá trị TODO.

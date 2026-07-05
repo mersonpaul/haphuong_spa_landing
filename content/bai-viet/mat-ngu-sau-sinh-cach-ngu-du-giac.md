@@ -1,7 +1,7 @@
 ---
 title: "Mất ngủ sau sinh: vì sao khó ngủ và cách ngủ đủ giấc theo cữ bé"
 slug: mat-ngu-sau-sinh-cach-ngu-du-giac
-description: "Mất ngủ sau sinh: vì sao khó ngủ dù kiệt sức? Hơn 2/3 mẹ ngủ kém 6 tháng đầu. Cách vệ sinh giấc ngủ, ngủ theo cữ của bé và dấu hiệu cần cảnh giác trầm cảm sau sinh."
+description: "Mất ngủ sau sinh: vì sao khó ngủ dù kiệt sức? Hơn 2/3 mẹ ngủ kém 6 tháng đầu. Cách vệ sinh giấc ngủ, ngủ theo cữ của bé và dấu hiệu cảnh giác trầm cảm."
 keywords: ["mất ngủ sau sinh", "khó ngủ sau sinh", "cách ngủ đủ giấc sau sinh", "vệ sinh giấc ngủ", "trầm cảm sau sinh"]
 category: "Mẹ sau sinh"
 cover: images/mat-ngu-sau-sinh-cach-ngu-du-giac.png

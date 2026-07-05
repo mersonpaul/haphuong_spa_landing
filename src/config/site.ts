@@ -18,7 +18,10 @@ export const site = {
   facebookUrl: 'https://www.facebook.com/haphuongbabycare/',
   facebookLabel: 'fb.com/haphuongbabycare',
 
-  diaChi: 'Tòa A Masteri, Vinhomes Smart City, Tây Mỗ, Nam Từ Liêm, Hà Nội',
+  diaChi: 'Tòa West A, Masteri West Heights, Vinhomes Smart City, Tây Mỗ, Nam Từ Liêm, Hà Nội',
+  /** GPS pin — must match the Google Business Profile pin exactly */
+  geo: { latitude: 21.0077734, longitude: 105.7394727 },
+  googleMapsUrl: 'https://www.google.com/maps?q=21.0077734,105.7394727',
   khuVuc: 'Vinhomes Smart City & khu vực lân cận (Hà Nội)',
   gioMoCua: '8:00 – 17:30, cả Thứ 7 & Chủ nhật · Trông bé buổi tối theo hẹn',
   gioMoCuaNgan: '8:00 – 17:30, cả T7 & CN',

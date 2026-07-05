@@ -22,11 +22,17 @@ export function localBusinessJsonLd() {
     image: `${site.url}/og-image.png`,
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Tòa A Masteri, Vinhomes Smart City, Tây Mỗ',
+      streetAddress: 'Tòa West A, Masteri West Heights, Vinhomes Smart City, Tây Mỗ',
       addressLocality: 'Nam Từ Liêm',
       addressRegion: 'Hà Nội',
       addressCountry: 'VN',
     },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: site.geo.latitude,
+      longitude: site.geo.longitude,
+    },
+    hasMap: site.googleMapsUrl,
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',

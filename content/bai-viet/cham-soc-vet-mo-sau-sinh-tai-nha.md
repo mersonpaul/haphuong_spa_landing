@@ -1,7 +1,7 @@
 ---
 title: "Chăm sóc vết mổ sau sinh tại nhà: giữ sạch khô, dấu hiệu nhiễm trùng"
 slug: cham-soc-vet-mo-sau-sinh-tai-nha
-description: "Chăm sóc vết mổ sau sinh tại nhà đúng cách: giữ vết mổ sạch và khô, nhận biết dấu hiệu nhiễm trùng, khi nào cắt chỉ và khi nào cần gọi bác sĩ ngay (sốt trên 38 độ C)."
+description: "Chăm sóc vết mổ sau sinh tại nhà: giữ vết mổ sạch khô, nhận biết dấu hiệu nhiễm trùng, khi nào cắt chỉ và khi nào cần gọi bác sĩ ngay khi sốt trên 38 độ C."
 keywords: ["chăm sóc vết mổ sau sinh", "vết mổ đẻ tại nhà", "dấu hiệu nhiễm trùng vết mổ", "vết mổ sau sinh bao lâu lành", "cắt chỉ vết mổ đẻ"]
 category: "Mẹ sau sinh"
 cover: images/cham-soc-vet-mo-sau-sinh-tai-nha.png
