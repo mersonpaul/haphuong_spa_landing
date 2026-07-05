@@ -447,13 +447,6 @@ a {
   flex: 1;
 }
 
-.service-card__head {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
 .service-card__name {
   font-family: var(--font-heading), serif;
   font-weight: 400;
@@ -468,6 +461,12 @@ a {
   padding: 5px 12px;
   border-radius: 999px;
   white-space: nowrap;
+}
+
+/* Chip shown above the service title (own row, never wraps with the title) */
+.badge--top {
+  margin-left: 0;
+  align-self: flex-start;
 }
 
 .badge--sage {

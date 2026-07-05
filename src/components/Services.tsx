@@ -24,12 +24,10 @@ export function Services() {
               className="service-card__image"
             />
             <div className="service-card__body">
-              <div className="service-card__head">
-                <h3 className="service-card__name">{service.name}</h3>
-                <span className={`badge ${service.badge === 'Tại nhà' ? 'badge--blush' : 'badge--sage'}`}>
-                  {service.badge}
-                </span>
-              </div>
+              <span className={`badge badge--top ${service.badge === 'Tại nhà' ? 'badge--blush' : 'badge--sage'}`}>
+                {service.badge}
+              </span>
+              <h3 className="service-card__name">{service.name}</h3>
               <p className="service-card__desc">{service.description}</p>
               <p className="service-card__price">{service.priceLabel}</p>
             </div>
