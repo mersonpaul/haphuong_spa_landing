@@ -2,16 +2,18 @@
  * POST /api/booking — Cloudflare Pages Function.
  * The Next.js site is exported as static HTML; this function is the only
  * dynamic endpoint. It validates the booking request and forwards it to a
- * webhook and/or Telegram, both configured via Pages environment variables:
+ * webhook and/or Telegram, both configured via Pages secrets
+ * (`wrangler pages secret put <NAME> --project-name haphuong-spa`):
  *   - BOOKING_WEBHOOK_URL  (optional) generic JSON webhook
- *   - TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID  (optional) Telegram notification
+ *   - BOT_TOKEN + OWNER_CHAT_ID  (optional) Telegram notification —
+ *     same secret names as the spa-bot Worker (dainv_spa_manager)
  * With nothing configured the request is only logged (visible in Pages logs).
  */
 
 interface Env {
   BOOKING_WEBHOOK_URL?: string;
-  TELEGRAM_BOT_TOKEN?: string;
-  TELEGRAM_CHAT_ID?: string;
+  BOT_TOKEN?: string;
+  OWNER_CHAT_ID?: string;
 }
 
 interface PagesContext {
@@ -155,8 +157,8 @@ export const onRequestPost = async (context: PagesContext): Promise<Response> =>
   if (env.BOOKING_WEBHOOK_URL) {
     deliveries.push(forwardWebhook(env.BOOKING_WEBHOOK_URL, payload));
   }
-  if (env.TELEGRAM_BOT_TOKEN && env.TELEGRAM_CHAT_ID) {
-    deliveries.push(forwardTelegram(env.TELEGRAM_BOT_TOKEN, env.TELEGRAM_CHAT_ID, payload));
+  if (env.BOT_TOKEN && env.OWNER_CHAT_ID) {
+    deliveries.push(forwardTelegram(env.BOT_TOKEN, env.OWNER_CHAT_ID, payload));
   }
 
   if (deliveries.length === 0) {

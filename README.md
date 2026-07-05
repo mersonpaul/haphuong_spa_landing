@@ -41,9 +41,14 @@ npm run deploy   # build + wrangler pages deploy (cần wrangler login)
 Ghi đè file trong `public/images/` (giữ nguyên tên + tỉ lệ khung): `hero.png` (1100×1000), `tam-be.png`, `tia-sua.png`, `massage.png` (900×520), `goi-dau.png`, `xong-nha.png`, `trong-tre.png` (700×420). Chạy lại deploy.
 
 ### Nhận thông báo booking
-Vào Cloudflare Dashboard → Pages → haphuong-spa → Settings → Environment variables, đặt một trong hai (hoặc cả hai):
-- `BOOKING_WEBHOOK_URL` — webhook nhận JSON `{name, phone, service, date, note}` (Google Sheet Apps Script / Zapier / n8n...)
-- `TELEGRAM_BOT_TOKEN` + `TELEGRAM_CHAT_ID` — bot Telegram nhắn thẳng vào nhóm/chat.
+Đặt secrets qua wrangler (dùng chung tên với project spa-bot / dainv_spa_manager):
+
+```bash
+npx wrangler pages secret put BOT_TOKEN --project-name haphuong-spa      # Telegram Bot Token (@BotFather)
+npx wrangler pages secret put OWNER_CHAT_ID --project-name haphuong-spa # Chat ID của chủ spa
+```
+
+Hoặc `BOOKING_WEBHOOK_URL` — webhook nhận JSON `{name, phone, service, date, note}` (Google Sheet Apps Script / Zapier / n8n...).
 
 Chưa cấu hình thì booking chỉ ghi log (Pages → Functions logs); form vẫn báo thành công cho khách.
 Chống spam: honeypot field + rate-limit 5 request/10 phút/IP.
