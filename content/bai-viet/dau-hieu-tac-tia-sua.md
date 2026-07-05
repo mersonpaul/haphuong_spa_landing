@@ -47,6 +47,6 @@ Kỹ thuật viên của Hà Phương xử lý bằng massage không đau, hỗ 
 - Tắc sữa — **150.000đ/buổi**
 - Tắc sữa viêm — **180.000đ/buổi**
 
-Gọi **0987 475 822** (hoặc nhắn Zalo cùng số) — Hà Phương xác nhận lịch trong khoảng 15 phút, 8:00–19:30 hằng ngày.
+Gọi **0987 475 822** (hoặc nhắn Zalo cùng số) — Hà Phương xác nhận lịch trong khoảng 15 phút, 8:00–19:00 hằng ngày.
 
 *Bài viết mang tính tham khảo, không thay thế chẩn đoán hay điều trị y khoa. Nếu mẹ có dấu hiệu nhiễm trùng, hãy đi khám sớm.*

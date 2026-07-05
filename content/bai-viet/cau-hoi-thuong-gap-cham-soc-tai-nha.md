@@ -19,11 +19,11 @@ faq:
 
 ## 1. Đặt lịch bằng cách nào, trước bao lâu?
 
-Gọi/nhắn Zalo **0987 475 822**, nhắn fanpage, hoặc điền form trên website — xác nhận trong ~15 phút (8:00–19:30). Lịch thường đặt trước 1 ngày; **thông tắc tia sữa được ưu tiên khẩn trong ngày**.
+Gọi/nhắn Zalo **0987 475 822**, nhắn fanpage, hoặc điền form trên website — xác nhận trong ~15 phút (8:00–19:00). Lịch thường đặt trước 1 ngày; **thông tắc tia sữa được ưu tiên khẩn trong ngày**.
 
 ## 2. Có làm cuối tuần, ngày lễ không?
 
-Có — spa làm việc hằng ngày 8:00–19:30, cuối tuần thường kín sớm nên mẹ đặt trước 1–2 ngày.
+Có — spa làm việc hằng ngày 8:00–19:00, cuối tuần thường kín sớm nên mẹ đặt trước 1–2 ngày.
 
 ## 3. Kỹ thuật viên là ai, có tin được không?
 

@@ -103,9 +103,21 @@ function injectPhoto(html: string, meta: PostMeta): string {
   return html.slice(0, firstH2) + figure + html.slice(firstH2);
 }
 
+/**
+ * Build-time guard: articles are repo-owned markdown, but reject raw HTML that
+ * could smuggle scripts if content is ever pasted from an external source.
+ */
+function assertSafeMarkdown(slug: string, content: string): void {
+  const dangerous = /<\s*(script|iframe|object|embed)\b|\bon\w+\s*=/i;
+  if (dangerous.test(content)) {
+    throw new Error(`Unsafe raw HTML detected in content/bai-viet/${slug}.md`);
+  }
+}
+
 export function getPost(slug: string): Post {
   const raw = fs.readFileSync(path.join(CONTENT_DIR, `${slug}.md`), 'utf8');
   const { data, content } = matter(raw);
+  assertSafeMarkdown(slug, content);
   const meta = parseMeta(slug, data as Record<string, unknown>);
   const html = injectPhoto(marked.parse(content, { async: false }) as string, meta);
   return { ...meta, html };

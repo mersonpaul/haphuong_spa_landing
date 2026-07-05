@@ -27,6 +27,7 @@ interface BookingPayload {
   note: string;
 }
 
+// NOTE: must stay in sync with bookingServiceOptions in src/data/services.ts.
 const ALLOWED_SERVICES = new Set([
   'Tắm bé / Float',
   'Thông tắc tia sữa',

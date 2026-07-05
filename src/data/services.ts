@@ -156,7 +156,11 @@ export const priceGroups: PriceGroup[] = [
 /** All 17 services flattened — used by JSON-LD OfferCatalog and llms.txt */
 export const allPriceItems: PriceItem[] = priceGroups.flatMap((group) => group.items);
 
-/** Options shown in the booking form's service <select> */
+/**
+ * Options shown in the booking form's service <select>.
+ * NOTE: must stay in sync with ALLOWED_SERVICES in functions/api/booking.ts
+ * (the Pages Function lives outside the Next build graph).
+ */
 export const bookingServiceOptions = [
   'Tắm bé / Float',
   'Thông tắc tia sữa',

@@ -45,4 +45,4 @@ faq:
 
 ## Chọn spa mẹ và bé thế nào cho chuẩn?
 
-Xem 4 điểm: đội ngũ có nghiệp vụ và lý lịch rõ; giá niêm yết công khai; nhận làm tại nhà với dụng cụ chuyên dụng; phản hồi thật từ khách cũ. Hà Phương Mom & Baby Care phục vụ khu vực **Vinhomes Smart City — Tây Mỗ — Nam Từ Liêm (Hà Nội)**, đặt lịch qua hotline/Zalo **0987 475 822** — xác nhận trong ~15 phút, 8:00–19:30.
+Xem 4 điểm: đội ngũ có nghiệp vụ và lý lịch rõ; giá niêm yết công khai; nhận làm tại nhà với dụng cụ chuyên dụng; phản hồi thật từ khách cũ. Hà Phương Mom & Baby Care phục vụ khu vực **Vinhomes Smart City — Tây Mỗ — Nam Từ Liêm (Hà Nội)**, đặt lịch qua hotline/Zalo **0987 475 822** — xác nhận trong ~15 phút, 8:00–19:00.

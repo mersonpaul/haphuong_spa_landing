@@ -50,4 +50,4 @@ faq:
 2. **Xử lý sớm rẻ hơn chữa muộn:** cục tắc sữa xử lý ở mức "tắc sữa non" 120.000đ, để thành tắc viêm là 180.000đ chưa kể rủi ro đi viện.
 3. **Đặt theo lịch tuần:** báo trước lịch cả tuần để được xếp khung giờ đẹp, đỡ phí thời gian chờ.
 
-Giá trên áp dụng tại spa và tại nhà khu vực **Vinhomes Smart City — Tây Mỗ — Nam Từ Liêm, Hà Nội**. Báo giá chính xác cho địa chỉ của mẹ: hotline/Zalo **0987 475 822** (8:00–19:30, xác nhận ~15 phút).
+Giá trên áp dụng tại spa và tại nhà khu vực **Vinhomes Smart City — Tây Mỗ — Nam Từ Liêm, Hà Nội**. Báo giá chính xác cho địa chỉ của mẹ: hotline/Zalo **0987 475 822** (8:00–19:00, xác nhận ~15 phút).
