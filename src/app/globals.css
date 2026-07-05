@@ -36,6 +36,9 @@
 
 html {
   scroll-behavior: smooth;
+  /* Prevent legacy Android/mobile browsers from inflating text */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   /* No-JS fallback; MainNav measures the sticky header and sets the exact
      value in scroll-padding-top at runtime. */
   scroll-padding-top: 80px;
