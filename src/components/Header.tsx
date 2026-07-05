@@ -1,5 +1,6 @@
 import { site } from '@/config/site';
 import { PhoneIcon } from '@/components/icons';
+import { MainNav } from '@/components/MainNav';
 
 export function Header() {
   return (
@@ -12,14 +13,7 @@ export function Header() {
             <span className="logo__sub">Mom &amp; Baby Care</span>
           </span>
         </a>
-        <nav aria-label="Điều hướng chính" className="main-nav">
-          <a href="/#dich-vu">Dịch vụ</a>
-          <a href="/#bang-gia">Bảng giá</a>
-          <a href="/#cam-nhan">Cảm nhận</a>
-          <a href="/bai-viet">Bài viết</a>
-          <a href="/#hoi-dap">Hỏi đáp</a>
-          <a href="/#lien-he">Liên hệ</a>
-        </nav>
+        <MainNav />
         <div className="header-actions">
           <a href={site.telHref} className="header-hotline">
             <PhoneIcon />

@@ -40,7 +40,19 @@ const ALLOWED_SERVICES = new Set([
   'Tư vấn thêm',
 ]);
 
-const VN_PHONE_REGEX = /^(0|\+84)\d{9,10}$/;
+// VN numbers normalized to leading-0 form: mobile 0[35789]xxxxxxxx, landline 02xxxxxxxxx.
+// Keep in sync with src/lib/phone.ts.
+const VN_PHONE_REGEX = /^0(2\d{9}|[35789]\d{8})$/;
+
+function normalizeVnPhone(value: string): string {
+  let digits = value.replace(/[^\d+]/g, '');
+  if (digits.startsWith('+84')) {
+    digits = `0${digits.slice(3)}`;
+  } else if (digits.startsWith('84') && digits.length >= 11) {
+    digits = `0${digits.slice(2)}`;
+  }
+  return digits.replace(/\D/g, '');
+}
 const MAX_BODY_BYTES = 10_000;
 
 // Best-effort in-memory rate limit (per isolate): 5 requests / 10 minutes / IP.
@@ -76,7 +88,7 @@ function json(body: object, status = 200): Response {
 
 function validate(raw: Record<string, unknown>): { payload?: BookingPayload; error?: string } {
   const name = sanitizeText(raw.name, 100);
-  const phone = sanitizeText(raw.phone, 20).replace(/[\s.\-()]/g, '');
+  const phone = normalizeVnPhone(sanitizeText(raw.phone, 20));
   const service = sanitizeText(raw.service, 50);
   const date = sanitizeText(raw.date, 10);
   const note = sanitizeText(raw.note, 500);

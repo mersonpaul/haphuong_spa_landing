@@ -36,6 +36,30 @@
 
 html {
   scroll-behavior: smooth;
+  /* No-JS fallback; MainNav measures the sticky header and sets the exact
+     value in scroll-padding-top at runtime. */
+  scroll-padding-top: 80px;
+}
+
+@media (max-width: 1010px) {
+  html {
+    scroll-padding-top: 146px;
+  }
+}
+
+@media (max-width: 710px) {
+  html {
+    scroll-padding-top: 190px;
+  }
+}
+
+/* These sections carry 60-76px of internal top padding; pull the anchor
+   landing point up so the visible gap below the header is halved. */
+#dich-vu,
+#bang-gia,
+#cam-nhan,
+#dat-lich {
+  scroll-margin-top: -30px;
 }
 
 body {
@@ -247,8 +271,13 @@ a {
   transition: color 0.2s ease;
 }
 
-.main-nav a:hover {
+.main-nav a:hover,
+.main-nav a.active {
   color: var(--accent);
+}
+
+.main-nav a.active {
+  font-weight: 600;
 }
 
 .header-actions {
@@ -834,6 +863,11 @@ a {
 .booking-form textarea:focus {
   border-color: var(--accent);
   background: var(--surface);
+}
+
+.booking-form input.input-error,
+.booking-form input.input-error:focus {
+  border-color: var(--error);
 }
 
 .booking-form__error {

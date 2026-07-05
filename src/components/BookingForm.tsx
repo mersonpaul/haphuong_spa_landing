@@ -5,6 +5,7 @@ import { site } from '@/config/site';
 import { bookingServiceOptions } from '@/data/services';
 import { CheckIcon } from '@/components/icons';
 import { DatePicker } from '@/components/DatePicker';
+import { normalizeVnPhone, isValidVnPhone, formatVnPhone } from '@/lib/phone';
 
 interface FormState {
   name: string;
@@ -25,7 +26,7 @@ const initialForm: FormState = {
   website: '',
 };
 
-type ErrorKind = null | 'validation' | 'api';
+type ErrorKind = null | 'phone-required' | 'phone-invalid' | 'api';
 
 export function BookingForm() {
   const [form, setForm] = useState<FormState>(initialForm);
@@ -38,11 +39,22 @@ export function BookingForm() {
     setError(null);
   };
 
+  // Format Vietnamese numbers live while typing: 0987 475 822 / 024 3123 4567
+  function handlePhoneChange(raw: string) {
+    setForm((previous) => ({ ...previous, phone: formatVnPhone(normalizeVnPhone(raw)) }));
+    setError(null);
+  }
+
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     // Only the phone number is required — the spa calls back to confirm details.
-    if (!form.phone.trim()) {
-      setError('validation');
+    const phoneDigits = normalizeVnPhone(form.phone);
+    if (!phoneDigits) {
+      setError('phone-required');
+      return;
+    }
+    if (!isValidVnPhone(phoneDigits)) {
+      setError('phone-invalid');
       return;
     }
     setSending(true);
@@ -51,7 +63,7 @@ export function BookingForm() {
       const response = await fetch('/api/booking', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
+        body: JSON.stringify({ ...form, phone: phoneDigits }),
       });
       const payload = (await response.json().catch(() => null)) as { ok?: boolean } | null;
       if (response.ok && payload?.ok) {
@@ -107,10 +119,15 @@ export function BookingForm() {
           <input
             name="phone"
             value={form.phone}
-            onChange={(event) => setField('phone')(event.target.value)}
+            onChange={(event) => handlePhoneChange(event.target.value)}
             placeholder="09xx xxx xxx"
             type="tel"
+            inputMode="tel"
             autoComplete="tel"
+            maxLength={13}
+            aria-invalid={error === 'phone-required' || error === 'phone-invalid'}
+            aria-describedby="booking-phone-error"
+            className={error === 'phone-required' || error === 'phone-invalid' ? 'input-error' : undefined}
           />
         </label>
         <label>
@@ -160,9 +177,14 @@ export function BookingForm() {
             />
           </label>
         </div>
-        {error === 'validation' && (
-          <p className="booking-form__error">
+        {error === 'phone-required' && (
+          <p id="booking-phone-error" className="booking-form__error">
             Vui lòng nhập số điện thoại để spa gọi lại xác nhận.
+          </p>
+        )}
+        {error === 'phone-invalid' && (
+          <p id="booking-phone-error" className="booking-form__error">
+            Số điện thoại chưa đúng định dạng Việt Nam — mẹ kiểm tra lại giúp (ví dụ: 0987 475 822).
           </p>
         )}
         {error === 'api' && (
