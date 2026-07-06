@@ -6,7 +6,7 @@ keywords: ["mốc phát triển vận động", "bé mấy tháng biết lẫy",
 category: "Tắm bé & Float"
 cover: images/moc-phat-trien-van-dong-0-12-thang.png
 date: 2025-12-27
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 photo: "https://images.pexels.com/photos/6209327/pexels-photo-6209327.jpeg?auto=compress&cs=tinysrgb&w=1200"
 photoAlt: "Em bé tập bò trên sàn gỗ, ngẩng đầu nhìn về phía trước"
@@ -17,7 +17,7 @@ faq:
   - q: "Bé không bò mà chuyển thẳng sang tập đứng có sao không?"
     a: "Bé không bò bằng bàn tay và đầu gối mà chuyển thẳng sang vịn đứng thường không đáng lo: WHO ghi nhận khoảng 4% trẻ khỏe mạnh bỏ qua giai đoạn bò, và CDC đã loại 'bò' khỏi danh sách mốc bắt buộc từ năm 2022. Mẹ chỉ cần lưu ý các dấu hiệu khác như bé không dồn trọng lượng lên chân khi được đỡ, hoặc mất kỹ năng đã có."
   - q: "Ở Vinhomes Smart City có dịch vụ hỗ trợ tập vận động cho bé không?"
-    a: "Có. Hà Phương Mom & Baby Care có buổi vận động chuyên sâu 100.000đ/buổi và bơi float 75.000đ cho bé, thực hiện tại spa hoặc tại nhà khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội — kỹ thuật viên tập tummy time, hỗ trợ bé lẫy, ngồi, bò và hướng dẫn mẹ tập cùng con. Đặt lịch qua hotline/Zalo 0987 475 822, 8:00–17:30."
+    a: "Có. Hà Phương Mom & Baby Care có buổi bơi float 150.000đ/buổi cho bé tại spa và buổi tắm bé 150.000đ/buổi (tại spa hoặc tại nhà) kèm massage, vận động nhẹ trước tắm — kỹ thuật viên hướng dẫn mẹ tập tummy time, hỗ trợ bé lẫy, ngồi, bò cùng con. Khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội. Đặt lịch qua hotline/Zalo 0987 475 822, 8:00–17:30."
 ---
 
 **Trả lời nhanh:** Trong năm đầu, bé thường ngẩng vững đầu khoảng **2 tháng**, lẫy **4–6 tháng**, ngồi không cần đỡ khoảng **6–9 tháng**, bò và vịn đứng **9–12 tháng**, nhiều bé bắt đầu men theo đồ vật quanh **12 tháng**. Mỗi mốc có một "khoảng bình thường" khá rộng theo WHO — bé đạt sớm hay muộn trong khoảng đó đều ổn. Điều cần lưu ý là các dấu hiệu cảnh báo và việc bé mất kỹ năng đã có.
@@ -69,6 +69,6 @@ Phát hiện sớm giúp can thiệp kịp thời nếu cần.
 
 ## Đồng hành cùng con qua từng mốc vận động
 
-Muốn tự tin đồng hành cùng con, mẹ có thể tham khảo buổi **vận động chuyên sâu 100.000đ** của Hà Phương: kỹ thuật viên tập tummy time, bài tay chân, hỗ trợ bé tập lẫy — ngồi — bò và hướng dẫn mẹ tự tập tại nhà. Kết hợp **bơi float 75.000đ** giúp bé khỏe cơ, dạn nước và **tắm bé 60.000đ** để bé ăn ngon ngủ sâu — thực hiện tại spa hoặc tại nhà khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội. Gọi hotline/Zalo **0987 475 822**, 8:00–17:30 cả cuối tuần.
+Muốn tự tin đồng hành cùng con, mẹ có thể tham khảo buổi **bơi float 150.000đ** tại spa của Hà Phương giúp bé khỏe cơ, dạn nước, và buổi **tắm bé 150.000đ (gói 10 buổi 1.200.000đ)** kèm massage, vận động nhẹ trước tắm để bé ăn ngon ngủ sâu — kỹ thuật viên tập tummy time, hỗ trợ bé tập lẫy — ngồi — bò và hướng dẫn mẹ tự tập tại nhà. Tắm bé thực hiện tại spa hoặc tại nhà khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội. Gọi hotline/Zalo **0987 475 822**, 8:00–17:30 cả cuối tuần.
 
 *Bài viết mang tính tham khảo, không thay thế chẩn đoán y khoa.*

@@ -6,7 +6,7 @@ keywords: ["phục hồi sau sinh", "tập thể dục sau sinh", "bài tập ke
 category: "Mẹ sau sinh"
 cover: images/phuc-hoi-the-chat-sau-sinh-khoa-hoc.png
 date: 2026-03-10
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 photo: https://images.pexels.com/photos/6870416/pexels-photo-6870416.jpeg?auto=compress&cs=tinysrgb&w=1200
 photoAlt: "Người mẹ trẻ tập yoga nhẹ nhàng tại nhà bên khung cửa sổ sáng"
@@ -67,6 +67,6 @@ Mẹ có vết khâu tầng sinh môn còn đau thì lùi mốc lại vài ngày
 
 ## Phục hồi là hành trình — và mẹ không phải đi một mình
 
-Giữa các buổi tập, cơ thể mẹ cần được thả lỏng đúng cách: **massage cho mẹ 60–120 phút giá 90.000đ–150.000đ/buổi** giúp giãn cơ, giảm đau mỏi vai gáy — lưng hông; đặt kèm **xông hơi chỉ thêm 50.000đ** (xông lẻ 100.000đ/buổi). Mẹ muốn có một tiếng yên tâm để tập hoặc nghỉ ngơi? Có dịch vụ **trông bé ngày 50.000đ/giờ, buổi tối 70.000đ/giờ**. Tất cả thực hiện tại spa hoặc tại nhà khu vực Vinhomes Smart City — Tây Mỗ — Nam Từ Liêm, Hà Nội. Hotline/Zalo: **0987 475 822** (8:00–17:30).
+Giữa các buổi tập, cơ thể mẹ cần được thả lỏng đúng cách — và cũng như tập luyện, phục hồi cần sự đều đặn theo liệu trình chứ không phải 1–2 buổi lẻ. Tại Hà Phương, **massage cho mẹ buổi lẻ từ 355.000đ**; muốn phục hồi bài bản, mẹ nên chọn [gói liệu trình](/goi-lieu-trinh) như **Đả Thông Kinh Lạc Sau Sinh 10 buổi (3.600.000đ)** giúp giãn cơ, giảm đau mỏi vai gáy — lưng hông, hoặc gói **Da Trắng Dáng Thon 12 buổi (5.900.000đ, cam kết giảm 5–22cm)**. Đặt kèm **xông hơi tại nhà 200.000đ/buổi** để ấm người, nhanh hồi. Mẹ muốn có một tiếng yên tâm để tập hoặc nghỉ ngơi? Có dịch vụ **trông bé ngày 85.000đ/giờ, đêm 150.000đ/giờ**. Tất cả thực hiện tại spa hoặc tại nhà khu vực Vinhomes Smart City — Tây Mỗ — Nam Từ Liêm, Hà Nội. Hotline/Zalo: **0987 475 822** (8:00–17:30).
 
 *Bài viết mang tính tham khảo, không thay thế chẩn đoán y khoa.*

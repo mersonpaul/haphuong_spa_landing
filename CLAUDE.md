@@ -1,5 +1,5 @@
 # CLAUDE.md — Hà Phương Mom & Baby Care Landing Page
-(File này là toàn bộ handoff: hướng dẫn + spec + nội dung + SEO/GEO. Design tham chiếu: mở `design-reference.html` bằng browser.)
+(File này là toàn bộ handoff: hướng dẫn + spec + nội dung + SEO/GEO. Design tham chiếu: mở `design/design-reference.html` bằng browser.)
 
 ## PHẦN 0 — NHIỆM VỤ & KIẾN TRÚC
 
@@ -16,13 +16,13 @@ Bạn (Claude Code) sẽ implement website này như MỘT service Node.js duy n
 2. `docs/design-spec.md` — design tokens, layout, component chi tiết
 3. `docs/content.md` — toàn bộ copy tiếng Việt + bảng giá 17 dịch vụ (nguồn sự thật)
 4. `docs/seo-geo.md` — meta, JSON-LD, checklist SEO/GEO, spec API booking
-5. `design-reference.html` — file HTML thiết kế gốc + ảnh minh hoạ (mở bằng browser để đối chiếu pixel)
+5. `design/design-reference.html` — file HTML thiết kế gốc + ảnh minh hoạ (mở bằng browser để đối chiếu pixel)
 
 ## Quy tắc
-- Tái tạo đúng thiết kế trong `design-reference.html` bằng React/Next — KHÔNG copy nguyên file HTML.
+- Tái tạo đúng thiết kế trong `design/design-reference.html` bằng React/Next — KHÔNG copy nguyên file HTML.
 - Nội dung lấy nguyên văn từ `docs/content.md`. Không bịa thêm dịch vụ/giá.
 - Thông tin liên hệ tập trung trong `src/config/site.ts`: hotline 0987 475 822 · zalo https://zalo.me/0987475822 · facebook https://www.facebook.com/haphuongbabycare/ · địa chỉ Tòa West A, Masteri West Heights, Vinhomes Smart City, Tây Mỗ, Nam Từ Liêm, Hà Nội.
-- Ảnh trong `(ảnh mock đã nhúng sẵn dạng data-URL trong design-reference.html)` là mock tạm — dùng `next/image`, đặt sẵn chỗ để chủ spa thay ảnh thật (giữ đúng kích thước khung).
+- Ảnh trong `(ảnh mock đã nhúng sẵn dạng data-URL trong design/design-reference.html)` là mock tạm — dùng `next/image`, đặt sẵn chỗ để chủ spa thay ảnh thật (giữ đúng kích thước khung).
 - Fonts: Prata (heading) + Be Vietnam Pro (body) qua `next/font/google`, subset `vietnamese`.
 - Lighthouse mục tiêu: Performance ≥ 90, SEO = 100. Kiểm tra JSON-LD bằng Google Rich Results Test.
 
@@ -35,9 +35,9 @@ Bạn (Claude Code) sẽ implement website này như MỘT service Node.js duy n
 Landing page một trang (tiếng Việt) giới thiệu dịch vụ spa mẹ & bé: tắm bé & float, thông tắc tia sữa, massage cho mẹ, gội đầu/xông hơi tại nhà, trông bé tại nhà. Mục tiêu: kéo khách đặt lịch qua điện thoại / Zalo / Facebook / form, đồng thời tối ưu SEO và GEO (AI agent đọc được nội dung).
 
 ## About the Design Files
-File trong `design-reference.html` là **bản thiết kế tham chiếu viết bằng HTML** (prototype thể hiện giao diện + hành vi), KHÔNG phải production code. Nhiệm vụ: **tái tạo thiết kế này trong một app Next.js (React) duy nhất, SSR/SSG** theo yêu cầu trong `CLAUDE.md`.
+File trong `design/design-reference.html` là **bản thiết kế tham chiếu viết bằng HTML** (prototype thể hiện giao diện + hành vi), KHÔNG phải production code. Nhiệm vụ: **tái tạo thiết kế này trong một app Next.js (React) duy nhất, SSR/SSG** theo yêu cầu trong `CLAUDE.md`.
 
-Mở `design-reference.html` trực tiếp bằng browser để xem bản thiết kế hoàn chỉnh.
+Mở `design/design-reference.html` trực tiếp bằng browser để xem bản thiết kế hoàn chỉnh.
 
 ## Fidelity
 **High-fidelity**: màu, chữ, khoảng cách, bo góc, shadow, copy là final — tái tạo pixel-perfect. Giá trị chính xác trong `docs/design-spec.md`.
@@ -70,11 +70,11 @@ Mở `design-reference.html` trực tiếp bằng browser để xem bản thiế
 Xem `docs/design-spec.md` (bảng đầy đủ). Chính: nền #FAF4EC, chữ #3F3237, accent #B05F70, card #FFFDFA, viền #EFE3D9; Prata + Be Vietnam Pro.
 
 ## Assets
-`(ảnh mock đã nhúng sẵn dạng data-URL trong design-reference.html)*.png` — 7 ảnh minh hoạ pastel vẽ canvas (mock). Sẽ được thay bằng ảnh thật của spa; giữ nguyên khung kích thước.
+`(ảnh mock đã nhúng sẵn dạng data-URL trong design/design-reference.html)*.png` — 7 ảnh minh hoạ pastel vẽ canvas (mock). Sẽ được thay bằng ảnh thật của spa; giữ nguyên khung kích thước.
 
 ## Files
-- `design-reference.html` — thiết kế gốc (mở bằng browser)
-- Ảnh trong design-reference.html là mock tạm (data-URL) — extract nếu cần placeholder, sẽ thay bằng ảnh thật của spa
+- `design/design-reference.html` — thiết kế gốc (mở bằng browser)
+- Ảnh trong design/design-reference.html là mock tạm (data-URL) — extract nếu cần placeholder, sẽ thay bằng ảnh thật của spa
 
 
 ---
@@ -256,7 +256,7 @@ canonical: domain chính thức khi có
 Block 1 — LocalBusiness (`@type: HealthAndBeautyBusiness`): name "Hà Phương Mom & Baby Care", alternateName "Hà Phương Baby Care", description, telephone "+84-987-475-822", url + sameAs [facebook], openingHoursSpecification Mo–Su 08:00–17:30, priceRange "50.000đ – 180.000đ", currenciesAccepted VND, areaServed "Vinhomes Smart City, Nam Từ Liêm, Hà Nội và khu vực lân cận", address PostalAddress {streetAddress: "Tòa West A, Masteri West Heights, Vinhomes Smart City, Tây Mỗ", addressLocality: "Nam Từ Liêm", addressRegion: "Hà Nội", addressCountry: "VN"}, hasOfferCatalog: 17 Offer — mỗi Offer = itemOffered Service {name} + price (số, VND) đúng theo docs/content.md.
 Block 2 — FAQPage: 5 Question/Answer NGUYÊN VĂN khớp FAQ hiển thị trên trang (Google phạt nếu schema ≠ nội dung nhìn thấy).
 
-Bản JSON-LD hoàn chỉnh đã viết sẵn trong `design-reference.html` (2 thẻ `<script type="application/ld+json">`) — copy ra và thay giá trị TODO.
+Bản JSON-LD hoàn chỉnh đã viết sẵn trong `design/design-reference.html` (2 thẻ `<script type="application/ld+json">`) — copy ra và thay giá trị TODO.
 
 ## 4. Semantic HTML (đã áp dụng trong design, giữ nguyên khi port)
 - Đúng 1 `<h1>`; mỗi section 1 `<h2>`; dịch vụ/nhóm giá là `<h3>`; landmark `<header>/<main>/<footer>/<nav>`; card dịch vụ dùng `<article>`; FAQ dùng `<details>/<summary>` (nội dung câu trả lời vẫn có trong DOM khi đóng); quote dùng `<figure>/<blockquote>`.
@@ -274,7 +274,7 @@ Bản JSON-LD hoàn chỉnh đã viết sẵn trong `design-reference.html` (2 t
 
 ## 6. Performance
 - `next/font/google`: Prata + Be Vietnam Pro, subset `["vietnamese","latin"]`, display swap
-- `next/image` cho mọi ảnh (mock trong design-reference/images), width/height rõ ràng, lazy dưới fold, hero `priority`
+- `next/image` cho mọi ảnh (mock trong design/design-reference.html), width/height rõ ràng, lazy dưới fold, hero `priority`
 - Không CSS framework nặng; CSS Modules hoặc Tailwind đều được — miễn token đúng design-spec
 - Mục tiêu: LCP < 2.5s, CLS < 0.1, Lighthouse SEO 100
 

@@ -1,21 +1,21 @@
 ---
 title: "Spa mẹ và bé là gì? Khác gì spa thường, ai nên dùng và dùng khi nào"
 slug: spa-me-va-be-la-gi
-description: "Spa mẹ và bé chuyên chăm sóc mẹ bầu, mẹ sau sinh và trẻ 0–24 tháng: tắm bé, bơi float, thông tắc tia sữa, massage sau sinh, xông hơi, trông bé. Giá phổ biến 50.000–180.000đ/buổi."
+description: "Spa mẹ và bé chuyên chăm sóc mẹ bầu, mẹ sau sinh và trẻ 0–24 tháng: tắm bé, bơi float, thông tắc tia sữa, massage sau sinh, xông hơi, trông bé. Buổi lẻ từ 100.000đ, gói liệu trình dài hạn tiết kiệm hơn."
 keywords: ["spa mẹ và bé", "spa mẹ và bé là gì", "spa sau sinh", "chăm sóc mẹ và bé Hà Nội"]
 category: "Chọn dịch vụ"
 cover: images/spa-me-va-be-la-gi.png
 date: 2026-05-15
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 photo: "https://images.pexels.com/photos/7282403/pexels-photo-7282403.jpeg?auto=compress&cs=tinysrgb&w=1200"
 photoAlt: "Mẹ ôm em bé sơ sinh trong phòng khách ấm áp"
 photoCredit: "Ảnh: Pexels (giấy phép miễn phí thương mại)"
 faq:
   - q: "Spa mẹ và bé gồm những dịch vụ gì?"
-    a: "Hai nhóm chính: cho bé — tắm thảo dược, bơi float, massage và bài vận động, chăm sóc rốn; cho mẹ — thông tắc tia sữa, kích sữa, massage bầu và sau sinh, xông hơi thảo dược, gội đầu dưỡng sinh; nhiều nơi có thêm trông bé theo giờ. Tại Hà Phương giá từ 50.000đ đến 180.000đ mỗi buổi."
+    a: "Hai nhóm chính: cho bé — tắm thảo dược kèm massage, bơi float, chăm sóc rốn; cho mẹ — thông tắc tia sữa, kích sữa, massage bầu và sau sinh, xông hơi thảo dược, gội đầu dưỡng sinh; nhiều nơi có thêm trông bé theo giờ. Tại Hà Phương có 7 dịch vụ lẻ (buổi lẻ từ 100.000đ) và 6 gói liệu trình dài hạn tiết kiệm hơn."
   - q: "Dịch vụ spa mẹ và bé làm tại nhà được không?"
-    a: "Được — đây là xu hướng chính: kỹ thuật viên mang dụng cụ (chậu tắm, bể float, lều xông, ghế gội) đến tận nhà. Hà Phương phục vụ tại nhà toàn bộ: tắm bé, float, thông tắc tia sữa, massage, xông hơi, gội đầu và trông bé, khu vực Tây Mỗ — Nam Từ Liêm, Hà Nội."
+    a: "Được — đây là xu hướng chính: kỹ thuật viên mang dụng cụ (chậu tắm, lều xông, ghế gội) đến tận nhà. Hà Phương phục vụ tại nhà: tắm bé, thông tắc tia sữa, massage, xông hơi, gội đầu và trông bé, khu vực Tây Mỗ — Nam Từ Liêm, Hà Nội; riêng bơi float thực hiện tại spa với bể chuyên dụng."
 ---
 
 **Trả lời nhanh:** Spa mẹ và bé là dịch vụ chăm sóc chuyên biệt cho **mẹ bầu, mẹ sau sinh và trẻ 0–24 tháng**, do kỹ thuật viên có nghiệp vụ thực hiện tại cơ sở hoặc tại nhà. Khác spa làm đẹp thông thường, mọi liệu trình xoay quanh giai đoạn hậu sản: tắm bé, bơi float, thông tắc tia sữa, massage sau sinh, xông hơi, gội đầu dưỡng sinh, trông bé.
@@ -37,11 +37,16 @@ faq:
 
 ## Mức giá tham khảo (bảng giá Hà Phương 2026)
 
-- Tắm bé **60.000đ** · Bơi float **75.000đ** · Vận động chuyên sâu **100.000đ**
-- Thông tắc tia sữa **120.000–180.000đ** theo mức độ · Kích sữa **120.000đ**
-- Massage mẹ 60–120 phút: **90.000–150.000đ**
-- Gội đầu **70.000đ** · Xông hơi **100.000đ** (kèm massage +50.000đ)
-- Trông bé: ngày **50.000đ/giờ**, tối **70.000đ/giờ**
+7 dịch vụ lẻ:
+
+- Tắm & massage bé **150.000đ/buổi** — gói 10 buổi **1.200.000đ**
+- Floating baby tại spa **150.000đ/buổi**
+- Thông tắc tia sữa, kích sữa **từ 350.000đ/buổi** tuỳ tình trạng
+- Massage cho mẹ (bầu & sau sinh): buổi lẻ **từ 355.000đ**
+- Gội đầu tại nhà **100.000đ/buổi** · Xông hơi tại nhà **200.000đ/buổi**
+- Trông bé: ngày **85.000đ/giờ**, đêm **150.000đ/giờ**
+
+Ngoài buổi lẻ, Hà Phương có **6 gói liệu trình** cho mẹ bầu và mẹ sau sinh (từ **2.850.000đ**/10 buổi) — sức khỏe sau sinh cần chăm sóc đều đặn theo liệu trình dài hạn, không phải 1–2 buổi là xong. Xem chi tiết tại [gói liệu trình](/goi-lieu-trinh).
 
 ## Chọn spa mẹ và bé thế nào cho chuẩn?
 

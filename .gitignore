@@ -12,3 +12,4 @@ credentials/
 credentials/
 *.env
 .dev.vars
+references/

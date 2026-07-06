@@ -1,5 +1,6 @@
 import { site } from '@/config/site';
 import { priceGroups } from '@/data/services';
+import { packagesMarkdown } from '@/data/packages';
 import { faqItems } from '@/data/faq';
 import { getAllPostMeta } from '@/lib/posts';
 
@@ -40,9 +41,15 @@ export function GET(): Response {
 - Giờ mở cửa: ${site.gioMoCua}
 - Website: ${site.url}
 
-## Bảng giá 17 dịch vụ (niêm yết, VND)
+## Bảng giá dịch vụ lẻ (niêm yết, VND)
 
 ${priceSection}
+
+## Gói liệu trình (bán theo gói — khuyến nghị cho hiệu quả dài hạn)
+
+${packagesMarkdown(false)}
+
+Chi tiết từng bước trị liệu: ${site.url}/goi-lieu-trinh
 
 ## Câu hỏi thường gặp
 
@@ -54,6 +61,8 @@ ${postsSection}
 
 ## Tài nguyên cho AI agent
 - Toàn văn mọi bài viết + thông tin doanh nghiệp trong một file: ${site.url}/llms-full.txt
+- Gói liệu trình chi tiết: ${site.url}/goi-lieu-trinh
+- Hình ảnh thực tế tại spa: ${site.url}/hinh-anh
 - Sitemap: ${site.url}/sitemap.xml
 `;
 

@@ -1,21 +1,21 @@
 ---
-title: "Vận động chuyên sâu cho bé 0–12 tháng: bài tập giúp bé cứng cáp theo từng giai đoạn"
+title: "Vận động cho bé 0–12 tháng: bài tập tại nhà giúp bé cứng cáp theo từng giai đoạn"
 slug: van-dong-chuyen-sau-cho-be
-description: "Bài vận động chuyên sâu theo tháng tuổi: 0–3 tháng tập tay chân và tummy time, 3–6 tháng tập lẫy, 6–9 tháng tập ngồi — bò, 9–12 tháng vịn đứng. Lợi ích và lưu ý an toàn."
-keywords: ["vận động cho trẻ sơ sinh", "bài tập cho bé", "tummy time", "giúp bé cứng cáp", "vận động chuyên sâu"]
+description: "Hướng dẫn mẹ tập vận động cho bé theo tháng tuổi: 0–3 tháng tập tay chân và tummy time, 3–6 tháng tập lẫy, 6–9 tháng tập ngồi — bò, 9–12 tháng vịn đứng. Lợi ích và lưu ý an toàn."
+keywords: ["vận động cho trẻ sơ sinh", "bài tập cho bé", "tummy time", "giúp bé cứng cáp", "tập vận động tại nhà cho bé"]
 category: "Tắm bé & Float"
 cover: images/van-dong-chuyen-sau-cho-be.png
 date: 2026-05-08
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 faq:
   - q: "Bé mấy tháng thì nên bắt đầu tập vận động?"
     a: "Ngay từ tháng đầu với các bài nhẹ: co duỗi tay chân theo nhịp, nằm sấp (tummy time) 1–2 phút mỗi lần vài lần một ngày khi bé thức. Cường độ và bài tập tăng dần theo mốc phát triển của từng bé, không ép theo lịch cứng."
-  - q: "Buổi vận động chuyên sâu của Hà Phương gồm những gì?"
-    a: "Kỹ thuật viên tập cho bé chuỗi bài tay — chân — lườn — cổ phù hợp tháng tuổi, kết hợp massage kích thích trương lực cơ, hướng dẫn mẹ tập lại hằng ngày. Giá 100.000đ/buổi tại spa hoặc tại nhà, hotline 0987 475 822."
+  - q: "Hà Phương có dịch vụ nào hỗ trợ bé vận động không?"
+    a: "Có. Buổi Tắm & Massage bé của Hà Phương (150.000đ/buổi, gói 10 buổi 1.200.000đ) đã bao gồm massage và các bài vận động nhẹ phù hợp tháng tuổi, kỹ thuật viên hướng dẫn mẹ tập lại hằng ngày. Bé cứng cáp hơn có thể trải nghiệm Floating Baby — bơi thuỷ liệu tại spa 150.000đ/buổi. Hotline 0987 475 822."
 ---
 
-**Trả lời nhanh:** Vận động chuyên sâu là chuỗi bài tập chủ động — thụ động theo tháng tuổi (co duỗi tay chân, tummy time, tập lườn, hỗ trợ lẫy — bò — vịn đứng) giúp bé phát triển trương lực cơ, phản xạ và các mốc vận động đúng nhịp. Nguyên tắc: **tập khi bé thức, vui vẻ; ngắn nhưng đều đặn mỗi ngày; không ép mốc**.
+**Trả lời nhanh:** Tập vận động cho bé là chuỗi bài tập chủ động — thụ động theo tháng tuổi (co duỗi tay chân, tummy time, tập lườn, hỗ trợ lẫy — bò — vịn đứng) giúp bé phát triển trương lực cơ, phản xạ và các mốc vận động đúng nhịp. Nguyên tắc: **tập khi bé thức, vui vẻ; ngắn nhưng đều đặn mỗi ngày; không ép mốc**.
 
 ## Vì sao bé cần được "tập thể dục"?
 
@@ -47,8 +47,8 @@ Trẻ nằm nhiều thiếu kích thích vận động dễ chậm lẫy, chậm
 - Bề mặt phẳng, chắc; không tập trên giường mềm cao.
 - Mỗi bé một nhịp phát triển — chậm hơn bạn 2–4 tuần thường vẫn bình thường; chậm nhiều mốc liên tiếp nên khám bác sĩ nhi.
 
-## Buổi vận động chuyên sâu tại Hà Phương — 100.000đ
+## Mẹ tự tập cho bé tại nhà — Hà Phương đồng hành khi cần
 
-Kỹ thuật viên đánh giá giai đoạn của bé, tập chuỗi bài phù hợp và cầm tay chỉ việc để mẹ tự tập lại mỗi ngày. Kết hợp cùng tắm bé (60.000đ) và bơi float (75.000đ) thành buổi chăm sóc trọn vẹn tại spa hoặc tại nhà. Hotline/Zalo: **0987 475 822** — Tây Mỗ, Nam Từ Liêm, Hà Nội.
+Các bài tập trên mẹ hoàn toàn có thể tự thực hiện tại nhà mỗi ngày 10–15 phút. Nếu mẹ muốn có người cầm tay chỉ việc, buổi **Tắm & Massage bé** của Hà Phương (**150.000đ/buổi**, gói 10 buổi **1.200.000đ**) đã bao gồm massage và các bài vận động nhẹ phù hợp tháng tuổi — kỹ thuật viên vừa làm vừa hướng dẫn để mẹ tự tập lại. Bé cứng cáp hơn có thể trải nghiệm **Floating Baby — bơi thuỷ liệu tại spa (150.000đ/buổi)** để vận động toàn thân dưới nước, về nhà ăn ngon ngủ sâu. Hotline/Zalo: **0987 475 822** — Tây Mỗ, Nam Từ Liêm, Hà Nội.
 
 *Bài viết mang tính tham khảo, không thay thế đánh giá phát triển của bác sĩ nhi khoa.*

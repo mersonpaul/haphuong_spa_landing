@@ -27,7 +27,7 @@ export const faqItems: FaqItem[] = [
   {
     question: 'Massage cho mẹ có những gói nào?',
     answer:
-      'Các gói 60 – 120 phút, từ 300.000đ mỗi buổi — phù hợp cả mẹ bầu và mẹ sau sinh.',
+      'Có 3 gói massage bầu: Khỏe Mạnh 60 phút (lẻ 355.000đ — combo 10 buổi 2.850.000đ), Quyến Rũ 90 phút (lẻ 565.000đ — combo 4.650.000đ), Hạnh Phúc 120 phút (lẻ 765.000đ — combo 6.665.000đ). Mẹ sau sinh có 3 gói trọn liệu trình từ 3.600.000đ, kèm cam kết và quà tặng.',
   },
   {
     question: 'Đặt lịch bằng cách nào?',

@@ -6,7 +6,7 @@ keywords: ["massage bụng cho bé", "kỹ thuật I Love U", "massage giảm đ
 category: "Tắm bé & Float"
 cover: images/massage-bung-giam-day-hoi-tao-bon.png
 date: 2026-03-10
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 photo: "https://images.pexels.com/photos/5889987/pexels-photo-5889987.jpeg?auto=compress&cs=tinysrgb&w=1200"
 photoAlt: "Mẹ nhẹ nhàng massage và tập động tác đạp xe cho em bé nằm trên chăn hồng"
@@ -17,7 +17,7 @@ faq:
   - q: "Kỹ thuật massage I Love U là gì?"
     a: "I Love U là bài massage bụng cho bé gồm 3 đường vuốt theo chiều kim đồng hồ dọc khung đại tràng: chữ I vuốt thẳng xuống bên trái bụng bé, chữ L ngược vuốt ngang qua trên rốn rồi xuống, chữ U ngược vuốt từ bụng dưới bên phải vòng qua trên rốn xuống bên trái. Mỗi đường lặp 5–10 lần, giúp đẩy hơi và phân di chuyển đúng chiều ruột."
   - q: "Bé táo bón, đầy hơi kéo dài có nên chỉ massage tại nhà không?"
-    a: "Không. Massage chỉ hỗ trợ trường hợp đầy hơi, táo bón nhẹ. Nếu bé nôn nhiều, bụng chướng cứng, đi ngoài ra máu, sốt, bỏ bú hoặc táo bón kéo dài trên một tuần, mẹ cần đưa bé đi khám. Tại khu vực Nam Từ Liêm, Hà Nội, mẹ có thể nhờ kỹ thuật viên của Hà Phương Mom & Baby Care massage đúng kỹ thuật trong buổi tắm bé 60.000đ — hotline 0987 475 822."
+    a: "Không. Massage chỉ hỗ trợ trường hợp đầy hơi, táo bón nhẹ. Nếu bé nôn nhiều, bụng chướng cứng, đi ngoài ra máu, sốt, bỏ bú hoặc táo bón kéo dài trên một tuần, mẹ cần đưa bé đi khám. Tại khu vực Nam Từ Liêm, Hà Nội, mẹ có thể nhờ kỹ thuật viên của Hà Phương Mom & Baby Care massage đúng kỹ thuật trong buổi tắm bé 150.000đ — hotline 0987 475 822."
 ---
 
 **Trả lời nhanh:** Massage bụng đúng cách giúp bé giảm đầy hơi, hỗ trợ táo bón nhẹ nhờ kích thích nhu động ruột. Nguyên tắc quan trọng nhất: **luôn xoa theo chiều kim đồng hồ** (đúng chiều đi của ruột già), thực hiện khi bé thức và **cách cữ bú ít nhất 30–45 phút**. Bài bản nhất là kỹ thuật **I Love U** — ba đường vuốt hình chữ I, L ngược và U ngược, mỗi đường lặp 5–10 lần.
@@ -67,6 +67,6 @@ Massage chỉ hỗ trợ các trường hợp đầy hơi, táo bón cơ năng n
 
 ## Để đôi tay chuyên môn massage cùng bé
 
-Trong mỗi buổi **tắm bé 60.000đ** của Hà Phương (tại spa hoặc tại nhà khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội), bé đều được massage thư giãn đúng kỹ thuật trước khi tắm thảo dược — mẹ có thể quan sát và học lại thao tác I Love U để tự làm mỗi ngày. Bé hay đầy hơi, chậm tiêu nên kết hợp buổi **vận động chuyên sâu 100.000đ** và **bơi float 75.000đ** để hệ tiêu hóa hoạt động trơn tru hơn. Đặt lịch qua hotline/Zalo **0987 475 822**, phục vụ 8:00–17:30 cả Thứ 7 và Chủ nhật.
+Trong mỗi buổi **tắm bé 150.000đ** của Hà Phương (tại spa hoặc tại nhà khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội — gói 10 buổi 1.200.000đ), bé đều được massage thư giãn đúng kỹ thuật trước khi tắm thảo dược — mẹ có thể quan sát và học lại thao tác I Love U để tự làm mỗi ngày. Bé hay đầy hơi, chậm tiêu nên kết hợp buổi **bơi float 150.000đ** tại spa để hệ tiêu hóa hoạt động trơn tru hơn. Đặt lịch qua hotline/Zalo **0987 475 822**, phục vụ 8:00–17:30 cả Thứ 7 và Chủ nhật.
 
 *Bài viết mang tính tham khảo, không thay thế chẩn đoán y khoa.*

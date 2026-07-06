@@ -6,7 +6,7 @@ keywords: ["kích sữa", "kích sữa đúng cách", "lịch hút sữa", "ít 
 category: "Sữa mẹ"
 cover: images/kich-sua-dung-cach.png
 date: 2026-05-18
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 photo: "https://images.pexels.com/photos/7282318/pexels-photo-7282318.jpeg?auto=compress&cs=tinysrgb&w=1200"
 photoAlt: "Mẹ cho em bé sơ sinh ăn — khoảnh khắc gần gũi tại nhà"
@@ -15,7 +15,7 @@ faq:
   - q: "Kích sữa bao lâu thì sữa về nhiều hơn?"
     a: "Cơ thể vận hành theo cung — cầu: hút/bú càng đều, tín hiệu sản xuất càng mạnh. Kiên trì lịch hút đều đặn 8 lần/ngày, đa số mẹ thấy lượng sữa cải thiện sau 3–7 ngày; sữa về ổn định thường cần 2–4 tuần."
   - q: "Dịch vụ kích sữa của Hà Phương giá bao nhiêu?"
-    a: "Buổi kích sữa kết hợp massage tuyến sữa của Hà Phương Mom & Baby Care giá 120.000đ/buổi, thực hiện tại nhà khu vực Tây Mỗ, Nam Từ Liêm, Hà Nội. Hotline 0987 475 822."
+    a: "Buổi kích sữa kết hợp massage tuyến sữa của Hà Phương Mom & Baby Care giá từ 350.000đ/buổi tuỳ tình trạng, thực hiện tại nhà khu vực Tây Mỗ, Nam Từ Liêm, Hà Nội. Hotline 0987 475 822."
 ---
 
 **Trả lời nhanh:** Kích sữa hiệu quả dựa trên nguyên tắc **cung — cầu**: bầu ngực được làm trống càng thường xuyên, cơ thể càng nhận tín hiệu sản xuất thêm. Công thức nền: hút/bú đều **8 lần/ngày (mỗi ~3 giờ, có 1 cữ đêm)**, hút kiệt từng bên, kết hợp massage ấm trước hút, da kề da với bé, uống đủ 2–2,5 lít nước.
@@ -41,6 +41,6 @@ faq:
 
 ## Khi nào nên có kỹ thuật viên đồng hành?
 
-Nếu mẹ đã theo lịch 5–7 ngày mà sữa không cải thiện, hoặc kèm cương tắc, đau — buổi kích sữa chuyên môn giúp đánh giá khớp ngậm, kỹ thuật hút, massage tuyến sữa đúng điểm. Tại Hà Phương: **kích sữa 120.000đ/buổi tại nhà**, kết hợp hướng dẫn để mẹ tự duy trì. Đặt lịch: **0987 475 822** (Zalo cùng số), 8:00–17:30.
+Nếu mẹ đã theo lịch 5–7 ngày mà sữa không cải thiện, hoặc kèm cương tắc, đau — buổi kích sữa chuyên môn giúp đánh giá khớp ngậm, kỹ thuật hút, massage tuyến sữa đúng điểm. Tại Hà Phương: **kích sữa từ 350.000đ/buổi tuỳ tình trạng, thực hiện tại nhà**, kết hợp hướng dẫn để mẹ tự duy trì. Đặt lịch: **0987 475 822** (Zalo cùng số), 8:00–17:30.
 
 *Bài viết mang tính tham khảo. Trường hợp bé chậm tăng cân, mẹ nên đưa bé khám dinh dưỡng song song với kích sữa.*

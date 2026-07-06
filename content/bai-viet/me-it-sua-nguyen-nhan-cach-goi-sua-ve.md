@@ -6,7 +6,7 @@ keywords: ["mẹ ít sữa", "cách gọi sữa về", "power pumping", "tăng l
 category: "Sữa mẹ"
 cover: images/me-it-sua-nguyen-nhan-cach-goi-sua-ve.png
 date: 2026-01-18
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 photo: "https://images.pexels.com/photos/5906530/pexels-photo-5906530.jpeg?auto=compress&cs=tinysrgb&w=1200"
 photoAlt: "Mẹ ngồi cho con bú ngoài trời — khoảnh khắc nuôi con bằng sữa mẹ"
@@ -62,7 +62,7 @@ Mẹ hãy cho cơ thể vài ngày đến vài tuần để bắt nhịp, đừn
 
 ## Khi mẹ đã làm đủ mà sữa vẫn chậm về
 
-Nếu mẹ đã cho bú đều, ăn uống đầy đủ mà sữa vẫn ít — hoặc kèm cương tức, đau — thì một bàn tay chuyên môn sẽ giúp đánh giá khớp ngậm, kỹ thuật hút và thông tuyến sữa đúng điểm. Tại Hà Phương Mom & Baby Care, mẹ ở Vinhomes Smart City, Nam Từ Liêm và khu vực lân cận (Hà Nội) có thể đặt: kích sữa 120.000đ/buổi, xử lý cương sữa sinh lý và tắc sữa non 120.000đ/buổi ngay tại nhà. Mẹ muốn thư giãn, giảm căng thẳng để sữa về dễ hơn có thể đặt kèm massage cho mẹ 60–120 phút, giá 90.000đ–150.000đ.
+Nếu mẹ đã cho bú đều, ăn uống đầy đủ mà sữa vẫn ít — hoặc kèm cương tức, đau — thì một bàn tay chuyên môn sẽ giúp đánh giá khớp ngậm, kỹ thuật hút và thông tuyến sữa đúng điểm. Tại Hà Phương Mom & Baby Care, mẹ ở Vinhomes Smart City, Nam Từ Liêm và khu vực lân cận (Hà Nội) có thể đặt buổi kích sữa, xử lý cương sữa và thông tắc tia sữa ngay tại nhà — từ 350.000đ/buổi tuỳ tình trạng. Mẹ muốn thư giãn, giảm căng thẳng để sữa về dễ hơn có thể đặt kèm massage cho mẹ, buổi lẻ từ 355.000đ hoặc theo [gói liệu trình](/goi-lieu-trinh) tiết kiệm hơn.
 
 Gọi hoặc nhắn Zalo **0987 475 822** — Hà Phương xác nhận lịch trong khoảng 15 phút, 8:00–17:30 hằng ngày.
 

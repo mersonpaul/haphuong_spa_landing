@@ -1,5 +1,6 @@
 import { site } from '@/config/site';
 import { allPriceItems } from '@/data/services';
+import { carePackages, formatVnd } from '@/data/packages';
 import { faqItems } from '@/data/faq';
 import type { PostMeta, PostFaq } from '@/lib/posts';
 
@@ -16,7 +17,7 @@ export function localBusinessJsonLd() {
     name: site.name,
     alternateName: site.alternateName,
     description:
-      'Dịch vụ spa mẹ và bé tại spa và tại nhà: tắm bé, bơi float, thông tắc tia sữa, massage mẹ bầu và sau sinh 60–120 phút, gội đầu và xông hơi tại nhà, trông bé theo giờ.',
+      'Dịch vụ spa mẹ và bé tại spa và tại nhà: tắm bé, bơi float, thông tắc tia sữa, gói liệu trình massage bầu và phục hồi sau sinh, gội đầu và xông hơi tại nhà, trông bé theo giờ.',
     telephone: site.telephoneIntl,
     url: site.url,
     sameAs: [site.facebookUrl],
@@ -42,19 +43,74 @@ export function localBusinessJsonLd() {
         closes: '17:30',
       },
     ],
-    priceRange: '85.000đ – 350.000đ',
+    priceRange: '85.000đ – 7.350.000đ',
     currenciesAccepted: 'VND',
     areaServed: 'Vinhomes Smart City, Nam Từ Liêm, Hà Nội và khu vực lân cận',
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: 'Bảng giá dịch vụ Ha Phuong Mom & Baby Care',
-      itemListElement: allPriceItems.map((item) => ({
-        '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: item.schemaName },
-        price: String(item.priceVnd),
-        priceCurrency: 'VND',
-      })),
+      itemListElement: [...serviceOffers(), ...packageOffers()],
     },
+  };
+}
+
+function serviceOffers() {
+  return allPriceItems.map((item) => ({
+    '@type': 'Offer',
+    itemOffered: { '@type': 'Service', name: item.schemaName },
+    price: String(item.priceVnd),
+    priceCurrency: 'VND',
+  }));
+}
+
+function packageOffers() {
+  return carePackages.flatMap((pkg) => {
+    const offers = [];
+    if (pkg.singlePriceVnd) {
+      offers.push({
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: `Gói ${pkg.name} — buổi lẻ ${pkg.sessionMinutes} phút`,
+        },
+        price: String(pkg.singlePriceVnd),
+        priceCurrency: 'VND',
+      });
+    }
+    offers.push({
+      '@type': 'Offer',
+      itemOffered: {
+        '@type': 'Service',
+        name: `Gói ${pkg.name} — ${pkg.sessionCount} buổi (${pkg.sessionMinutes} phút/buổi)`,
+        description: pkg.description,
+      },
+      price: String(pkg.packagePriceVnd),
+      priceCurrency: 'VND',
+      url: `${site.url}/goi-lieu-trinh#${pkg.id}`,
+    });
+    return offers;
+  });
+}
+
+/** OfferCatalog for the dedicated /goi-lieu-trinh page. */
+export function packagesCatalogJsonLd() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'OfferCatalog',
+    name: `Gói liệu trình chăm sóc mẹ bầu & sau sinh — ${site.name}`,
+    url: `${site.url}/goi-lieu-trinh`,
+    itemListElement: carePackages.map((pkg) => ({
+      '@type': 'Offer',
+      itemOffered: {
+        '@type': 'Service',
+        name: `Gói ${pkg.name}`,
+        description: `${pkg.description} ${pkg.sessionCount} buổi, ${pkg.sessionMinutes} phút/buổi, ${pkg.stepCount} bước trị liệu — ${formatVnd(pkg.packagePriceVnd)}.${pkg.gift ? ` Tặng: ${pkg.gift}.` : ''}${pkg.commitment ? ` ${pkg.commitment}.` : ''}`,
+        provider: { '@id': `${site.url}/#business` },
+      },
+      price: String(pkg.packagePriceVnd),
+      priceCurrency: 'VND',
+      url: `${site.url}/goi-lieu-trinh#${pkg.id}`,
+    })),
   };
 }
 

@@ -6,7 +6,7 @@ keywords: ["bé ngủ ngon", "massage cho bé ngủ", "trình tự ngủ cho bé
 category: "Tắm bé & Float"
 cover: images/be-ngu-ngon-sau-tam.png
 date: 2026-06-05
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 faq:
   - q: "Nên tắm cho bé lúc mấy giờ để bé ngủ ngon?"
@@ -41,6 +41,6 @@ Giữ đúng thứ tự quan trọng hơn giờ tuyệt đối; xê dịch 30 ph
 
 ## Để Hà Phương giúp bé vào nếp
 
-Buổi **tắm bé 60.000đ + massage** của Hà Phương chính là trình tự trên do kỹ thuật viên thực hiện — đồng thời hướng dẫn mẹ lặp lại mỗi tối. Thêm **bơi float 75.000đ** buổi chiều, bé "tiêu" năng lượng đúng cách và đêm ngủ sâu hơn hẳn. Tại spa hoặc tại nhà (Tây Mỗ, Nam Từ Liêm) — Hotline/Zalo: **0987 475 822**.
+Buổi **tắm bé 150.000đ + massage** của Hà Phương (gói 10 buổi chỉ 1.200.000đ) chính là trình tự trên do kỹ thuật viên thực hiện — đồng thời hướng dẫn mẹ lặp lại mỗi tối. Thêm **bơi float 150.000đ/buổi** buổi chiều, bé "tiêu" năng lượng đúng cách và đêm ngủ sâu hơn hẳn. Tại spa hoặc tại nhà (Tây Mỗ, Nam Từ Liêm) — Hotline/Zalo: **0987 475 822**.
 
 *Bài viết mang tính tham khảo, không thay thế tư vấn y khoa.*

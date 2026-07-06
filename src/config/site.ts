@@ -32,5 +32,5 @@ export const site = {
   gaId: 'G-FGXTYKB2JL',
 
   description:
-    'Ha Phuong Mom & Baby Care — dịch vụ spa mẹ và bé: tắm bé 150.000đ/buổi (gói 10 buổi 1.200.000đ), bơi float 150.000đ, thông tắc tia sữa từ 350.000đ, massage mẹ từ 300.000đ, gội & xông hơi tại nhà, trông bé theo giờ. Đặt lịch qua điện thoại, Zalo hoặc Facebook.',
+    'Ha Phuong Mom & Baby Care — dịch vụ spa mẹ và bé: tắm bé 150.000đ/buổi (gói 10 buổi 1.200.000đ), bơi float 150.000đ, thông tắc tia sữa từ 350.000đ, gói massage bầu từ 2.850.000đ/10 buổi, gói phục hồi sau sinh từ 3.600.000đ, gội & xông hơi tại nhà, trông bé theo giờ. Đặt lịch qua điện thoại, Zalo hoặc Facebook.',
 } as const;

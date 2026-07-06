@@ -6,7 +6,7 @@ keywords: ["chăm sóc vết khâu tầng sinh môn", "vết khâu tầng sinh m
 category: "Mẹ sau sinh"
 cover: images/cham-soc-vet-khau-tang-sinh-mon.png
 date: 2025-11-28
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 photo: "https://images.pexels.com/photos/6633574/pexels-photo-6633574.jpeg?auto=compress&cs=tinysrgb&w=1200"
 photoAlt: "Mẹ sau sinh nằm nghỉ ngơi thư giãn trên giường trong phòng ấm áp"
@@ -67,6 +67,6 @@ Những dấu hiệu này gợi ý nhiễm trùng hoặc biến chứng, không 
 
 ## Để mẹ được nghỉ ngơi trong tuần đầu
 
-Tuần đầu sau sinh, ngồi lâu hay đi lại nhiều đều khiến vết khâu ê ẩm, nên mẹ rất cần được đỡ đần. **Hà Phương** mang dịch vụ đến tận nhà để mẹ không phải ra ngoài: **gội đầu dưỡng sinh 70.000đ/buổi** (mẹ không phải ngồi lâu ở tiệm), **tắm bé 60.000đ/buổi** và **trông bé ngày 50.000đ/giờ — tối 70.000đ/giờ** để mẹ được nằm nghỉ. Khi vùng khâu đã dễ chịu hơn, mẹ có thể thêm **massage cho mẹ 60–120 phút (90.000đ–150.000đ/buổi)** thư giãn lưng, vai, hông. Phục vụ tại nhà khu vực Vinhomes Smart City — Tây Mỗ — Nam Từ Liêm, Hà Nội. Hotline/Zalo: **0987 475 822** (8:00–17:30).
+Tuần đầu sau sinh, ngồi lâu hay đi lại nhiều đều khiến vết khâu ê ẩm, nên mẹ rất cần được đỡ đần. **Hà Phương** mang dịch vụ đến tận nhà để mẹ không phải ra ngoài: **gội đầu dưỡng sinh 100.000đ/buổi** (mẹ không phải ngồi lâu ở tiệm), **tắm bé 150.000đ/buổi** (gói 10 buổi chỉ 1.200.000đ) và **trông bé ngày 85.000đ/giờ — đêm 150.000đ/giờ** để mẹ được nằm nghỉ. Khi vùng khâu đã dễ chịu hơn, mẹ có thể bắt đầu **massage cho mẹ từ 355.000đ/buổi lẻ hoặc theo gói liệu trình phục hồi sau sinh** (chi tiết tại [gói liệu trình](/goi-lieu-trinh)) thư giãn lưng, vai, hông. Phục vụ tại nhà khu vực Vinhomes Smart City — Tây Mỗ — Nam Từ Liêm, Hà Nội. Hotline/Zalo: **0987 475 822** (8:00–17:30).
 
 *Bài viết mang tính tham khảo, không thay thế chẩn đoán y khoa.*

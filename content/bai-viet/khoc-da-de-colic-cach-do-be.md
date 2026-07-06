@@ -6,7 +6,7 @@ keywords: ["khóc dạ đề", "colic ở trẻ sơ sinh", "quy tắc 3-3-3", "c
 category: "Tắm bé & Float"
 cover: images/khoc-da-de-colic-cach-do-be.png
 date: 2025-12-21
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 photo: "https://images.pexels.com/photos/6134675/pexels-photo-6134675.jpeg?auto=compress&cs=tinysrgb&w=1200"
 photoAlt: "Em bé sơ sinh khóc được mẹ ôm dỗ trên tay"
@@ -17,7 +17,7 @@ faq:
   - q: "Massage bụng có giúp bé bớt khóc dạ đề không?"
     a: "Massage bụng nhẹ nhàng theo chiều kim đồng hồ quanh rốn, kết hợp động tác 'đạp xe' hai chân, có thể giúp bé khóc dạ đề đẩy bớt hơi và dễ chịu hơn; nên làm khi bé thức và cách cữ bú khoảng 30 phút. Massage chỉ hỗ trợ dỗ bé chứ không chữa khỏi colic, nhưng an toàn nếu thao tác đúng."
   - q: "Ở Nam Từ Liêm, Hà Nội có dịch vụ hỗ trợ khi bé quấy khóc, mẹ kiệt sức không?"
-    a: "Có. Hà Phương Mom & Baby Care nhận massage vận động cho bé 100.000đ/buổi và tắm bé 60.000đ tại nhà khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội, giúp bé thư giãn dễ ngủ; đồng thời có dịch vụ trông bé ngày 50.000đ/giờ, tối 70.000đ/giờ để mẹ nghỉ ngơi. Đặt lịch qua hotline/Zalo 0987 475 822, 8:00–17:30."
+    a: "Có. Hà Phương Mom & Baby Care nhận tắm bé kèm massage nhẹ 150.000đ/buổi tại nhà khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội, giúp bé thư giãn dễ ngủ; đồng thời có dịch vụ trông bé ngày 85.000đ/giờ, đêm 150.000đ/giờ để mẹ nghỉ ngơi. Đặt lịch qua hotline/Zalo 0987 475 822, 8:00–17:30."
 ---
 
 **Trả lời nhanh:** Khóc dạ đề (colic) là tình trạng bé **khỏe mạnh** khóc dữ dội, khó dỗ theo "quy tắc 3-3-3": hơn **3 giờ mỗi ngày**, ít nhất **3 ngày mỗi tuần**, kéo dài trên **3 tuần**. Cơn khóc thường tăng dần, đỉnh điểm khoảng 6 tuần tuổi và tự hết khi bé 3–4 tháng. Mẹ có thể dỗ bằng phương pháp 5S và massage bụng nhẹ; cần đi khám nếu bé sốt, nôn, bỏ bú, đi ngoài ra máu hoặc chậm tăng cân.
@@ -62,6 +62,6 @@ Những dấu hiệu này không thuộc colic và cần được kiểm tra.
 
 ## Hà Phương đồng hành cùng mẹ những ngày bé quấy
 
-Chuỗi ngày bé khóc dạ đề khiến cả nhà kiệt sức. Hà Phương có thể đồng hành: buổi **vận động chuyên sâu kèm massage cho bé 100.000đ** (có động tác massage bụng, đạp xe giúp bé đẩy hơi, dễ chịu hơn) và buổi **tắm bé thư giãn 60.000đ** giúp bé ngủ sâu hơn — thực hiện tại nhà khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội. Khi mẹ cần nghỉ ngơi, dịch vụ **trông bé ban ngày 50.000đ/giờ, buổi tối 70.000đ/giờ** để mẹ lấy lại sức. Gọi hotline/Zalo **0987 475 822**, 8:00–17:30.
+Chuỗi ngày bé khóc dạ đề khiến cả nhà kiệt sức. Hà Phương có thể đồng hành: buổi **tắm bé kèm massage thư giãn 150.000đ/buổi** (có động tác massage bụng, đạp xe giúp bé đẩy hơi, dễ chịu hơn) giúp bé ngủ sâu hơn — bé tắm đều đặn nên chọn **gói 10 buổi 1.200.000đ** cho tiết kiệm; thực hiện tại nhà khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội. Khi mẹ cần nghỉ ngơi, dịch vụ **trông bé ban ngày 85.000đ/giờ, ban đêm 150.000đ/giờ** để mẹ lấy lại sức. Gọi hotline/Zalo **0987 475 822**, 8:00–17:30.
 
 *Bài viết mang tính tham khảo, không thay thế chẩn đoán y khoa.*

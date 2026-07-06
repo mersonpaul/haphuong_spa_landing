@@ -6,13 +6,13 @@ keywords: ["stress sau sinh", "baby blues", "trầm cảm sau sinh", "thư giãn
 category: "Mẹ sau sinh"
 cover: images/giam-stress-sau-sinh.png
 date: 2026-06-09
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 faq:
   - q: "Baby blues khác trầm cảm sau sinh thế nào?"
     a: "Baby blues: dễ tủi thân, dễ khóc, cáu gắt xuất hiện ngày 3–5 sau sinh do thay đổi hormone, tự dịu trong khoảng 2 tuần. Trầm cảm sau sinh: buồn chán, kiệt sức, mất ngủ hoặc mất kết nối với con kéo dài quá 2 tuần, có thể kèm ý nghĩ tiêu cực — cần được bác sĩ/chuyên gia tâm lý thăm khám, không tự vượt qua một mình."
   - q: "Làm sao có thời gian nghỉ khi con bám mẹ cả ngày?"
-    a: "Nghỉ theo khối nhỏ nhưng chất lượng: nhờ người thân hoặc dịch vụ trông bé 2–3 giờ (Hà Phương từ 50.000đ/giờ) để mẹ ngủ một giấc sâu, hoặc đặt buổi massage/gội đầu tại nhà ngay trong lúc bé ngủ — mẹ không cần ra khỏi nhà vẫn được nạp lại năng lượng."
+    a: "Nghỉ theo khối nhỏ nhưng chất lượng: nhờ người thân hoặc dịch vụ trông bé 2–3 giờ (Hà Phương từ 85.000đ/giờ) để mẹ ngủ một giấc sâu, hoặc đặt buổi massage/gội đầu tại nhà ngay trong lúc bé ngủ — mẹ không cần ra khỏi nhà vẫn được nạp lại năng lượng."
 ---
 
 **Trả lời nhanh:** Cảm xúc chùng xuống sau sinh rất phổ biến: **baby blues** gặp ở đa số mẹ, đến vào ngày 3–5 và **tự hết trong ~2 tuần**. Nếu buồn chán, kiệt sức, mất ngủ, mất kết nối với con **kéo dài hơn 2 tuần** — đó có thể là **trầm cảm sau sinh**, một tình trạng y khoa cần được thăm khám, không phải "yếu đuối".
@@ -39,8 +39,8 @@ faq:
 
 ## Hà Phương đỡ mẹ một tay
 
-- **Trông bé tại nhà:** ngày 50.000đ/giờ, tối 70.000đ/giờ — cô có nghiệp vụ, lý lịch rõ ràng, để mẹ ngủ hoặc ra ngoài vài tiếng.
-- **Massage 60–120 phút (90.000–150.000đ), gội đầu 70.000đ, xông hơi 100.000đ** — làm tại nhà ngay lúc bé ngủ.
+- **Trông bé tại nhà:** ngày 85.000đ/giờ, đêm 150.000đ/giờ — cô có nghiệp vụ, lý lịch rõ ràng, để mẹ ngủ hoặc ra ngoài vài tiếng.
+- **Massage 60–120 phút (buổi lẻ từ 355.000đ, có [gói liệu trình](/goi-lieu-trinh) tiết kiệm hơn), gội đầu 100.000đ, xông hơi 200.000đ** — làm tại nhà ngay lúc bé ngủ.
 
 Hotline/Zalo: **0987 475 822** (Tây Mỗ, Nam Từ Liêm, Hà Nội).
 

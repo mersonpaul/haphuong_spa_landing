@@ -6,13 +6,13 @@ keywords: ["xông hơi sau sinh", "sau sinh bao lâu được xông hơi", "xôn
 category: "Mẹ sau sinh"
 cover: images/xong-hoi-sau-sinh.png
 date: 2026-04-14
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 faq:
   - q: "Sinh mổ bao lâu thì được xông hơi?"
     a: "Ít nhất 7 ngày sau sinh và chỉ khi vết mổ đã khô, không đau, không rỉ dịch; nhiều bác sĩ khuyên thận trọng chờ đến 2 tuần. Xông quá sớm có thể khiến vết mổ lâu lành, tăng nguy cơ nhiễm trùng — mẹ nên hỏi ý kiến bác sĩ theo tình trạng của mình."
   - q: "Xông hơi sau sinh tại nhà của Hà Phương giá bao nhiêu?"
-    a: "100.000đ/buổi — kỹ thuật viên mang lều xông và thảo dược đến tận nhà (Tây Mỗ, Nam Từ Liêm, Hà Nội). Đặt kèm buổi massage chỉ thêm 50.000đ. Hotline/Zalo 0987 475 822."
+    a: "200.000đ/buổi — kỹ thuật viên mang lều xông và thảo dược đến tận nhà (Tây Mỗ, Nam Từ Liêm, Hà Nội). Mẹ muốn thư giãn sâu hơn có thể đặt kèm buổi massage sau sinh. Hotline/Zalo 0987 475 822."
 ---
 
 **Trả lời nhanh:** Mẹ **sinh thường** có thể bắt đầu xông hơi sau khoảng **3–4 ngày** nếu cơ thể hồi phục tốt; mẹ **sinh mổ** chờ **ít nhất 7 ngày** và chỉ xông khi vết mổ đã khô hẳn. Mỗi lần **15–20 phút**, tuần 2–3 lần, thực hiện nơi kín gió, không xông khi đói, vừa ăn no, đang sốt hoặc huyết áp cao.
@@ -39,6 +39,6 @@ faq:
 
 ## Xông tại nhà cùng Hà Phương — mẹ không phải chuẩn bị gì
 
-Kỹ thuật viên mang **lều xông + nồi thảo dược** đến tận nhà, canh nhiệt và thời gian đúng chuẩn, chăm mẹ trước — trong — sau buổi xông: **100.000đ/buổi**, đặt kèm massage sau sinh chỉ **thêm 50.000đ**. Khu vực Vinhomes Smart City — Tây Mỗ — Nam Từ Liêm. Hotline/Zalo: **0987 475 822**.
+Kỹ thuật viên mang **lều xông + nồi thảo dược** đến tận nhà, canh nhiệt và thời gian đúng chuẩn, chăm mẹ trước — trong — sau buổi xông: **200.000đ/buổi**. Mẹ muốn phục hồi trọn vẹn hơn có thể đặt kèm buổi massage sau sinh hoặc tham khảo [gói liệu trình](/goi-lieu-trinh) của Hà Phương. Khu vực Vinhomes Smart City — Tây Mỗ — Nam Từ Liêm. Hotline/Zalo: **0987 475 822**.
 
 *Bài viết mang tính tham khảo; mẹ có bệnh nền tim mạch, huyết áp hoặc vết mổ bất thường cần hỏi bác sĩ trước khi xông.*

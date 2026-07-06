@@ -6,7 +6,7 @@ keywords: ["gội đầu sau sinh", "gội đầu dưỡng sinh", "ở cữ gộ
 category: "Mẹ sau sinh"
 cover: images/goi-dau-duong-sinh-sau-sinh.png
 date: 2026-05-26
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 faq:
   - q: "Sau sinh bao lâu thì gội đầu được?"
@@ -30,12 +30,12 @@ faq:
 3. **Sấy khô hoàn toàn ngay sau gội** — bước quan trọng nhất; tóc ẩm lâu mới là nguyên nhân gây cảm lạnh, đau đầu.
 4. Tần suất 2–3 ngày/lần tuỳ mức bết tóc.
 
-## Gội dưỡng sinh tại nhà của Hà Phương — 70.000đ/buổi
+## Gội dưỡng sinh tại nhà của Hà Phương — 100.000đ/buổi
 
 - Nước gội **thảo dược nấu tươi** (bồ kết, vỏ bưởi, sả) thơm dịu, an toàn khi cho con bú.
 - **Massage da đầu — cổ — vai gáy** đúng điểm, giải toả cơn đau đầu và mỏi cổ do cho bú.
 - Kỹ thuật viên mang **ghế gội chuyên dụng** đến tận nhà, gội tại phòng kín gió, **sấy khô tạo kiểu** trước khi rời đi — mẹ không phải động tay khâu nào.
-- Kết hợp cùng buổi massage (từ 90.000đ) hoặc xông hơi (100.000đ) thành "buổi spa tại giường" trọn vẹn.
+- Kết hợp cùng buổi massage cho mẹ (từ 355.000đ) hoặc xông hơi tại nhà (200.000đ) thành "buổi spa tại giường" trọn vẹn.
 
 Khu vực phục vụ: Vinhomes Smart City — Tây Mỗ — Nam Từ Liêm, Hà Nội. Đặt lịch hotline/Zalo: **0987 475 822**, 8:00–17:30 hằng ngày.
 

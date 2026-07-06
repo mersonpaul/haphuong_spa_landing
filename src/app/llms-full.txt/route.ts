@@ -3,6 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { site } from '@/config/site';
 import { priceGroups } from '@/data/services';
+import { packagesMarkdown } from '@/data/packages';
 import { faqItems } from '@/data/faq';
 import { getAllPostMeta } from '@/lib/posts';
 
@@ -70,6 +71,12 @@ export function GET(): Response {
 ${priceSection}
 
 Lưu ý: spa bán theo buổi lẻ hoặc theo gói (ví dụ gói 10 buổi tắm bé 1.200.000đ). Đặt lịch qua hotline/Zalo ${site.hotline}, xác nhận trong 15 phút.
+
+## Gói liệu trình (bán theo gói — khuyến nghị cho hiệu quả dài hạn)
+
+URL: ${site.url}/goi-lieu-trinh
+
+${packagesMarkdown(true)}
 
 ## Câu hỏi thường gặp
 

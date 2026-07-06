@@ -6,7 +6,7 @@ keywords: ["tummy time", "tập nằm sấp cho bé", "tummy time cho trẻ sơ 
 category: "Tắm bé & Float"
 cover: images/tummy-time-tap-nam-sap-cho-be.png
 date: 2026-03-02
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 photo: "https://images.pexels.com/photos/10190040/pexels-photo-10190040.jpeg?auto=compress&cs=tinysrgb&w=1200"
 photoAlt: "Em bé mặc áo xanh nằm sấp ngẩng đầu nhìn về phía trước trong giờ tummy time"
@@ -16,8 +16,8 @@ faq:
     a: "Theo Viện Hàn lâm Nhi khoa Hoa Kỳ (AAP), bé đủ tháng khỏe mạnh có thể tập tummy time ngay từ ngày đầu về nhà: 2–3 lần mỗi ngày, mỗi lần 3–5 phút khi bé thức và có người trông. Đến khoảng 7 tuần tuổi, bé nên đạt tổng cộng 15–30 phút nằm sấp mỗi ngày."
   - q: "Bé khóc khi nằm sấp thì có nên ép tập tummy time không?"
     a: "Không nên ép bé nằm sấp khi bé khóc. Mẹ hãy rút ngắn mỗi lượt còn 1–2 phút, đổi sang tư thế bé nằm sấp trên ngực mẹ, kê khăn cuộn nhỏ dưới ngực bé, hoặc đặt gương và đồ chơi màu sắc trước mặt. Tăng dần thời gian khi bé quen — hầu hết các bé sẽ thích tummy time sau vài tuần kiên trì."
-  - q: "Ở Vinhomes Smart City có dịch vụ tập vận động cho bé không?"
-    a: "Có. Hà Phương Mom & Baby Care có buổi vận động chuyên sâu 100.000đ/buổi cho bé sơ sinh đến 24 tháng, thực hiện tại spa hoặc tại nhà khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội — kỹ thuật viên tập cùng bé và hướng dẫn mẹ tummy time đúng cách. Hotline/Zalo 0987 475 822 (8:00–17:30)."
+  - q: "Ở Vinhomes Smart City có dịch vụ hỗ trợ bé vận động không?"
+    a: "Có. Buổi Tắm & Massage bé của Hà Phương Mom & Baby Care (150.000đ/buổi, gói 10 buổi 1.200.000đ) bao gồm massage và các bài vận động nhẹ phù hợp tháng tuổi, thực hiện tại spa hoặc tại nhà khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội — kỹ thuật viên hướng dẫn mẹ tummy time đúng cách. Bé cứng cáp hơn có thể bơi thuỷ liệu Floating Baby tại spa 150.000đ/buổi. Hotline/Zalo 0987 475 822 (8:00–17:30)."
 ---
 
 **Trả lời nhanh:** Tummy time (cho bé nằm sấp khi thức) có thể bắt đầu **ngay từ những ngày đầu bé về nhà**: mỗi ngày 2–3 lần, mỗi lần 3–5 phút, tăng dần để đạt **15–30 phút mỗi ngày khi bé khoảng 7 tuần tuổi** — theo khuyến cáo của Viện Hàn lâm Nhi khoa Hoa Kỳ (AAP). Nguyên tắc vàng: **ngủ nằm ngửa, chơi nằm sấp** — bé chỉ nằm sấp khi thức và luôn có người lớn bên cạnh.
@@ -60,8 +60,8 @@ Nhiều bé phản đối ầm ĩ những lần nằm sấp đầu tiên — đi
 
 Nếu đến 3–4 tháng bé vẫn không thể ngẩng đầu khi nằm sấp, cổ nghiêng lệch hẳn một bên, hoặc bé cứng/mềm người bất thường — mẹ nên trao đổi với bác sĩ nhi.
 
-## Tập vận động cùng kỹ thuật viên của Hà Phương
+## Hà Phương đồng hành cùng mẹ tập cho bé
 
-Nếu mẹ chưa tự tin tập cho con, buổi **vận động chuyên sâu 100.000đ** của Hà Phương dành cho bé sơ sinh đến 24 tháng: kỹ thuật viên tập tummy time, bài tay chân và massage kích thích vận động cùng bé, đồng thời hướng dẫn mẹ thao tác để tự tập mỗi ngày. Kết hợp bơi float 75.000đ/buổi và tắm bé 60.000đ, bé vừa khỏe cơ vừa ăn ngon ngủ sâu. Thực hiện tại spa hoặc tại nhà khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội — hotline/Zalo **0987 475 822**, 8:00–17:30 cả cuối tuần.
+Nếu mẹ chưa tự tin tập cho con, buổi **Tắm & Massage bé 150.000đ** của Hà Phương (gói 10 buổi **1.200.000đ**) đã bao gồm massage và các bài vận động nhẹ phù hợp tháng tuổi: kỹ thuật viên vừa làm cùng bé vừa hướng dẫn mẹ tummy time và thao tác để tự tập mỗi ngày. Bé cứng cáp hơn có thể trải nghiệm **Floating Baby — bơi thuỷ liệu tại spa 150.000đ/buổi**, bé vừa khỏe cơ vừa ăn ngon ngủ sâu. Thực hiện tại spa hoặc tại nhà khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội — hotline/Zalo **0987 475 822**, 8:00–17:30 cả cuối tuần.
 
 *Bài viết mang tính tham khảo, không thay thế chẩn đoán y khoa.*

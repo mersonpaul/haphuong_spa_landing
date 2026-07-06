@@ -1,19 +1,19 @@
 ---
 title: "Quy trình buổi tắm bé tại nhà: các bước an toàn và mẹ cần chuẩn bị gì"
 slug: quy-trinh-buoi-tam-be-tai-nha
-description: "Buổi tắm bé tại nhà chuẩn gồm 5 bước: chuẩn bị nước 37–38 độ C, massage nhẹ, tắm gội nhanh, chăm sóc rốn và bàn giao cho mẹ. Giá tắm bé chỉ 60.000đ/buổi."
+description: "Buổi tắm bé tại nhà chuẩn gồm 5 bước: chuẩn bị nước 37–38 độ C, massage nhẹ, tắm gội nhanh, chăm sóc rốn và bàn giao cho mẹ. Giá tắm bé 150.000đ/buổi."
 keywords: ["tắm bé tại nhà", "quy trình tắm bé", "dịch vụ tắm bé tại nhà", "tắm bé sơ sinh", "tắm bé tại nhà Hà Nội"]
 category: "Chọn dịch vụ"
 cover: images/quy-trinh-buoi-tam-be-tai-nha.png
 date: 2026-03-19
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 photo: https://images.pexels.com/photos/6849421/pexels-photo-6849421.jpeg?auto=compress&cs=tinysrgb&w=1200
 photoAlt: "Em bé được tắm trong chậu tắm chuyên dụng, có bàn tay người lớn đỡ nhẹ nhàng"
 photoCredit: "Ảnh: Pexels (giấy phép miễn phí thương mại)"
 faq:
   - q: "Dịch vụ tắm bé tại nhà giá bao nhiêu?"
-    a: "Tại Hà Phương Mom & Baby Care: tắm bé 60.000đ/buổi, bơi float 75.000đ/buổi, vận động chuyên sâu 100.000đ/buổi — thực hiện tại spa hoặc ngay tại nhà, khu vực Vinhomes Smart City, Tây Mỗ, Nam Từ Liêm, Hà Nội. Đặt lịch qua hotline/Zalo 0987 475 822 (8:00–17:30)."
+    a: "Tại Hà Phương Mom & Baby Care: tắm bé 150.000đ/buổi (gói 10 buổi 1.200.000đ), bơi float 150.000đ/buổi — tắm bé thực hiện tại spa hoặc ngay tại nhà, khu vực Vinhomes Smart City, Tây Mỗ, Nam Từ Liêm, Hà Nội. Đặt lịch qua hotline/Zalo 0987 475 822 (8:00–17:30)."
   - q: "Nước tắm cho trẻ sơ sinh bao nhiêu độ là an toàn?"
     a: "Nước tắm cho trẻ sơ sinh an toàn ở khoảng 37–38 độ C, nên kiểm tra bằng nhiệt kế đo nước thay vì chỉ áng bằng tay. Phòng tắm cần kín gió, ấm khoảng 28–30 độ C, và thao tác tắm cho bé sơ sinh chỉ nên gói gọn trong 4–5 phút để bé không bị nhiễm lạnh."
   - q: "Bé vừa bú xong có tắm được không?"
@@ -70,6 +70,6 @@ Trước buổi hẹn, Hà Phương sẽ nhắn Zalo dặn mẹ cụ thể — m
 
 Cả hai đều tốt — tuỳ hoàn cảnh của mẹ: **tại nhà** tiện cho mẹ ở cữ, bé còn non tháng hoặc những ngày mưa lạnh; **tại spa** phù hợp khi mẹ muốn kết hợp cho bé **bơi float** thư giãn trong bể chuyên dụng. Nhiều gia đình ở Vinhomes Smart City chọn lịch cố định tuần 2–3 buổi xen kẽ cả hai.
 
-Bảng giá của Hà Phương Mom & Baby Care niêm yết rõ: **tắm bé 60.000đ/buổi · bơi float 75.000đ/buổi · vận động chuyên sâu 100.000đ/buổi** — tại spa hoặc tại nhà khu vực Vinhomes Smart City — Tây Mỗ — Nam Từ Liêm, Hà Nội. Đặt lịch qua hotline/Zalo: **0987 475 822** (8:00–17:30).
+Bảng giá của Hà Phương Mom & Baby Care niêm yết rõ: **tắm bé 150.000đ/buổi (gói 10 buổi 1.200.000đ) · bơi float 150.000đ/buổi** — tắm bé tại spa hoặc tại nhà, float tại spa, khu vực Vinhomes Smart City — Tây Mỗ — Nam Từ Liêm, Hà Nội. Đặt lịch qua hotline/Zalo: **0987 475 822** (8:00–17:30).
 
 *Mẹo nhỏ: buổi đầu tiên, mẹ hãy đứng cạnh quan sát trọn vẹn — vừa yên tâm về tay nghề, vừa học được các thao tác chuẩn để những hôm tự tắm cho con, mẹ làm đúng y như vậy.*

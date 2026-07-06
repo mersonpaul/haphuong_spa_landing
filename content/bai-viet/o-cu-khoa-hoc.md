@@ -6,7 +6,7 @@ keywords: ["ở cữ khoa học", "kiêng cữ sau sinh", "ở cữ đúng cách
 category: "Mẹ sau sinh"
 cover: images/o-cu-khoa-hoc.png
 date: 2026-05-12
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 faq:
   - q: "Sau sinh có được tắm gội không?"
@@ -40,6 +40,6 @@ faq:
 
 ## Ở cữ nhàn hơn khi có người chăm đúng cách
 
-Bộ dịch vụ tại nhà của Hà Phương thiết kế cho đúng giai đoạn này: **gội đầu dưỡng sinh 70.000đ, xông hơi thảo dược 100.000đ, massage 60–120 phút từ 90.000đ, trông bé từ 50.000đ/giờ** — mẹ được nghỉ thật sự mà vẫn sạch sẽ, thơm tho, khoẻ dần lên. Hotline/Zalo: **0987 475 822** (Tây Mỗ, Nam Từ Liêm, Hà Nội).
+Bộ dịch vụ tại nhà của Hà Phương thiết kế cho đúng giai đoạn này: **gội đầu dưỡng sinh 100.000đ, xông hơi thảo dược 200.000đ, massage cho mẹ từ 355.000đ/buổi lẻ (đặt theo [gói liệu trình](/goi-lieu-trinh) tiết kiệm hơn), trông bé từ 85.000đ/giờ** — mẹ được nghỉ thật sự mà vẫn sạch sẽ, thơm tho, khoẻ dần lên. Hotline/Zalo: **0987 475 822** (Tây Mỗ, Nam Từ Liêm, Hà Nội).
 
 *Bài viết mang tính tham khảo; mẹ có biến chứng hậu sản cần theo hướng dẫn riêng của bác sĩ.*

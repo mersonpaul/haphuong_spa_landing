@@ -6,7 +6,7 @@ keywords: ["ăn gì sau sinh mổ", "sau sinh mổ nên ăn gì nhanh lành", "d
 category: "Mẹ sau sinh"
 cover: images/an-gi-sau-sinh-mo-nhanh-lanh-vet-mo.png
 date: 2025-11-04
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 photo: "https://images.pexels.com/photos/38244651/pexels-photo-38244651.jpeg?auto=compress&cs=tinysrgb&w=1200"
 photoAlt: "Mâm cơm cữ cho mẹ sau sinh mổ: canh gà, cơm trắng và cam thái miếng"
@@ -17,7 +17,7 @@ faq:
   - q: "Sau sinh mổ có phải kiêng thịt bò, rau muống, hải sản để không bị sẹo lồi không?"
     a: "Không có bằng chứng khoa học rõ ràng cho thấy thịt bò, rau muống hay hải sản gây sẹo lồi. Sẹo lồi chủ yếu phụ thuộc cơ địa từng người. Ngược lại, kiêng khem quá mức khiến mẹ sau sinh mổ thiếu đạm và vi chất, làm vết mổ lâu lành và giảm lượng sữa. Trừ khi mẹ dị ứng một món cụ thể, hãy ăn đa dạng và đủ chất."
   - q: "Ngoài ăn uống, mẹ sau sinh mổ ở Nam Từ Liêm có thể nhờ Hà Phương hỗ trợ gì tại nhà?"
-    a: "Trong lúc mẹ tập trung ăn uống và nghỉ ngơi cho vết mổ lành, Hà Phương Mom & Baby Care nhận tắm bé tại nhà 60.000đ/buổi, trông bé ngày 50.000đ/giờ — tối 70.000đ/giờ và gội đầu dưỡng sinh 70.000đ/buổi, phục vụ khu vực Vinhomes Smart City, Tây Mỗ, Nam Từ Liêm, Hà Nội. Hotline/Zalo 0987 475 822 (8:00–17:30)."
+    a: "Trong lúc mẹ tập trung ăn uống và nghỉ ngơi cho vết mổ lành, Hà Phương Mom & Baby Care nhận tắm bé tại nhà 150.000đ/buổi (gói 10 buổi 1.200.000đ), trông bé ngày 85.000đ/giờ — đêm 150.000đ/giờ và gội đầu dưỡng sinh 100.000đ/buổi, phục vụ khu vực Vinhomes Smart City, Tây Mỗ, Nam Từ Liêm, Hà Nội. Hotline/Zalo 0987 475 822 (8:00–17:30)."
 ---
 
 **Trả lời nhanh:** Sau sinh mổ, để vết mổ nhanh lành mẹ cần ăn **nhiều đạm** (thịt, cá, trứng, đậu) để tái tạo mô, thêm **vitamin C** giúp tạo collagen, **kẽm** hỗ trợ lành thương và **sắt** bù lượng máu đã mất. Uống đủ nước, ăn nhiều rau và chất xơ chống táo bón. Điều quan trọng không kém: **đừng kiêng khem quá mức** — thiếu chất mới là lý do khiến vết mổ lâu lành và mẹ ít sữa.
@@ -60,6 +60,6 @@ Nguyên tắc an toàn: ăn **đa dạng, đủ chất, hợp vệ sinh và nấ
 
 ## Để mẹ có thời gian ăn uống và nghỉ ngơi
 
-Tuần đầu sau mổ, chỉ riêng việc ăn đủ ba bữa tử tế cũng là thử thách khi mẹ vừa đau vừa phải chăm con. Trong lúc mẹ tập trung phục hồi, **Hà Phương** có thể đỡ đần phần chăm bé ngay tại nhà: **tắm bé 60.000đ/buổi**, **trông bé ngày 50.000đ/giờ — tối 70.000đ/giờ** để mẹ ăn uống, chợp mắt, và **gội đầu dưỡng sinh 70.000đ/buổi** để mẹ ở cữ vẫn được thư giãn mà không phải cúi rửa. Khi vết mổ đã ổn, mẹ có thể thêm buổi **massage cho mẹ 60–120 phút (90.000đ–150.000đ/buổi)** để giảm đau mỏi vai gáy. Khu vực Vinhomes Smart City — Tây Mỗ — Nam Từ Liêm, Hà Nội. Hotline/Zalo: **0987 475 822** (8:00–17:30).
+Tuần đầu sau mổ, chỉ riêng việc ăn đủ ba bữa tử tế cũng là thử thách khi mẹ vừa đau vừa phải chăm con. Trong lúc mẹ tập trung phục hồi, **Hà Phương** có thể đỡ đần phần chăm bé ngay tại nhà: **tắm bé 150.000đ/buổi** (gói 10 buổi chỉ 1.200.000đ), **trông bé ngày 85.000đ/giờ — đêm 150.000đ/giờ** để mẹ ăn uống, chợp mắt, và **gội đầu dưỡng sinh 100.000đ/buổi** để mẹ ở cữ vẫn được thư giãn mà không phải cúi rửa. Khi vết mổ đã ổn, mẹ có thể bắt đầu **massage cho mẹ từ 355.000đ/buổi lẻ hoặc theo gói liệu trình phục hồi sau sinh** (xem chi tiết tại [gói liệu trình](/goi-lieu-trinh)) để giảm đau mỏi vai gáy. Khu vực Vinhomes Smart City — Tây Mỗ — Nam Từ Liêm, Hà Nội. Hotline/Zalo: **0987 475 822** (8:00–17:30).
 
 *Bài viết mang tính tham khảo, không thay thế chẩn đoán y khoa.*

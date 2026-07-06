@@ -6,7 +6,7 @@ keywords: ["vệ sinh cho trẻ sơ sinh", "cách vệ sinh mắt mũi tai cho b
 category: "Tắm bé & Float"
 cover: images/ve-sinh-mat-mui-tai-cat-mong-tay-cho-be.png
 date: 2025-12-15
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 photo: "https://images.pexels.com/photos/14997907/pexels-photo-14997907.jpeg?auto=compress&cs=tinysrgb&w=1200"
 photoAlt: "Cận cảnh vành tai và bàn tay nhỏ của em bé sơ sinh"
@@ -17,7 +17,7 @@ faq:
   - q: "Khi nào và cắt móng tay cho trẻ sơ sinh thế nào cho an toàn?"
     a: "Nên cắt móng tay cho trẻ sơ sinh khi móng mềm — ngay sau khi tắm hoặc lúc bé ngủ — bằng bấm móng bo tròn dành cho trẻ, cắt ngang và không cắt quá sát. Móng tay bé mọc nhanh nên có thể cần cắt 1–2 lần mỗi tuần để bé không tự cào xước mặt."
   - q: "Ở Tây Mỗ, Nam Từ Liêm có dịch vụ tắm bé kèm vệ sinh mắt, mũi, tai không?"
-    a: "Có. Hà Phương Mom & Baby Care nhận tắm bé tại nhà 60.000đ/buổi ở khu vực Tây Mỗ, Nam Từ Liêm, Hà Nội — mỗi buổi bao gồm vệ sinh mắt, mũi, tai, vệ sinh rốn và hướng dẫn mẹ tự thao tác đúng cách. Đặt lịch qua hotline/Zalo 0987 475 822, 8:00–17:30."
+    a: "Có. Hà Phương Mom & Baby Care nhận tắm bé tại nhà 150.000đ/buổi (gói 10 buổi 1.200.000đ) ở khu vực Tây Mỗ, Nam Từ Liêm, Hà Nội — mỗi buổi bao gồm vệ sinh mắt, mũi, tai, vệ sinh rốn và hướng dẫn mẹ tự thao tác đúng cách. Đặt lịch qua hotline/Zalo 0987 475 822, 8:00–17:30."
 ---
 
 **Trả lời nhanh:** Vệ sinh hằng ngày cho bé rất đơn giản: lau mắt bằng bông thấm nước ấm hoặc nước muối sinh lý theo hướng **từ khóe trong ra ngoài** (mỗi mắt một miếng bông riêng), làm sạch vành ngoài tai và mũi — **không ngoáy sâu** vào trong. Cắt móng tay khi móng mềm (sau khi tắm hoặc lúc bé ngủ), cắt ngang, không cắt sát. Chỉ cần khăn mềm, bông gòn, nước muối sinh lý và bấm móng dành cho trẻ.
@@ -58,6 +58,6 @@ Rửa tay trước khi vệ sinh cho bé và chuẩn bị sẵn dụng cụ trư
 
 ## Để việc chăm bé nhẹ nhàng hơn cùng Hà Phương
 
-Nếu mẹ chưa tự tin thao tác quanh mắt, tai, mũi hay ngại cắt móng cho con, buổi **tắm bé của Hà Phương giá 60.000đ** (tại spa hoặc tại nhà khu vực Tây Mỗ, Nam Từ Liêm, Hà Nội) đã bao gồm cả vệ sinh mắt — mũi — tai, vệ sinh rốn và hướng dẫn mẹ tự làm đúng cách tại nhà. Mẹ gọi hotline/Zalo **0987 475 822**, khung giờ 8:00–17:30 cả cuối tuần.
+Nếu mẹ chưa tự tin thao tác quanh mắt, tai, mũi hay ngại cắt móng cho con, buổi **tắm bé của Hà Phương giá 150.000đ** (tại spa hoặc tại nhà khu vực Tây Mỗ, Nam Từ Liêm, Hà Nội — mẹ tắm đều cho bé có gói 10 buổi 1.200.000đ) đã bao gồm cả vệ sinh mắt — mũi — tai, vệ sinh rốn và hướng dẫn mẹ tự làm đúng cách tại nhà. Mẹ gọi hotline/Zalo **0987 475 822**, khung giờ 8:00–17:30 cả cuối tuần.
 
 *Bài viết mang tính tham khảo, không thay thế chẩn đoán y khoa.*

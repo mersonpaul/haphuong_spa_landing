@@ -58,8 +58,8 @@ export const serviceCards: ServiceCard[] = [
     name: 'Massage Cho Mẹ',
     badge: 'Spa · Tại nhà',
     description:
-      'Gói 60 – 120 phút giúp mẹ giảm đau mỏi vai gáy, lưng hông và ngủ ngon hơn.',
-    priceLabel: 'Từ 300.000đ / buổi',
+      'Massage bầu Nhật Bản 60 – 120 phút giúp mẹ giảm đau mỏi vai gáy, lưng hông và ngủ ngon hơn. Đặt buổi lẻ hoặc gói liệu trình 10 buổi.',
+    priceLabel: 'Buổi lẻ từ 355.000đ · Gói 10 buổi từ 2.850.000đ',
     image: '/images/massage.png',
     imageAlt: 'Minh hoạ hoa sen thư giãn',
     imageWidth: 900,
@@ -107,7 +107,7 @@ export interface PriceItem {
   /** Internal service code DV01–DV17 */
   code: string;
   name: string;
-  /** Display price, e.g. "60.000đ" or "50.000đ / giờ" */
+  /** Display price, e.g. "150.000đ" or "85.000đ / giờ" */
   priceLabel: string;
   /** Numeric price in VND for JSON-LD Offer */
   priceVnd: number;
@@ -135,7 +135,7 @@ export const priceGroups: PriceGroup[] = [
     title: 'Massage cho mẹ',
     subtitle: 'Bầu & sau sinh · giá / buổi',
     items: [
-      { code: 'DV03', name: 'Gói 60 – 120 phút', priceLabel: 'từ 300.000đ', priceVnd: 300000, schemaName: 'Massage mẹ 60–120 phút' },
+      { code: 'DV03', name: 'Buổi lẻ 60 – 120 phút', priceLabel: 'từ 355.000đ', priceVnd: 355000, schemaName: 'Massage mẹ 60–120 phút (buổi lẻ)' },
     ],
   },
   {
@@ -169,6 +169,8 @@ export const bookingServiceOptions = [
   'Tắm bé / Float',
   'Thông tắc tia sữa',
   'Massage cho mẹ',
+  'Gói liệu trình mẹ bầu',
+  'Gói liệu trình sau sinh',
   'Gội đầu tại nhà',
   'Xông hơi tại nhà',
   'Trông bé tại nhà',

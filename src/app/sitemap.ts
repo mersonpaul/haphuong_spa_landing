@@ -25,6 +25,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: `${site.url}/goi-lieu-trinh`,
+      lastModified: latestUpdate,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${site.url}/hinh-anh`,
+      lastModified: latestUpdate,
+      changeFrequency: 'weekly',
+      priority: 0.6,
+    },
+    {
       url: `${site.url}/bai-viet`,
       lastModified: latestUpdate,
       changeFrequency: 'weekly',

@@ -6,7 +6,7 @@ keywords: ["chăm sóc bé mùa nắng nóng", "rôm sảy ở trẻ sơ sinh", 
 category: "Chọn dịch vụ"
 cover: images/cham-soc-me-va-be-mua-nong.png
 date: 2026-03-30
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 photo: https://images.pexels.com/photos/1116050/pexels-photo-1116050.jpeg?auto=compress&cs=tinysrgb&w=1200
 photoAlt: "Mẹ bế bé cười tươi dưới nắng vàng mùa hè ngoài trời"
@@ -15,7 +15,7 @@ faq:
   - q: "Trẻ sơ sinh nằm điều hoà bao nhiêu độ là tốt?"
     a: "Phòng của trẻ sơ sinh nên duy trì 26–28 độ C, độ ẩm khoảng 40–60%, không để luồng gió điều hoà thổi thẳng vào người bé. Dấu hiệu nhiệt độ phòng đang phù hợp: bé ngủ yên, da hồng hào, tay chân ấm và không đổ mồ hôi."
   - q: "Mùa hè có nên tắm cho bé mỗi ngày không?"
-    a: "Mùa hè bé ra nhiều mồ hôi nên có thể tắm mỗi ngày một lần để da sạch, ngừa rôm sảy — nhưng vẫn tắm bằng nước ấm khoảng 37–38 độ C chứ không dùng nước lạnh, mỗi lần tắm nhanh 5–10 phút ở nơi kín gió. Dịch vụ tắm bé tại nhà của Hà Phương Mom & Baby Care giá 60.000đ/buổi, khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội."
+    a: "Mùa hè bé ra nhiều mồ hôi nên có thể tắm mỗi ngày một lần để da sạch, ngừa rôm sảy — nhưng vẫn tắm bằng nước ấm khoảng 37–38 độ C chứ không dùng nước lạnh, mỗi lần tắm nhanh 5–10 phút ở nơi kín gió. Dịch vụ tắm bé tại nhà của Hà Phương Mom & Baby Care giá 150.000đ/buổi (gói 10 buổi 1.200.000đ), khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội."
   - q: "Mẹ cho con bú mùa nóng cần uống bao nhiêu nước?"
     a: "Mẹ đang cho con bú cần khoảng 2,5–3 lít nước mỗi ngày, mùa nắng nóng ra nhiều mồ hôi có thể cần nhiều hơn. Cách dễ nhớ: uống một cốc nước ấm mỗi lần ngồi cho bé bú và uống thêm khi thấy khát, nước tiểu sẫm màu là dấu hiệu đang thiếu nước."
 ---
@@ -64,6 +64,6 @@ Nhiều mẹ nghĩ trời nóng thì tắm nước mát cho bé "cho đã" — t
 
 ## Mùa nóng, để Hà Phương đến tận nhà thay mẹ
 
-Trời 39–40 độ, bế bé ra đường là điều không mẹ nào muốn. Đội ngũ Hà Phương phục vụ tận nhà khu vực Vinhomes Smart City — Tây Mỗ — Nam Từ Liêm, Hà Nội: **tắm bé 60.000đ/buổi** mát sạch ngừa rôm sảy, **gội đầu 70.000đ/buổi** cho mẹ sảng khoái không cần ra tiệm, **massage cho mẹ 60–120 phút giá 90.000đ–150.000đ/buổi** đánh bay mệt mỏi ngày oi bức. Hotline/Zalo: **0987 475 822** (8:00–17:30).
+Trời 39–40 độ, bế bé ra đường là điều không mẹ nào muốn. Đội ngũ Hà Phương phục vụ tận nhà khu vực Vinhomes Smart City — Tây Mỗ — Nam Từ Liêm, Hà Nội: **tắm bé 150.000đ/buổi** (gói 10 buổi chỉ 1.200.000đ) mát sạch ngừa rôm sảy, **gội đầu 100.000đ/buổi** cho mẹ sảng khoái không cần ra tiệm, **massage cho mẹ từ 355.000đ/buổi lẻ hoặc theo gói liệu trình** đánh bay mệt mỏi ngày oi bức. Hotline/Zalo: **0987 475 822** (8:00–17:30).
 
 *Bài viết mang tính tham khảo, không thay thế chẩn đoán y khoa.*

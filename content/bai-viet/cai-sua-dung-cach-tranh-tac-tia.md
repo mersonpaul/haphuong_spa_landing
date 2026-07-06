@@ -6,7 +6,7 @@ keywords: ["cai sữa đúng cách", "cai sữa cho bé", "cai sữa bị tắc 
 category: "Sữa mẹ"
 cover: images/cai-sua-dung-cach-tranh-tac-tia.png
 date: 2026-02-12
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 photo: "https://images.pexels.com/photos/7491270/pexels-photo-7491270.jpeg?auto=compress&cs=tinysrgb&w=1200"
 photoAlt: "Mẹ bế và cho em bé bú trong phòng khách ấm áp"
@@ -17,7 +17,7 @@ faq:
   - q: "Đang cai sữa bị căng tức ngực phải làm sao?"
     a: "Khi cai sữa bị căng tức, mẹ vắt hoặc hút một lượng nhỏ vừa đủ dễ chịu (không vắt kiệt), chườm mát 15 phút mỗi lần, mặc áo ngực nâng đỡ thay vì bó chặt. Nếu sờ thấy cục cứng không tan sau 48 giờ hoặc sốt trên 38,5°C, mẹ cần được hỗ trợ thông tắc hoặc đi khám."
   - q: "Đang cai sữa bị tắc tia ở Nam Từ Liêm, Hà Nội thì gọi ai?"
-    a: "Hà Phương Mom & Baby Care nhận thông tắc tia sữa tại nhà khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội và lân cận: tắc sữa 150.000đ/buổi, tắc sữa viêm 180.000đ/buổi, cương sữa sinh lý 120.000đ/buổi — hỗ trợ khẩn trong ngày, hotline/Zalo 0987 475 822 (8:00–17:30)."
+    a: "Hà Phương Mom & Baby Care nhận thông tắc tia sữa tại nhà khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội và lân cận: từ 350.000đ/buổi tuỳ tình trạng (cương sữa sinh lý, tắc sữa, tắc sữa viêm) — hỗ trợ khẩn trong ngày, hotline/Zalo 0987 475 822 (8:00–17:30)."
 ---
 
 **Trả lời nhanh:** Cách cai sữa an toàn nhất là **giảm dần: bỏ một cữ bú, chờ 3–5 ngày rồi mới bỏ cữ tiếp theo**, kéo dài tổng cộng 2–4 tuần để ngực kịp giảm sản xuất sữa một cách tự nhiên. Cai sữa đột ngột là nguyên nhân hàng đầu khiến mẹ bị cương sữa, tắc tia sữa, viêm tuyến vú — thậm chí áp xe vú phải chích rạch.
@@ -61,6 +61,6 @@ Xử lý trong 24–48 giờ đầu gần như luôn nhẹ nhàng hơn rất nhi
 
 ## Hà Phương đồng hành cùng mẹ trong giai đoạn cai sữa
 
-Nếu mẹ đang cai sữa mà ngực nổi cục, căng đau không tự xử lý được, kỹ thuật viên của Hà Phương sẽ đến tận nhà khu vực Vinhomes Smart City, Nam Từ Liêm (Hà Nội) massage thông tắc không đau, hỗ trợ khẩn trong ngày: cương sữa sinh lý 120.000đ/buổi, tắc sữa 150.000đ/buổi, tắc sữa viêm 180.000đ/buổi. Mẹ mệt mỏi vì con quấy đêm giai đoạn cai sữa có thể đặt thêm buổi massage cho mẹ 60–120 phút, giá 90.000đ–150.000đ để ngủ ngon hơn. Hotline/Zalo **0987 475 822**, phục vụ 8:00–17:30 cả cuối tuần.
+Nếu mẹ đang cai sữa mà ngực nổi cục, căng đau không tự xử lý được, kỹ thuật viên của Hà Phương sẽ đến tận nhà khu vực Vinhomes Smart City, Nam Từ Liêm (Hà Nội) massage thông tắc không đau, hỗ trợ khẩn trong ngày: từ 350.000đ/buổi tuỳ tình trạng (cương sữa sinh lý, tắc sữa hay tắc sữa viêm). Mẹ mệt mỏi vì con quấy đêm giai đoạn cai sữa có thể đặt thêm buổi massage cho mẹ từ 355.000đ/buổi lẻ, hoặc chọn gói liệu trình phục hồi sau sinh (xem [gói liệu trình](/goi-lieu-trinh)) để ngủ ngon hơn. Hotline/Zalo **0987 475 822**, phục vụ 8:00–17:30 cả cuối tuần.
 
 *Bài viết mang tính tham khảo, không thay thế chẩn đoán y khoa.*

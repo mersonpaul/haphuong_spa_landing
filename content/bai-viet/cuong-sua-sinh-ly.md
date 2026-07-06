@@ -6,7 +6,7 @@ keywords: ["cương sữa sinh lý", "sữa về căng tức", "ngực căng sau
 category: "Sữa mẹ"
 cover: images/cuong-sua-sinh-ly.png
 date: 2026-06-01
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 faq:
   - q: "Cương sữa sinh lý kéo dài mấy ngày?"
@@ -38,6 +38,6 @@ faq:
 - Bé không ngậm bú được dù đã vắt mềm quầng vú
 - Sốt, đỏ lan, đau tăng nhanh
 
-Buổi xử lý **cương sữa sinh lý / tắc sữa non của Hà Phương giá 120.000đ tại nhà** — kỹ thuật viên massage không đau, hướng dẫn mẹ tự duy trì, hỗ trợ khẩn trong ngày khu vực Vinhomes Smart City — Nam Từ Liêm. Hotline/Zalo: **0987 475 822**.
+Dịch vụ **thông tắc tia sữa của Hà Phương từ 350.000đ/buổi tuỳ tình trạng** (cương sữa sinh lý, tắc sữa non, tắc sữa viêm, kích sữa), thực hiện tại nhà — kỹ thuật viên massage không đau, hướng dẫn mẹ tự duy trì, hỗ trợ khẩn trong ngày khu vực Vinhomes Smart City — Nam Từ Liêm. Hotline/Zalo: **0987 475 822**.
 
 *Bài viết mang tính tham khảo, không thay thế tư vấn y khoa.*

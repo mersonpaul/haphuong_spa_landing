@@ -34,6 +34,8 @@ const ALLOWED_SERVICES = new Set([
   'Tắm bé / Float',
   'Thông tắc tia sữa',
   'Massage cho mẹ',
+  'Gói liệu trình mẹ bầu',
+  'Gói liệu trình sau sinh',
   'Gội đầu tại nhà',
   'Xông hơi tại nhà',
   'Trông bé tại nhà',

@@ -6,7 +6,7 @@ keywords: ["tư thế cho con bú", "khớp ngậm đúng", "cách cho con bú k
 category: "Sữa mẹ"
 cover: images/tu-the-cho-con-bu-dung-khop-ngam.png
 date: 2026-01-06
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 photo: "https://images.pexels.com/photos/32830547/pexels-photo-32830547.jpeg?auto=compress&cs=tinysrgb&w=1200"
 photoAlt: "Cận cảnh em bé sơ sinh ngậm bắt vú mẹ đúng khớp trong ánh sáng ấm áp"
@@ -51,7 +51,7 @@ Vì vậy, cho con bú đúng cách gần như **không nên đau**. Cảm giác
 
 ## Hà Phương đồng hành cùng mẹ những ngày đầu
 
-Những tuần đầu cho con bú luôn là quãng nhiều bỡ ngỡ. Nếu mẹ ở Vinhomes Smart City, Tây Mỗ, Nam Từ Liêm hay khu vực lân cận tại Hà Nội đang loay hoay với tư thế bú, đầu ti đau hoặc bầu ngực căng tức, kỹ thuật viên của Hà Phương có thể đến tận nhà quan sát cữ bú, chỉnh khớp ngậm và xử lý sớm khi có dấu hiệu cương tắc: cương sữa sinh lý và tắc sữa non 120.000đ/buổi, tắc sữa 150.000đ/buổi. Mẹ muốn thư giãn phục hồi có thể đặt kèm massage cho mẹ 60–120 phút, giá 90.000đ–150.000đ.
+Những tuần đầu cho con bú luôn là quãng nhiều bỡ ngỡ. Nếu mẹ ở Vinhomes Smart City, Tây Mỗ, Nam Từ Liêm hay khu vực lân cận tại Hà Nội đang loay hoay với tư thế bú, đầu ti đau hoặc bầu ngực căng tức, kỹ thuật viên của Hà Phương có thể đến tận nhà quan sát cữ bú, chỉnh khớp ngậm và xử lý sớm khi có dấu hiệu cương tắc: thông tắc tia sữa từ 350.000đ/buổi tuỳ tình trạng. Mẹ muốn thư giãn phục hồi có thể đặt kèm massage cho mẹ, buổi lẻ từ 355.000đ hoặc theo [gói liệu trình](/goi-lieu-trinh) tiết kiệm hơn.
 
 Gọi hoặc nhắn Zalo **0987 475 822** — Hà Phương xác nhận lịch trong khoảng 15 phút, 8:00–17:30 hằng ngày.
 

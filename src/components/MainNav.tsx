@@ -16,6 +16,8 @@ interface NavLink {
 
 const LINKS: NavLink[] = [
   { href: '/#dich-vu', id: 'dich-vu', label: 'Dịch vụ' },
+  { href: '/goi-lieu-trinh', id: 'goi-lieu-trinh', label: 'Gói liệu trình' },
+  { href: '/hinh-anh', id: 'hinh-anh', label: 'Hình ảnh' },
   { href: '/#cam-nhan', id: 'cam-nhan', label: 'Cảm nhận' },
   { href: '/bai-viet', id: 'bai-viet', label: 'Bài viết' },
   { href: '/#hoi-dap', id: 'hoi-dap', label: 'Hỏi đáp' },
@@ -23,12 +25,19 @@ const LINKS: NavLink[] = [
 ];
 
 /** Landing sections tracked by the scrollspy, in page order */
-const SECTION_IDS = ['dich-vu', 'cam-nhan', 'hoi-dap', 'lien-he'];
+const SECTION_IDS = ['dich-vu', 'goi-lieu-trinh', 'cam-nhan', 'hoi-dap', 'lien-he'];
 
 export function MainNav() {
   const pathname = usePathname();
-  const isBlogPage = pathname.startsWith('/bai-viet');
   const [active, setActive] = useState<string | null>(null);
+  // Standalone pages get a fixed active nav item; the landing uses scrollspy.
+  const pagePrefixes: Record<string, string> = {
+    '/bai-viet': 'bai-viet',
+    '/goi-lieu-trinh': 'goi-lieu-trinh',
+    '/hinh-anh': 'hinh-anh',
+  };
+  const activePage =
+    Object.entries(pagePrefixes).find(([prefix]) => pathname.startsWith(prefix))?.[1] ?? null;
 
   // Anchor scrolling must clear the sticky header, whose height changes as it
   // wraps on smaller screens — measure it instead of guessing breakpoints.
@@ -45,8 +54,8 @@ export function MainNav() {
   }, []);
 
   useEffect(() => {
-    if (isBlogPage) {
-      setActive('bai-viet');
+    if (activePage) {
+      setActive(activePage);
       return;
     }
 
@@ -74,7 +83,7 @@ export function MainNav() {
       window.removeEventListener('scroll', handleScroll);
       if (frame) cancelAnimationFrame(frame);
     };
-  }, [isBlogPage]);
+  }, [activePage]);
 
   return (
     <nav aria-label="Điều hướng chính" className="main-nav">

@@ -6,7 +6,7 @@ keywords: ["dinh dưỡng cho mẹ cho con bú", "thực phẩm lợi sữa", "m
 category: "Sữa mẹ"
 cover: images/che-do-dinh-duong-me-cho-con-bu.png
 date: 2026-02-04
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 photo: "https://images.pexels.com/photos/1660027/pexels-photo-1660027.jpeg?auto=compress&cs=tinysrgb&w=1200"
 photoAlt: "Rau cải xanh, bơ, cà chua và dâu tây tươi — nhóm thực phẩm giàu vitamin cho mẹ đang cho con bú"
@@ -17,7 +17,7 @@ faq:
   - q: "Ăn móng giò có giúp mẹ nhiều sữa hơn không?"
     a: "Chưa có bằng chứng khoa học cho thấy móng giò làm tăng lượng sữa mẹ. Sữa tiết nhiều hay ít phụ thuộc chủ yếu vào việc bé bú hoặc mẹ hút sữa đều đặn. Ăn quá nhiều móng giò còn dễ gây đầy bụng, tăng cân nhanh sau sinh."
   - q: "Mẹ ít sữa ở Hà Nội thì tìm hỗ trợ kích sữa ở đâu?"
-    a: "Hà Phương Mom & Baby Care có dịch vụ kích sữa 120.000đ/buổi, kỹ thuật viên đến tận nhà khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội và lân cận. Đặt lịch qua hotline/Zalo 0987 475 822, phục vụ 8:00–17:30 hằng ngày."
+    a: "Hà Phương Mom & Baby Care có dịch vụ kích sữa từ 350.000đ/buổi tuỳ tình trạng, kỹ thuật viên đến tận nhà khu vực Vinhomes Smart City, Nam Từ Liêm, Hà Nội và lân cận. Đặt lịch qua hotline/Zalo 0987 475 822, phục vụ 8:00–17:30 hằng ngày."
 ---
 
 **Trả lời nhanh:** Lượng sữa mẹ nhiều hay ít được quyết định chủ yếu bởi việc bé bú (hoặc mẹ hút sữa) đều đặn — không phải bởi một món ăn "thần dược" nào. Về dinh dưỡng, mẹ cho con bú chỉ cần thêm khoảng **330–400 kcal/ngày**, uống đủ nước theo cơn khát (khoảng **2–2,5 lít**), giữ caffeine **dưới 300mg/ngày** và tránh rượu bia. Móng giò không lợi sữa như lời đồn.
@@ -62,6 +62,6 @@ Mỗi ngày cơ thể mẹ "chuyển" trung bình 700–750ml nước vào sữa
 
 ## Khi mẹ đã ăn đủ mà sữa vẫn chậm về
 
-Nếu mẹ ăn uống đầy đủ, cho bú đều mà sữa vẫn ít, nguyên nhân thường nằm ở khớp ngậm của bé, lịch bú chưa hợp lý hoặc ống dẫn sữa chưa thông — lúc này cần bàn tay chuyên môn hơn là thêm một bát móng giò. Kỹ thuật viên của Hà Phương hỗ trợ kích sữa 120.000đ/buổi và xử lý cương sữa sinh lý, tắc sữa non 120.000đ/buổi ngay tại nhà mẹ ở Vinhomes Smart City, Nam Từ Liêm và khu vực lân cận. Mẹ muốn thư giãn phục hồi sau sinh có thể đặt kèm buổi massage cho mẹ 60–120 phút, giá 90.000đ–150.000đ. Gọi hoặc nhắn Zalo **0987 475 822** (8:00–17:30 hằng ngày), Hà Phương xác nhận lịch trong khoảng 15 phút.
+Nếu mẹ ăn uống đầy đủ, cho bú đều mà sữa vẫn ít, nguyên nhân thường nằm ở khớp ngậm của bé, lịch bú chưa hợp lý hoặc ống dẫn sữa chưa thông — lúc này cần bàn tay chuyên môn hơn là thêm một bát móng giò. Kỹ thuật viên của Hà Phương hỗ trợ kích sữa và xử lý cương sữa, tắc tia sữa từ 350.000đ/buổi tuỳ tình trạng, ngay tại nhà mẹ ở Vinhomes Smart City, Nam Từ Liêm và khu vực lân cận. Mẹ muốn thư giãn phục hồi sau sinh có thể đặt buổi massage cho mẹ từ 355.000đ/buổi lẻ, hoặc chọn gói liệu trình phục hồi sau sinh (xem [gói liệu trình](/goi-lieu-trinh)). Gọi hoặc nhắn Zalo **0987 475 822** (8:00–17:30 hằng ngày), Hà Phương xác nhận lịch trong khoảng 15 phút.
 
 *Bài viết mang tính tham khảo, không thay thế chẩn đoán y khoa.*

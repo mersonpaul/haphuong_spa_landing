@@ -1,12 +1,12 @@
 ---
 title: "Massage, xông hơi tại nhà cho mẹ sau sinh: chuẩn bị gì trước và sau buổi?"
 slug: chuan-bi-gi-truoc-buoi-massage-xong-hoi-tai-nha
-description: "Massage, xông hơi tại nhà cho mẹ sau sinh: chuẩn bị phòng kín gió, chọn giờ sau cữ bú, xông 15–20 phút. Xông 100.000đ, kèm massage chỉ 50.000đ."
+description: "Massage, xông hơi tại nhà cho mẹ sau sinh: chuẩn bị phòng kín gió, chọn giờ sau cữ bú, xông 15–20 phút. Xông hơi 200.000đ/buổi, massage từ 355.000đ/buổi."
 keywords: ["massage xông hơi tại nhà", "xông hơi sau sinh", "massage sau sinh tại nhà", "chuẩn bị xông hơi sau sinh", "massage cho mẹ Hà Nội"]
 category: "Chọn dịch vụ"
 cover: images/chuan-bi-gi-truoc-buoi-massage-xong-hoi-tai-nha.png
 date: 2025-10-01
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 photo: "https://images.pexels.com/photos/5794048/pexels-photo-5794048.jpeg?auto=compress&cs=tinysrgb&w=1200"
 photoAlt: "Mẹ nằm thư giãn trên bàn massage, kỹ thuật viên xoa bóp lưng nhẹ nhàng"
@@ -15,7 +15,7 @@ faq:
   - q: "Mẹ cần chuẩn bị gì trước buổi massage, xông hơi tại nhà?"
     a: "Trước buổi massage hoặc xông hơi tại nhà, mẹ chuẩn bị một góc phòng kín gió, đủ ấm và yên tĩnh, một chiếc giường hoặc nệm phẳng cho massage, khăn khô và quần áo ấm để thay. Nên chọn lúc bé vừa bú no và đang ngủ, không ăn quá no ngay trước buổi. Kỹ thuật viên Hà Phương mang lều xông và thảo dược đến, mẹ không cần chuẩn bị dụng cụ."
   - q: "Mẹ sinh mổ khi nào mới xông hơi được?"
-    a: "Mẹ sinh mổ nên đợi vết mổ khô hẳn rồi mới xông hơi, tốt nhất là sau sinh khoảng 1 tuần, và tránh tác động trực tiếp lên vùng vết mổ; nếu chưa chắc nên hỏi ý kiến bác sĩ. Mẹ sinh thường thường có thể xông hơi sau sinh khoảng 4 ngày. Xông hơi tại nhà của Hà Phương là 100.000đ/buổi, chỉ 50.000đ khi kèm một buổi massage."
+    a: "Mẹ sinh mổ nên đợi vết mổ khô hẳn rồi mới xông hơi, tốt nhất là sau sinh khoảng 1 tuần, và tránh tác động trực tiếp lên vùng vết mổ; nếu chưa chắc nên hỏi ý kiến bác sĩ. Mẹ sinh thường thường có thể xông hơi sau sinh khoảng 4 ngày. Xông hơi tại nhà của Hà Phương là 200.000đ/buổi."
   - q: "Một buổi xông hơi nên kéo dài bao lâu?"
     a: "Mỗi buổi xông hơi cho mẹ sau sinh chỉ nên kéo dài 15–20 phút, khi nước xông nguội thì dừng để tránh nhiễm lạnh. Không xông khi đang sốt, cao huyết áp, có vết thương hở, trong kỳ kinh nguyệt hoặc vừa ăn no. Sau khi xông, mẹ lau khô người, mặc ấm và uống một cốc nước ấm."
 ---
@@ -56,9 +56,9 @@ Kỹ thuật viên mang **lều xông và thảo dược** đến nhà, đun nư
 
 ## Bảng giá massage, xông hơi tại nhà của Hà Phương
 
-- **Massage cho mẹ:** gói 60 / 70 / 90 / 100 / 120 phút — **90.000đ – 150.000đ/buổi**.
-- **Xông hơi tại nhà:** **100.000đ/buổi**, chỉ **50.000đ** khi đặt kèm một buổi massage.
-- **Gội đầu dưỡng sinh tại nhà:** 70.000đ/buổi — mẹ có thể ghép cùng buổi massage.
+- **Massage cho mẹ:** buổi lẻ **từ 355.000đ** (gói 60 – 120 phút); mẹ chăm sóc đều đặn nên chọn [gói liệu trình](/goi-lieu-trinh) để tiết kiệm hơn.
+- **Xông hơi tại nhà:** **200.000đ/buổi** — có thể ghép ngay sau buổi massage.
+- **Gội đầu dưỡng sinh tại nhà:** 100.000đ/buổi — mẹ có thể ghép cùng buổi massage.
 
 Chuyên viên đến tận nhà khu vực **Vinhomes Smart City & lân cận (Nam Từ Liêm, Hà Nội)**. Đặt lịch qua hotline/Zalo **0987 475 822**, giờ **8:00–17:30**. Trước buổi, Hà Phương sẽ nhắn Zalo dặn mẹ chuẩn bị cụ thể — mẹ không phải nhớ gì cả.
 

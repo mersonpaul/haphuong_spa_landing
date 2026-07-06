@@ -6,7 +6,7 @@ keywords: ["tắm bé sơ sinh", "tắm bé đúng cách", "nhiệt độ nướ
 category: "Tắm bé & Float"
 cover: images/tam-be-so-sinh-dung-cach.png
 date: 2026-04-10
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 photo: "https://images.pexels.com/photos/6849421/pexels-photo-6849421.jpeg?auto=compress&cs=tinysrgb&w=1200"
 photoAlt: "Bàn tay mẹ nhẹ nhàng tắm cho em bé với bọt xà phòng"
@@ -49,6 +49,6 @@ faq:
 
 ## Nếu mẹ chưa tự tin?
 
-Buổi **tắm bé của Hà Phương giá 60.000đ** (tại spa hoặc tại nhà, khu vực Tây Mỗ — Nam Từ Liêm, Hà Nội): kỹ thuật viên tắm thảo dược dịu nhẹ đúng quy trình, massage, vệ sinh rốn và hướng dẫn mẹ thao tác đến khi tự tin. Hotline/Zalo: **0987 475 822**.
+Buổi **tắm bé của Hà Phương giá 150.000đ/buổi lẻ, gói 10 buổi chỉ 1.200.000đ** (tại spa hoặc tại nhà, khu vực Tây Mỗ — Nam Từ Liêm, Hà Nội): kỹ thuật viên tắm thảo dược dịu nhẹ đúng quy trình, massage, vệ sinh rốn và hướng dẫn mẹ thao tác đến khi tự tin. Hotline/Zalo: **0987 475 822**.
 
 *Bài viết mang tính tham khảo, không thay thế hướng dẫn y khoa cá nhân.*

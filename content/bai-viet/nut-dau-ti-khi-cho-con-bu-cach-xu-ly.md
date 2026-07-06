@@ -6,7 +6,7 @@ keywords: ["nứt đầu ti", "đau đầu ti khi cho con bú", "nứt cổ gà"
 category: "Sữa mẹ"
 cover: images/nut-dau-ti-khi-cho-con-bu-cach-xu-ly.png
 date: 2026-01-24
-updated: 2026-07-05
+updated: "2026-07-06"
 author: "Hà Phương Mom & Baby Care"
 photo: "https://images.pexels.com/photos/17898538/pexels-photo-17898538.jpeg?auto=compress&cs=tinysrgb&w=1200"
 photoAlt: "Cận cảnh em bé ngậm bắt vú mẹ — khớp ngậm đúng giúp phòng nứt đầu ti"
@@ -51,7 +51,7 @@ Tuy vậy, mẹ nên **đi khám** khi: đau rát bỏng kèm ngứa nghi nhiễ
 
 ## Hà Phương giúp mẹ xử lý sớm để bú không còn là cực hình
 
-Đầu ti nứt kéo dài dễ khiến bé bú ít, sữa ứ lại rồi cương tắc — một vòng luẩn quẩn. Nếu mẹ ở Vinhomes Smart City, Tây Mỗ, Nam Từ Liêm hay khu vực lân cận (Hà Nội), kỹ thuật viên của Hà Phương Mom & Baby Care có thể đến tận nhà quan sát cữ bú, chỉnh khớp ngậm và xử lý khi ngực bắt đầu cương tắc: cương sữa sinh lý và tắc sữa non 120.000đ/buổi, tắc sữa 150.000đ/buổi, tắc sữa viêm 180.000đ/buổi. Mẹ cần thư giãn phục hồi có thể đặt kèm massage cho mẹ 60–120 phút, giá 90.000đ–150.000đ.
+Đầu ti nứt kéo dài dễ khiến bé bú ít, sữa ứ lại rồi cương tắc — một vòng luẩn quẩn. Nếu mẹ ở Vinhomes Smart City, Tây Mỗ, Nam Từ Liêm hay khu vực lân cận (Hà Nội), kỹ thuật viên của Hà Phương Mom & Baby Care có thể đến tận nhà quan sát cữ bú, chỉnh khớp ngậm và xử lý khi ngực bắt đầu cương tắc: thông tắc tia sữa từ 350.000đ/buổi tuỳ tình trạng. Mẹ cần thư giãn phục hồi có thể đặt kèm massage cho mẹ, buổi lẻ từ 355.000đ hoặc theo [gói liệu trình](/goi-lieu-trinh) tiết kiệm hơn.
 
 Gọi hoặc nhắn Zalo **0987 475 822** — Hà Phương xác nhận lịch trong khoảng 15 phút, 8:00–17:30 hằng ngày.
 
