@@ -16,7 +16,7 @@ export function Hero() {
             ôm ấp bé.
           </h1>
           <p className="hero__desc">
-            Tắm bé &amp; bơi float, thông tắc tia sữa, massage sau sinh, gội đầu — xông hơi và
+            Tắm bé &amp; bơi float, thông tắc tia sữa, massage sau sinh, gội đầu - xông hơi và
             trông bé ngay tại nhà bạn. Chăm sóc bằng đôi tay chuyên môn và sự dịu dàng của người
             thân.
           </p>

@@ -12,4 +12,4 @@ credentials/
 credentials/
 *.env
 .dev.vars
-references/
+references/*.tsbuildinfo

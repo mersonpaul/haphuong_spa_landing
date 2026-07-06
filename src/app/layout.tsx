@@ -22,12 +22,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
     default:
-      'Ha Phuong Mom & Baby Care — Tắm bé & Float, Thông tắc tia sữa, Massage sau sinh, Chăm sóc tại nhà',
-    template: `%s — ${site.name}`,
+      'Ha Phuong Mom & Baby Care - Tắm bé & Float, Thông tắc tia sữa, Massage sau sinh, Chăm sóc tại nhà',
+    template: `%s - ${site.name}`,
   },
   description: site.description,
   openGraph: {
-    title: 'Ha Phuong Mom & Baby Care — Spa mẹ và bé, chăm sóc tại nhà',
+    title: 'Ha Phuong Mom & Baby Care - Spa mẹ và bé, chăm sóc tại nhà',
     description:
       'Tắm bé & float, thông tắc tia sữa, massage sau sinh, gội & xông hơi, trông bé tại nhà. Đặt lịch qua điện thoại, Zalo, Facebook.',
     url: '/',

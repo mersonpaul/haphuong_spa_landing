@@ -40,7 +40,7 @@ export function MainNav() {
     Object.entries(pagePrefixes).find(([prefix]) => pathname.startsWith(prefix))?.[1] ?? null;
 
   // Anchor scrolling must clear the sticky header, whose height changes as it
-  // wraps on smaller screens — measure it instead of guessing breakpoints.
+  // wraps on smaller screens - measure it instead of guessing breakpoints.
   useEffect(() => {
     function applyScrollPadding() {
       const header = document.querySelector<HTMLElement>('.site-header');

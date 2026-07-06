@@ -13,7 +13,7 @@ interface FormState {
   service: string;
   date: string;
   note: string;
-  /** Honeypot — humans never see or fill this field */
+  /** Honeypot - humans never see or fill this field */
   website: string;
 }
 
@@ -35,7 +35,7 @@ export function BookingForm() {
   const [error, setError] = useState<ErrorKind>(null);
 
   // "Đặt gói này" links from /goi-lieu-trinh carry ?goi=<tên gói>&nhom=<me-bau|sau-sinh>
-  // — preselect the package service and prefill the note with the package name.
+  // - preselect the package service and prefill the note with the package name.
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const packageName = params.get('goi');
@@ -62,7 +62,7 @@ export function BookingForm() {
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    // Only the phone number is required — the spa calls back to confirm details.
+    // Only the phone number is required - the spa calls back to confirm details.
     const phoneDigits = normalizeVnPhone(form.phone);
     if (!phoneDigits) {
       setError('phone-required');
@@ -179,7 +179,7 @@ export function BookingForm() {
             placeholder="Ví dụ: bé 3 tháng, muốn làm tại nhà buổi sáng..."
           />
         </label>
-        {/* Honeypot field for spam bots — hidden from real users */}
+        {/* Honeypot field for spam bots - hidden from real users */}
         <div className="hp-field" aria-hidden="true">
           <label>
             Website
@@ -199,12 +199,12 @@ export function BookingForm() {
         )}
         {error === 'phone-invalid' && (
           <p id="booking-phone-error" className="booking-form__error">
-            Số điện thoại chưa đúng định dạng Việt Nam — mẹ kiểm tra lại giúp (ví dụ: 0987 475 822).
+            Số điện thoại chưa đúng định dạng Việt Nam - mẹ kiểm tra lại giúp (ví dụ: 0987 475 822).
           </p>
         )}
         {error === 'api' && (
           <p className="booking-form__error">
-            Chưa gửi được yêu cầu — mẹ vui lòng thử lại hoặc gọi hotline {site.hotline}.
+            Chưa gửi được yêu cầu - mẹ vui lòng thử lại hoặc gọi hotline {site.hotline}.
           </p>
         )}
         <button type="submit" className="btn-primary booking-form__submit" disabled={sending}>

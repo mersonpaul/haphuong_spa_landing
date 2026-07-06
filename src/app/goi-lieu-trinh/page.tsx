@@ -13,12 +13,12 @@ export const dynamic = 'force-static';
 export const metadata: Metadata = {
   title: 'Gói liệu trình chăm sóc mẹ bầu & sau sinh',
   description:
-    'Gói liệu trình của Ha Phuong Mom & Baby Care: massage bầu Nhật Bản combo 10 buổi từ 2.850.000đ, phục hồi sau sinh Đả Thông Kinh Lạc 3.600.000đ, Da Trắng Dáng Thon 5.900.000đ, Sau Sinh Hạnh Phúc VIP 7.350.000đ — cam kết giảm 5–26cm, nhiều quà tặng kèm theo.',
+    'Gói liệu trình của Ha Phuong Mom & Baby Care: massage bầu Nhật Bản combo 10 buổi từ 2.850.000đ, phục hồi sau sinh Đả Thông Kinh Lạc 3.600.000đ, Da Trắng Dáng Thon 5.900.000đ, Sau Sinh Hạnh Phúc VIP 7.350.000đ - cam kết giảm 5-26cm, nhiều quà tặng kèm theo.',
   alternates: { canonical: '/goi-lieu-trinh' },
   openGraph: {
-    title: `Gói liệu trình chăm sóc mẹ bầu & sau sinh — ${site.name}`,
+    title: `Gói liệu trình chăm sóc mẹ bầu & sau sinh - ${site.name}`,
     description:
-      'Massage bầu Nhật Bản combo 10 buổi, phục hồi sau sinh trọn liệu trình — cam kết hiệu quả, nhiều quà tặng.',
+      'Massage bầu Nhật Bản combo 10 buổi, phục hồi sau sinh trọn liệu trình - cam kết hiệu quả, nhiều quà tặng.',
     url: '/goi-lieu-trinh',
     type: 'website',
     locale: 'vi_VN',
@@ -51,8 +51,8 @@ export default function PackagesPage() {
             <p className="eyebrow">Gói liệu trình</p>
             <h1 className="packages-page__h1">Chăm sóc theo liệu trình, hiệu quả dài lâu</h1>
             <p className="section-sub">
-              Sức khỏe của mẹ cần được chăm sóc đều đặn — một liệu trình trọn vẹn luôn hiệu quả hơn
-              1 – 2 buổi lẻ. Đặt gói để nhận giá tốt nhất cùng nhiều quà tặng kèm theo.
+              Sức khỏe của mẹ cần được chăm sóc đều đặn - một liệu trình trọn vẹn luôn hiệu quả hơn
+              1 - 2 buổi lẻ. Đặt gói để nhận giá tốt nhất cùng nhiều quà tặng kèm theo.
             </p>
           </div>
 
@@ -78,7 +78,7 @@ export default function PackagesPage() {
             <a href={site.telHref} className="packages-page__tel">
               {site.hotline}
             </a>{' '}
-            — {site.shortName} tư vấn theo tình trạng của mẹ. Tất cả các gói đặt lịch linh hoạt{' '}
+            - {site.shortName} tư vấn theo tình trạng của mẹ. Tất cả các gói đặt lịch linh hoạt{' '}
             {site.gioMoCuaNgan}.
           </p>
         </section>

@@ -21,7 +21,7 @@ export function PackageDetails({ pkg }: { pkg: CarePackage }) {
     dialogRef.current?.close();
   }
 
-  // Fires on every close path (X button, ESC, backdrop click) — unlock scroll
+  // Fires on every close path (X button, ESC, backdrop click) - unlock scroll
   function handleClose() {
     document.body.style.overflow = '';
   }

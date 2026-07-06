@@ -5,7 +5,7 @@ import { faqItems } from '@/data/faq';
 import type { PostMeta, PostFaq } from '@/lib/posts';
 
 /**
- * JSON-LD builders — all schema blocks are server-rendered into the static
+ * JSON-LD builders - all schema blocks are server-rendered into the static
  * HTML so search engines and AI agents read them without executing JS.
  */
 
@@ -43,7 +43,7 @@ export function localBusinessJsonLd() {
         closes: '17:30',
       },
     ],
-    priceRange: '85.000đ – 7.350.000đ',
+    priceRange: '85.000đ - 7.350.000đ',
     currenciesAccepted: 'VND',
     areaServed: 'Vinhomes Smart City, Nam Từ Liêm, Hà Nội và khu vực lân cận',
     hasOfferCatalog: {
@@ -71,7 +71,7 @@ function packageOffers() {
         '@type': 'Offer',
         itemOffered: {
           '@type': 'Service',
-          name: `Gói ${pkg.name} — buổi lẻ ${pkg.sessionMinutes} phút`,
+          name: `Gói ${pkg.name} - buổi lẻ ${pkg.sessionMinutes} phút`,
         },
         price: String(pkg.singlePriceVnd),
         priceCurrency: 'VND',
@@ -81,7 +81,7 @@ function packageOffers() {
       '@type': 'Offer',
       itemOffered: {
         '@type': 'Service',
-        name: `Gói ${pkg.name} — ${pkg.sessionCount} buổi (${pkg.sessionMinutes} phút/buổi)`,
+        name: `Gói ${pkg.name} - ${pkg.sessionCount} buổi (${pkg.sessionMinutes} phút/buổi)`,
         description: pkg.description,
       },
       price: String(pkg.packagePriceVnd),
@@ -97,14 +97,14 @@ export function packagesCatalogJsonLd() {
   return {
     '@context': 'https://schema.org',
     '@type': 'OfferCatalog',
-    name: `Gói liệu trình chăm sóc mẹ bầu & sau sinh — ${site.name}`,
+    name: `Gói liệu trình chăm sóc mẹ bầu & sau sinh - ${site.name}`,
     url: `${site.url}/goi-lieu-trinh`,
     itemListElement: carePackages.map((pkg) => ({
       '@type': 'Offer',
       itemOffered: {
         '@type': 'Service',
         name: `Gói ${pkg.name}`,
-        description: `${pkg.description} ${pkg.sessionCount} buổi, ${pkg.sessionMinutes} phút/buổi, ${pkg.stepCount} bước trị liệu — ${formatVnd(pkg.packagePriceVnd)}.${pkg.gift ? ` Tặng: ${pkg.gift}.` : ''}${pkg.commitment ? ` ${pkg.commitment}.` : ''}`,
+        description: `${pkg.description} ${pkg.sessionCount} buổi, ${pkg.sessionMinutes} phút/buổi, ${pkg.stepCount} bước trị liệu - ${formatVnd(pkg.packagePriceVnd)}.${pkg.gift ? ` Tặng: ${pkg.gift}.` : ''}${pkg.commitment ? ` ${pkg.commitment}.` : ''}`,
         provider: { '@id': `${site.url}/#business` },
       },
       price: String(pkg.packagePriceVnd),
@@ -150,7 +150,7 @@ export function blogListJsonLd(posts: PostMeta[]) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Blog',
-    name: `Bài viết — ${site.name}`,
+    name: `Bài viết - ${site.name}`,
     url: `${site.url}/bai-viet`,
     inLanguage: 'vi',
     publisher: { '@type': 'Organization', name: site.name, url: site.url },

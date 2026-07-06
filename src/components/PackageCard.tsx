@@ -4,7 +4,7 @@ import { formatVnd, type CarePackage } from '@/data/packages';
 /**
  * One treatment-package card: prices (package price emphasized), gift,
  * commitment and a "Chi tiết liệu trình" button that opens a modal dialog
- * with the full step-by-step therapy — the steps are server-rendered inside
+ * with the full step-by-step therapy - the steps are server-rendered inside
  * the dialog so search engines and AI agents can still read them.
  */
 export function PackageCard({ pkg }: { pkg: CarePackage }) {

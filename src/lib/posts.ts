@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 import { marked } from 'marked';
 
 /**
- * Blog content layer — reads markdown files from content/bai-viet at build time.
+ * Blog content layer - reads markdown files from content/bai-viet at build time.
  * Everything is resolved during `next build` (SSG); nothing runs on the client.
  */
 

@@ -10,7 +10,7 @@ import { Footer } from '@/components/Footer';
 import { FloatingContacts } from '@/components/FloatingContacts';
 import { localBusinessJsonLd, faqPageJsonLd, jsonLdString } from '@/lib/jsonld';
 
-// Fully static page — all content (prices, FAQ, NAP, JSON-LD) is in the
+// Fully static page - all content (prices, FAQ, NAP, JSON-LD) is in the
 // server-rendered HTML for SEO/GEO. Only the booking form runs client JS.
 export const dynamic = 'force-static';
 

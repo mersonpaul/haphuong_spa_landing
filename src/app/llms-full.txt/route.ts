@@ -8,7 +8,7 @@ import { faqItems } from '@/data/faq';
 import { getAllPostMeta } from '@/lib/posts';
 
 /**
- * /llms-full.txt — expanded companion to /llms.txt (llmstxt.org convention).
+ * /llms-full.txt - expanded companion to /llms.txt (llmstxt.org convention).
  * Contains the business facts PLUS the full markdown body of every article,
  * so AI agents can ingest the whole site from a single plain-text file.
  */
@@ -42,7 +42,7 @@ export function GET(): Response {
       return [
         `## ${post.title}`,
         `URL: ${site.url}/bai-viet/${post.slug}`,
-        `Chủ đề: ${post.category} · Đăng: ${post.date} · Cập nhật: ${post.updated}`,
+        `Chủ đề: ${post.category}, đăng: ${post.date}, cập nhật: ${post.updated}`,
         '',
         content.trim(),
         faq ? `\n### Câu hỏi thường gặp\n\n${faq}` : '',
@@ -50,7 +50,7 @@ export function GET(): Response {
     })
     .join('\n\n---\n\n');
 
-  const body = `# ${site.name} — Toàn bộ nội dung website
+  const body = `# ${site.name} - Toàn bộ nội dung website
 
 > ${site.tagline}. ${site.description}
 
@@ -72,7 +72,7 @@ ${priceSection}
 
 Lưu ý: spa bán theo buổi lẻ hoặc theo gói (ví dụ gói 10 buổi tắm bé 1.200.000đ). Đặt lịch qua hotline/Zalo ${site.hotline}, xác nhận trong 15 phút.
 
-## Gói liệu trình (bán theo gói — khuyến nghị cho hiệu quả dài hạn)
+## Gói liệu trình (bán theo gói - khuyến nghị cho hiệu quả dài hạn)
 
 URL: ${site.url}/goi-lieu-trinh
 

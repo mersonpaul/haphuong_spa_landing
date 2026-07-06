@@ -1,4 +1,4 @@
-/** Testimonials — placeholder quotes from the handoff, replace with real reviews when available. */
+/** Testimonials - placeholder quotes from the handoff, replace with real reviews when available. */
 export interface Testimonial {
   quote: string;
   name: string;
@@ -12,7 +12,7 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
   {
     quote:
-      '“Tắc tia sữa 3 ngày, đau phát sốt. Gọi 8 giờ tối mà 9 giờ chị kỹ thuật viên đã có mặt tại nhà, làm xong nhẹ cả người. Biết ơn lắm!”',
+      '"Tắc tia sữa 3 ngày, đau phát sốt. Gọi 8 giờ tối mà 9 giờ chị kỹ thuật viên đã có mặt tại nhà, làm xong nhẹ cả người. Biết ơn lắm!"',
     name: 'Chị Thu Hà',
     caption: 'Mẹ bé Sóc, 2 tháng',
     initial: 'H',
@@ -21,7 +21,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      '“Bé nhà mình mê bơi float ở đây, lần nào về cũng ngủ một mạch. Các cô nhẹ nhàng, phòng ốc sạch và thơm mùi thảo dược.”',
+      '"Bé nhà mình mê bơi float ở đây, lần nào về cũng ngủ một mạch. Các cô nhẹ nhàng, phòng ốc sạch và thơm mùi thảo dược."',
     name: 'Chị Minh Anh',
     caption: 'Mẹ bé Cam, 5 tháng',
     initial: 'M',

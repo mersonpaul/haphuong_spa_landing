@@ -1,7 +1,7 @@
 /**
  * Source of truth for the 6 treatment packages (goi lieu trinh).
  * Content is transcribed verbatim from the spa's printed menu
- * (references/menu/*.jpg) — do not invent steps, prices or gifts.
+ * (references/menu/*.jpg) - do not invent steps, prices or gifts.
  */
 
 export interface PackageTherapy {
@@ -53,7 +53,7 @@ export const carePackages: CarePackage[] = [
     packagePriceVnd: 2850000,
     perSessionLabel: 'chỉ ~285.000đ / buổi',
     description:
-      'Massage bầu Nhật Bản & thảo dược thiên nhiên — trị đau nhức mỏi toàn thân, ngâm chân giảm phù nề, tạo giấc ngủ sâu.',
+      'Massage bầu Nhật Bản & thảo dược thiên nhiên - trị đau nhức mỏi toàn thân, ngâm chân giảm phù nề, tạo giấc ngủ sâu.',
     gift: '5 buổi gội đầu tại spa (hoặc 3 buổi chăm sóc da mặt tại nhà)',
     effects: [],
     therapies: [
@@ -177,7 +177,7 @@ export const carePackages: CarePackage[] = [
     packagePriceVnd: 3600000,
     perSessionLabel: '360.000đ / buổi',
     description:
-      'Ôn Cứu bụng tống đẩy sản dịch, nằm muối thảo dược, trị liệu đau nhức toàn thân — phục hồi sức khỏe, lưu thông khí huyết.',
+      'Ôn Cứu bụng tống đẩy sản dịch, nằm muối thảo dược, trị liệu đau nhức toàn thân - phục hồi sức khỏe, lưu thông khí huyết.',
     effects: ['Phục hồi sức khoẻ sau sinh', 'Lưu thông khí huyết, nhanh hết sản dịch'],
     therapies: [
       {
@@ -209,12 +209,12 @@ export const carePackages: CarePackage[] = [
     description:
       'Phục hồi sau sinh bằng kiêng cữ hiện đại + giảm béo kiểu Nhật, chăm sóc da toàn thân trị thâm rạn.',
     gift: '10 buổi tắm bé (hoặc giảm 12%)',
-    commitment: 'Cam kết giảm từ 5 – 22cm sau khi kết thúc liệu trình',
+    commitment: 'Cam kết giảm từ 5 - 22cm sau khi kết thúc liệu trình',
     effects: [
-      'Phục hồi làn da thâm sạm, tái tạo da giúp da trắng bật 1 – 2 tone, ngăn ngừa và giảm tình trạng mụn',
+      'Phục hồi làn da thâm sạm, tái tạo da giúp da trắng bật 1 - 2 tone, ngăn ngừa và giảm tình trạng mụn',
       'Phục hồi sức khoẻ sau sinh; giảm tình trạng đau đầu, nhức mỏi lưng, hông, cổ, vai, gáy giúp mẹ có giấc ngủ sâu và ngon',
       'Làm sạch sản dịch, co hồi tử cung nhanh chóng, sáng hồng se khít vùng kín',
-      'Giảm lượng mỡ thừa lấy lại vóc dáng, giảm 5 – 22cm mỡ bụng chỉ sau 1 liệu trình',
+      'Giảm lượng mỡ thừa lấy lại vóc dáng, giảm 5 - 22cm mỡ bụng chỉ sau 1 liệu trình',
     ],
     therapies: [
       {
@@ -266,14 +266,14 @@ export const carePackages: CarePackage[] = [
     description:
       'Trọn bộ chăm sóc: phục hồi sau sinh, giảm béo Nhật Bản và trị mụn nám da mặt theo bí quyết cung đình Huế.',
     gift: '10 buổi tắm bé + 1 buổi float + 5 buổi gội đầu tại nhà',
-    commitment: 'Cam kết giảm từ 8 – 26cm sau khi kết thúc liệu trình',
+    commitment: 'Cam kết giảm từ 8 - 26cm sau khi kết thúc liệu trình',
     featured: true,
     effects: [
       'Phục hồi sức khoẻ tránh hậu sản sau sinh',
       'Xóa tan nhức mỏi toàn thân, giúp mẹ có những giấc ngủ sâu',
       'Chăm sóc bầu ngực, massage chống nhão xệ, ủ men kích thích sữa về',
       'Giảm mụn, nám, da mặt sáng hồng tự nhiên',
-      'Da toàn thân giảm thâm, sạm, trắng sáng bật 1 – 2 tone',
+      'Da toàn thân giảm thâm, sạm, trắng sáng bật 1 - 2 tone',
       'Giảm mỡ toàn thân, giúp cơ thể thon gọn săn chắc',
     ],
     therapies: [
@@ -353,7 +353,7 @@ export function formatVnd(amount: number): string {
 
 /**
  * Markdown rendering of the packages for /llms.txt (summary) and
- * /llms-full.txt (full therapy steps) — GEO plain-text surfaces.
+ * /llms-full.txt (full therapy steps) - GEO plain-text surfaces.
  */
 export function packagesMarkdown(withSteps: boolean): string {
   return packageGroups
@@ -362,7 +362,7 @@ export function packagesMarkdown(withSteps: boolean): string {
         .filter((pkg) => pkg.group === group.id)
         .map((pkg) => {
           const single = pkg.singlePriceVnd
-            ? `buổi lẻ ${formatVnd(pkg.singlePriceVnd)} — `
+            ? `buổi lẻ ${formatVnd(pkg.singlePriceVnd)} - `
             : '';
           const head = `- **Gói ${pkg.name}** (${pkg.sessionMinutes} phút/buổi, ${pkg.therapyCount} liệu trình, ${pkg.stepCount} bước): ${single}${pkg.singlePriceVnd ? 'combo' : 'gói'} ${pkg.sessionCount} buổi ${formatVnd(pkg.packagePriceVnd)}`;
           const extras = [

@@ -1,4 +1,4 @@
-/** Shared inline SVG stroke icons (stroke-width 1.8–2, round caps) from the design. */
+/** Shared inline SVG stroke icons (stroke-width 1.8-2, round caps) from the design. */
 
 export function PhoneIcon({ size = 16, stroke = 'currentColor', strokeWidth = 2 }: { size?: number; stroke?: string; strokeWidth?: number }) {
   return (

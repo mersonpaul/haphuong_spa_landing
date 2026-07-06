@@ -12,10 +12,10 @@ export const dynamic = 'force-static';
 export const metadata: Metadata = {
   title: 'Hình ảnh thực tế tại spa',
   description:
-    'Hình ảnh thực tế tại Ha Phuong Mom & Baby Care: bé bơi float, tắm bé, massage cho mẹ và không gian spa — cập nhật từ hoạt động hằng ngày.',
+    'Hình ảnh thực tế tại Ha Phuong Mom & Baby Care: bé bơi float, tắm bé, massage cho mẹ và không gian spa - cập nhật từ hoạt động hằng ngày.',
   alternates: { canonical: '/hinh-anh' },
   openGraph: {
-    title: `Hình ảnh thực tế — ${site.name}`,
+    title: `Hình ảnh thực tế - ${site.name}`,
     description: 'Bé bơi float, tắm bé, massage cho mẹ và không gian spa qua ảnh chụp thực tế.',
     url: '/hinh-anh',
     type: 'website',
@@ -35,7 +35,7 @@ export default function GalleryPage() {
           __html: jsonLdString({
             '@context': 'https://schema.org',
             '@type': 'ImageGallery',
-            name: `Hình ảnh thực tế — ${site.name}`,
+            name: `Hình ảnh thực tế - ${site.name}`,
             url: `${site.url}/hinh-anh`,
             publisher: { '@id': `${site.url}/#business` },
             image: photos.map((photo) => `${site.url}${photo.src}`),
@@ -60,7 +60,7 @@ export default function GalleryPage() {
             <p className="eyebrow">Hình ảnh</p>
             <h1 className="packages-page__h1">Khoảnh khắc thực tế tại {site.shortName}</h1>
             <p className="section-sub">
-              Ảnh chụp từ hoạt động hằng ngày: bé bơi float, tắm bé, chăm sóc mẹ — cập nhật thường
+              Ảnh chụp từ hoạt động hằng ngày: bé bơi float, tắm bé, chăm sóc mẹ - cập nhật thường
               xuyên. Xem thêm ảnh mỗi ngày trên{' '}
               <a href={site.facebookUrl} target="_blank" rel="noopener">
                 Facebook của spa
@@ -83,7 +83,7 @@ export default function GalleryPage() {
             ))}
           </div>
           {photos.length === 0 && (
-            <p className="packages-page__note">Ảnh đang được cập nhật — quay lại sau mẹ nhé.</p>
+            <p className="packages-page__note">Ảnh đang được cập nhật - quay lại sau mẹ nhé.</p>
           )}
         </section>
       </main>

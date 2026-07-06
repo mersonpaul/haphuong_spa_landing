@@ -105,8 +105,8 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
             <p>
               Tắm bé 150.000đ/buổi (gói 10 buổi 1.200.000đ), thông tắc tia sữa từ 350.000đ,{' '}
               <a href="/goi-lieu-trinh">gói liệu trình massage bầu &amp; phục hồi sau sinh</a> từ
-              2.850.000đ — phục vụ tại spa &amp; tại nhà khu vực {site.khuVuc}. Spa xác nhận lịch
-              trong 15 phút (8:00 – 17:30).
+              2.850.000đ - phục vụ tại spa &amp; tại nhà khu vực {site.khuVuc}. Spa xác nhận lịch
+              trong 15 phút (8:00 - 17:30).
             </p>
             <div className="article-cta__actions">
               <a href={site.telHref} className="article-cta__btn">

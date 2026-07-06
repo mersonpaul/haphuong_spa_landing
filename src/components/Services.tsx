@@ -8,7 +8,7 @@ export function Services() {
         <p className="eyebrow">Dịch vụ</p>
         <h2 className="section-h2">Chăm sóc trọn vẹn cho hai mẹ con</h2>
         <p className="section-sub">
-          Thực hiện tại spa hoặc ngay tại nhà bạn — linh hoạt theo lịch của mẹ, giá niêm yết rõ
+          Thực hiện tại spa hoặc ngay tại nhà bạn - linh hoạt theo lịch của mẹ, giá niêm yết rõ
           ràng.
         </p>
       </div>

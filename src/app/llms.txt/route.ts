@@ -4,7 +4,7 @@ import { packagesMarkdown } from '@/data/packages';
 import { faqItems } from '@/data/faq';
 import { getAllPostMeta } from '@/lib/posts';
 
-// /llms.txt — one-page markdown summary for AI agents (GEO).
+// /llms.txt - one-page markdown summary for AI agents (GEO).
 export const dynamic = 'force-static';
 
 export function GET(): Response {
@@ -45,7 +45,7 @@ export function GET(): Response {
 
 ${priceSection}
 
-## Gói liệu trình (bán theo gói — khuyến nghị cho hiệu quả dài hạn)
+## Gói liệu trình (bán theo gói - khuyến nghị cho hiệu quả dài hạn)
 
 ${packagesMarkdown(false)}
 

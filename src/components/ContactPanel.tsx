@@ -11,7 +11,7 @@ export function ContactPanel() {
           <PhoneIcon size={20} stroke="#B05F70" />
         </span>
         <span style={{ lineHeight: 1.4 }}>
-          <span className="contact-card__label">Gọi điện thoại — nhanh nhất</span>
+          <span className="contact-card__label">Gọi điện thoại - nhanh nhất</span>
           <span className="contact-card__value">{site.hotline}</span>
         </span>
       </a>
@@ -20,7 +20,7 @@ export function ContactPanel() {
           <Image src="/images/icons/zalo.png" alt="" width={30} height={30} />
         </span>
         <span style={{ lineHeight: 1.4 }}>
-          <span className="contact-card__label">Nhắn Zalo — gửi ảnh, hỏi giá</span>
+          <span className="contact-card__label">Nhắn Zalo - gửi ảnh, hỏi giá</span>
           <span className="contact-card__value">zalo.me/{site.hotlineDigits}</span>
         </span>
       </a>
@@ -29,7 +29,7 @@ export function ContactPanel() {
           <Image src="/images/icons/facebook.png" alt="" width={28} height={28} />
         </span>
         <span style={{ lineHeight: 1.4 }}>
-          <span className="contact-card__label">Facebook — xem ảnh thật mỗi ngày</span>
+          <span className="contact-card__label">Facebook - xem ảnh thật mỗi ngày</span>
           <span className="contact-card__value" style={{ fontSize: 16 }}>
             {site.facebookLabel}
           </span>

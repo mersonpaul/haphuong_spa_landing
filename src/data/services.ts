@@ -1,6 +1,6 @@
 /**
  * Source of truth for the 6 service cards and the full 17-service price list.
- * Content is copied verbatim from the handoff (docs/content.md) — do not invent
+ * Content is copied verbatim from the handoff (docs/content.md) - do not invent
  * services or prices here.
  */
 
@@ -22,7 +22,7 @@ export const serviceCards: ServiceCard[] = [
     name: 'Tắm & Massage bé',
     badge: 'Spa · Tại nhà',
     description:
-      'Tắm thảo dược dịu nhẹ kết hợp massage thư giãn cho bé — kích thích phát triển, giúp bé ăn ngon ngủ sâu.',
+      'Tắm thảo dược dịu nhẹ kết hợp massage thư giãn cho bé - kích thích phát triển, giúp bé ăn ngon ngủ sâu.',
     priceLabel: 'Buổi lẻ 150.000đ · Gói 10 buổi 1.200.000đ',
     image: '/images/tam-be.png',
     imageAlt: 'Minh hoạ bé bơi float trong làn nước ấm',
@@ -31,10 +31,10 @@ export const serviceCards: ServiceCard[] = [
   },
   {
     id: 'float',
-    name: 'Floating Baby — Bơi Thuỷ Liệu',
+    name: 'Floating Baby - Bơi Thuỷ Liệu',
     badge: 'Tại spa',
     description:
-      'Bé thả nổi thư giãn trong làn nước ấm với phao chuyên dụng — kích thích giác quan, hỗ trợ tiêu hoá, bé vận động toàn thân và ngủ sâu hơn sau mỗi buổi bơi.',
+      'Bé thả nổi thư giãn trong làn nước ấm với phao chuyên dụng - kích thích giác quan, hỗ trợ tiêu hoá, bé vận động toàn thân và ngủ sâu hơn sau mỗi buổi bơi.',
     priceLabel: '150.000đ / buổi',
     image: '/images/bai-viet/boi-float-cho-be.png',
     imageAlt: 'Minh hoạ bé bơi float thuỷ liệu trong làn nước ấm tại spa',
@@ -46,7 +46,7 @@ export const serviceCards: ServiceCard[] = [
     name: 'Thông Tắc Tia Sữa',
     badge: 'Tại nhà',
     description:
-      'Xử lý cương sữa sinh lý, tắc sữa non, tắc sữa viêm và kích sữa — massage không đau, hỗ trợ khẩn trong ngày để mẹ cho bé bú lại ngay.',
+      'Xử lý cương sữa sinh lý, tắc sữa non, tắc sữa viêm và kích sữa - massage không đau, hỗ trợ khẩn trong ngày để mẹ cho bé bú lại ngay.',
     priceLabel: 'Từ 350.000đ / buổi',
     image: '/images/tia-sua.png',
     imageAlt: 'Minh hoạ giọt sữa mẹ',
@@ -58,7 +58,7 @@ export const serviceCards: ServiceCard[] = [
     name: 'Massage Cho Mẹ',
     badge: 'Spa · Tại nhà',
     description:
-      'Massage bầu Nhật Bản 60 – 120 phút giúp mẹ giảm đau mỏi vai gáy, lưng hông và ngủ ngon hơn. Đặt buổi lẻ hoặc gói liệu trình 10 buổi.',
+      'Massage bầu Nhật Bản 60 - 120 phút giúp mẹ giảm đau mỏi vai gáy, lưng hông và ngủ ngon hơn. Đặt buổi lẻ hoặc gói liệu trình 10 buổi.',
     priceLabel: 'Buổi lẻ từ 355.000đ · Gói 10 buổi từ 2.850.000đ',
     image: '/images/massage.png',
     imageAlt: 'Minh hoạ hoa sen thư giãn',
@@ -70,7 +70,7 @@ export const serviceCards: ServiceCard[] = [
     name: 'Gội Đầu Tại Nhà',
     badge: 'Tại nhà',
     description:
-      'Gội dưỡng sinh thảo dược kết hợp massage đầu — cổ — vai ngay tại nhà, mẹ ở cữ vẫn được thư giãn mà không phải ra ngoài.',
+      'Gội dưỡng sinh thảo dược kết hợp massage đầu - cổ - vai ngay tại nhà, mẹ ở cữ vẫn được thư giãn mà không phải ra ngoài.',
     priceLabel: '100.000đ / buổi',
     image: '/images/goi-dau.png',
     imageAlt: 'Minh hoạ gội đầu thảo dược',
@@ -94,7 +94,7 @@ export const serviceCards: ServiceCard[] = [
     name: 'Trông Bé Tại Nhà',
     badge: 'Tại nhà',
     description:
-      'Cô trông bé có nghiệp vụ, lý lịch rõ ràng — nhận theo giờ ban ngày hoặc buổi tối, để mẹ yên tâm nghỉ ngơi, việc riêng.',
+      'Cô trông bé có nghiệp vụ, lý lịch rõ ràng - nhận theo giờ ban ngày hoặc buổi tối, để mẹ yên tâm nghỉ ngơi, việc riêng.',
     priceLabel: 'Ngày 85.000đ / giờ · Tối 150.000đ / giờ',
     image: '/images/trong-tre.png',
     imageAlt: 'Minh hoạ đồ chơi treo nôi của bé',
@@ -104,7 +104,7 @@ export const serviceCards: ServiceCard[] = [
 ];
 
 export interface PriceItem {
-  /** Internal service code DV01–DV17 */
+  /** Internal service code DV01-DV17 */
   code: string;
   name: string;
   /** Display price, e.g. "150.000đ" or "85.000đ / giờ" */
@@ -124,10 +124,10 @@ export interface PriceGroup {
 export const priceGroups: PriceGroup[] = [
   {
     title: 'Bé yêu',
-    subtitle: 'Sơ sinh – 24 tháng · giá / buổi',
+    subtitle: 'Sơ sinh - 24 tháng · giá / buổi',
     items: [
       { code: 'DV01', name: 'Tắm bé (buổi lẻ)', priceLabel: '150.000đ', priceVnd: 150000, schemaName: 'Tắm bé (buổi lẻ)' },
-      { code: 'DV01G', name: 'Tắm bé — gói 10 buổi', priceLabel: '1.200.000đ', priceVnd: 1200000, schemaName: 'Tắm bé — gói 10 buổi' },
+      { code: 'DV01G', name: 'Tắm bé - gói 10 buổi', priceLabel: '1.200.000đ', priceVnd: 1200000, schemaName: 'Tắm bé - gói 10 buổi' },
       { code: 'DV02', name: 'Bơi float', priceLabel: '150.000đ', priceVnd: 150000, schemaName: 'Bơi float cho bé' },
     ],
   },
@@ -135,7 +135,7 @@ export const priceGroups: PriceGroup[] = [
     title: 'Massage cho mẹ',
     subtitle: 'Bầu & sau sinh · giá / buổi',
     items: [
-      { code: 'DV03', name: 'Buổi lẻ 60 – 120 phút', priceLabel: 'từ 355.000đ', priceVnd: 355000, schemaName: 'Massage mẹ 60–120 phút (buổi lẻ)' },
+      { code: 'DV03', name: 'Buổi lẻ 60 - 120 phút', priceLabel: 'từ 355.000đ', priceVnd: 355000, schemaName: 'Massage mẹ 60-120 phút (buổi lẻ)' },
     ],
   },
   {
@@ -157,7 +157,7 @@ export const priceGroups: PriceGroup[] = [
   },
 ];
 
-/** All services flattened — used by JSON-LD OfferCatalog and llms.txt */
+/** All services flattened - used by JSON-LD OfferCatalog and llms.txt */
 export const allPriceItems: PriceItem[] = priceGroups.flatMap((group) => group.items);
 
 /**

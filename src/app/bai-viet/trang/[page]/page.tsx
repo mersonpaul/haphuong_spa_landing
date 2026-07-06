@@ -21,8 +21,8 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { page: string } }): Metadata {
   const page = Number(params.page);
   return {
-    title: `Bài viết chăm sóc mẹ & bé — Trang ${page}`,
-    description: `Trang ${page} — cẩm nang chăm sóc mẹ và bé của ${site.name}: sữa mẹ, tắm bé, phục hồi sau sinh, chọn dịch vụ tại nhà.`,
+    title: `Bài viết chăm sóc mẹ & bé - Trang ${page}`,
+    description: `Trang ${page} - cẩm nang chăm sóc mẹ và bé của ${site.name}: sữa mẹ, tắm bé, phục hồi sau sinh, chọn dịch vụ tại nhà.`,
     alternates: { canonical: `/bai-viet/trang/${page}` },
   };
 }
