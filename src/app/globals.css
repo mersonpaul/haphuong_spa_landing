@@ -2090,6 +2090,8 @@ a {
 .pkg-details-btn svg {
   margin-left: auto;
   flex-shrink: 0;
+  /* Dialog trigger, not an accordion — point the chevron sideways */
+  transform: rotate(-90deg);
 }
 
 .pkg-dialog {
