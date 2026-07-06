@@ -14,10 +14,16 @@ export function PackageDetails({ pkg }: { pkg: CarePackage }) {
 
   function open() {
     dialogRef.current?.showModal();
+    document.body.style.overflow = 'hidden';
   }
 
   function close() {
     dialogRef.current?.close();
+  }
+
+  // Fires on every close path (X button, ESC, backdrop click) — unlock scroll
+  function handleClose() {
+    document.body.style.overflow = '';
   }
 
   // Close when the backdrop (the dialog element itself) is clicked
@@ -31,7 +37,13 @@ export function PackageDetails({ pkg }: { pkg: CarePackage }) {
         Chi tiết liệu trình ({pkg.stepCount} bước)
         <ChevronIcon />
       </button>
-      <dialog ref={dialogRef} className="pkg-dialog" onClick={handleDialogClick} onCancel={close}>
+      <dialog
+        ref={dialogRef}
+        className="pkg-dialog"
+        onClick={handleDialogClick}
+        onCancel={close}
+        onClose={handleClose}
+      >
         <div className="pkg-dialog__inner">
           <header className="pkg-dialog__head">
             <div>
