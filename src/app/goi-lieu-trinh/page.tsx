@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { FloatingContacts } from '@/components/FloatingContacts';
+import { BookingSection } from '@/components/BookingSection';
 import { PackageCard } from '@/components/PackageCard';
 import { carePackages, packageGroups } from '@/data/packages';
 import { packagesCatalogJsonLd, breadcrumbJsonLd, jsonLdString } from '@/lib/jsonld';
@@ -81,6 +82,7 @@ export default function PackagesPage() {
             {site.gioMoCuaNgan}.
           </p>
         </section>
+        <BookingSection />
       </main>
       <Footer />
       <FloatingContacts />

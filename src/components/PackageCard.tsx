@@ -50,7 +50,7 @@ export function PackageCard({ pkg }: { pkg: CarePackage }) {
       <PackageDetails pkg={pkg} />
 
       <a
-        href="/#dat-lich"
+        href={`?goi=${encodeURIComponent(pkg.name)}&nhom=${pkg.group}#dat-lich`}
         className={`pkg-card__cta${pkg.featured ? ' pkg-card__cta--solid' : ''}`}
       >
         Đặt gói này

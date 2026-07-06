@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, type FormEvent } from 'react';
+import { useEffect, useState, type FormEvent } from 'react';
 import { site } from '@/config/site';
 import { bookingServiceOptions } from '@/data/services';
 import { CheckIcon } from '@/components/icons';
@@ -33,6 +33,21 @@ export function BookingForm() {
   const [sent, setSent] = useState(false);
   const [sending, setSending] = useState(false);
   const [error, setError] = useState<ErrorKind>(null);
+
+  // "Đặt gói này" links from /goi-lieu-trinh carry ?goi=<tên gói>&nhom=<me-bau|sau-sinh>
+  // — preselect the package service and prefill the note with the package name.
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const packageName = params.get('goi');
+    if (!packageName) return;
+    const service =
+      params.get('nhom') === 'sau-sinh' ? 'Gói liệu trình sau sinh' : 'Gói liệu trình mẹ bầu';
+    setForm((previous) => ({
+      ...previous,
+      service,
+      note: previous.note || `Mẹ quan tâm gói ${packageName}.`,
+    }));
+  }, []);
 
   const setField = (field: keyof FormState) => (value: string) => {
     setForm((previous) => ({ ...previous, [field]: value }));

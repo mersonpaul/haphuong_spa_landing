@@ -93,7 +93,11 @@ export function PackageDetails({ pkg }: { pkg: CarePackage }) {
             )}
           </div>
           <footer className="pkg-dialog__foot">
-            <a href="/#dat-lich" className="pkg-card__cta pkg-card__cta--solid" onClick={close}>
+            <a
+              href={`?goi=${encodeURIComponent(pkg.name)}&nhom=${pkg.group}#dat-lich`}
+              className="pkg-card__cta pkg-card__cta--solid"
+              onClick={close}
+            >
               Đặt gói này
             </a>
           </footer>
