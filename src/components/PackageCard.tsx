@@ -1,10 +1,11 @@
-import { ChevronIcon } from '@/components/icons';
+import { PackageDetails } from '@/components/PackageDetails';
 import { formatVnd, type CarePackage } from '@/data/packages';
 
 /**
  * One treatment-package card: prices (package price emphasized), gift,
- * commitment and a <details> accordion with the full step-by-step therapy —
- * kept in the DOM when closed so search engines and AI agents can read it.
+ * commitment and a "Chi tiết liệu trình" button that opens a modal dialog
+ * with the full step-by-step therapy — the steps are server-rendered inside
+ * the dialog so search engines and AI agents can still read them.
  */
 export function PackageCard({ pkg }: { pkg: CarePackage }) {
   return (
@@ -46,34 +47,7 @@ export function PackageCard({ pkg }: { pkg: CarePackage }) {
       )}
       {pkg.commitment && <p className="pkg-card__commit">{pkg.commitment}</p>}
 
-      <details className="pkg-card__details">
-        <summary>
-          Chi tiết liệu trình ({pkg.stepCount} bước)
-          <ChevronIcon />
-        </summary>
-        <div className="pkg-card__details-body">
-          {pkg.therapies.map((therapy) => (
-            <div key={therapy.title}>
-              <h4>{therapy.title}</h4>
-              <ol>
-                {therapy.steps.map((step) => (
-                  <li key={step}>{step}</li>
-                ))}
-              </ol>
-            </div>
-          ))}
-          {pkg.effects.length > 0 && (
-            <div>
-              <h4>Hiệu quả liệu trình</h4>
-              <ul>
-                {pkg.effects.map((effect) => (
-                  <li key={effect}>{effect}</li>
-                ))}
-              </ul>
-            </div>
-          )}
-        </div>
-      </details>
+      <PackageDetails pkg={pkg} />
 
       <a
         href="/#dat-lich"
