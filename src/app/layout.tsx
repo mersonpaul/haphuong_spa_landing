@@ -30,6 +30,7 @@ export const metadata: Metadata = {
     title: 'Ha Phuong Mom & Baby Care — Spa mẹ và bé, chăm sóc tại nhà',
     description:
       'Tắm bé & float, thông tắc tia sữa, massage sau sinh, gội & xông hơi, trông bé tại nhà. Đặt lịch qua điện thoại, Zalo, Facebook.',
+    url: '/',
     type: 'website',
     locale: 'vi_VN',
     siteName: site.name,

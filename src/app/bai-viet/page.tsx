@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     title: `Bài viết chăm sóc mẹ & bé — ${site.name}`,
     description:
       'Cẩm nang chăm sóc mẹ và bé: sữa mẹ, tắm bé & float, mẹ sau sinh, chọn dịch vụ tại nhà.',
+    url: '/bai-viet',
     type: 'website',
     locale: 'vi_VN',
   },

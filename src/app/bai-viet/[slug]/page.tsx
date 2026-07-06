@@ -25,6 +25,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     openGraph: {
       title: post.title,
       description: post.description,
+      url: `/bai-viet/${post.slug}`,
       type: 'article',
       locale: 'vi_VN',
       publishedTime: post.date,
