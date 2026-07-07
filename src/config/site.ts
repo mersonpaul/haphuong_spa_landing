@@ -32,5 +32,5 @@ export const site = {
   gaId: 'G-FGXTYKB2JL',
 
   description:
-    'Ha Phuong Mom & Baby Care - dịch vụ spa mẹ và bé: tắm bé 150.000đ/buổi (gói 10 buổi 1.200.000đ), bơi float 150.000đ, thông tắc tia sữa từ 350.000đ, gói massage bầu từ 2.850.000đ/10 buổi, gói phục hồi sau sinh từ 3.600.000đ, gội & xông hơi tại nhà, trông bé theo giờ. Đặt lịch qua điện thoại, Zalo hoặc Facebook.',
+    'Ha Phuong Mom & Baby Care - spa mẹ và bé tại Vinhomes Smart City (Vin Smart), Nam Từ Liêm, Hà Nội: tắm bé 150.000đ/buổi (gói 10 buổi 1.200.000đ, gói 30 buổi 100.000đ/buổi tại nhà), bơi thủy liệu (float) 150.000đ, thông tắc tia sữa từ 350.000đ, massage bầu Nhật Bản từ 355.000đ - gói 10 buổi từ 2.850.000đ, phục hồi sau sinh từ 3.600.000đ, gội & xông hơi tại nhà, trông bé theo giờ. Đặt lịch qua điện thoại, Zalo hoặc Facebook.',
 } as const;

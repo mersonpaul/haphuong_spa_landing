@@ -16,9 +16,9 @@ export function Hero() {
             ôm ấp bé.
           </h1>
           <p className="hero__desc">
-            Tắm bé &amp; bơi float, thông tắc tia sữa, massage sau sinh, gội đầu - xông hơi và
-            trông bé ngay tại nhà bạn. Chăm sóc bằng đôi tay chuyên môn và sự dịu dàng của người
-            thân.
+            Tắm bé &amp; bơi thủy liệu (float), thông tắc tia sữa, massage bầu &amp; sau sinh, gội
+            đầu - xông hơi và trông bé ngay tại nhà bạn ở Vinhomes Smart City. Chăm sóc bằng đôi
+            tay chuyên môn và sự dịu dàng của người thân.
           </p>
           <div className="hero__ctas">
             <a href="#dat-lich" className="btn-primary">
@@ -53,7 +53,7 @@ export function Hero() {
             </span>
             <span>
               <span className="hero__card-title">Tắm bé 150.000đ / buổi</span>
-              <span className="hero__card-sub">Gói 10 buổi chỉ 1.200.000đ · tại spa hoặc tại nhà</span>
+              <span className="hero__card-sub">Gói 30 buổi chỉ 100.000đ/buổi · tại nhà</span>
             </span>
           </div>
         </div>

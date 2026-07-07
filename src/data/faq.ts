@@ -12,7 +12,7 @@ export const faqItems: FaqItem[] = [
   {
     question: 'Tắm bé và bơi float giá bao nhiêu?',
     answer:
-      'Tắm bé 150.000đ/buổi lẻ - gói 10 buổi 1.200.000đ; bơi float 150.000đ/buổi. Thực hiện tại spa hoặc tại nhà theo lịch hẹn.',
+      'Tắm bé 150.000đ/buổi lẻ - gói 10 buổi 1.200.000đ - gói 30 buổi 3.000.000đ (chỉ 100.000đ/buổi, áp dụng tại nhà); bơi float 150.000đ/buổi. Thực hiện tại spa hoặc tại nhà theo lịch hẹn.',
   },
   {
     question: 'Thông tắc tia sữa có những mức dịch vụ nào?',
@@ -28,6 +28,11 @@ export const faqItems: FaqItem[] = [
     question: 'Massage cho mẹ có những gói nào?',
     answer:
       'Có 3 gói massage bầu: Khỏe Mạnh 60 phút (lẻ 355.000đ - combo 10 buổi 2.850.000đ), Quyến Rũ 90 phút (lẻ 565.000đ - combo 4.650.000đ), Hạnh Phúc 120 phút (lẻ 765.000đ - combo 6.665.000đ). Mẹ sau sinh có 3 gói trọn liệu trình từ 3.600.000đ, kèm cam kết và quà tặng.',
+  },
+  {
+    question: 'Hà Phương nằm ở đâu trong Vinhomes Smart City (Vin Smart)?',
+    answer:
+      'Spa nằm tại tòa West A, Masteri West Heights, ngay trong khu đô thị Vinhomes Smart City (cư dân quen gọi Vin Smart), phường Tây Mỗ, Nam Từ Liêm, Hà Nội. Các dịch vụ tại nhà - tắm bé, thông tắc tia sữa, massage bầu, gội đầu, xông hơi, trông bé - phục vụ toàn khu Vinhomes Smart City và Tây Mỗ, Đại Mỗ, Nam Từ Liêm.',
   },
   {
     question: 'Đặt lịch bằng cách nào?',

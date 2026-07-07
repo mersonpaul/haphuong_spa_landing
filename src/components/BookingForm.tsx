@@ -28,8 +28,17 @@ const initialForm: FormState = {
 
 type ErrorKind = null | 'phone-required' | 'phone-invalid' | 'api';
 
-export function BookingForm() {
-  const [form, setForm] = useState<FormState>(initialForm);
+interface BookingFormProps {
+  /** Preselected service option (must match bookingServiceOptions) */
+  defaultService?: string;
+}
+
+export function BookingForm({ defaultService }: BookingFormProps) {
+  const [form, setForm] = useState<FormState>(() =>
+    defaultService && (bookingServiceOptions as readonly string[]).includes(defaultService)
+      ? { ...initialForm, service: defaultService }
+      : initialForm,
+  );
   const [sent, setSent] = useState(false);
   const [sending, setSending] = useState(false);
   const [error, setError] = useState<ErrorKind>(null);

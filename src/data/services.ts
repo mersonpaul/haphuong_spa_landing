@@ -14,6 +14,8 @@ export interface ServiceCard {
   imageAlt: string;
   imageWidth: number;
   imageHeight: number;
+  /** Standalone service page, e.g. /tam-be (cards without one just show text) */
+  href?: string;
 }
 
 export const serviceCards: ServiceCard[] = [
@@ -23,23 +25,25 @@ export const serviceCards: ServiceCard[] = [
     badge: 'Spa · Tại nhà',
     description:
       'Tắm thảo dược dịu nhẹ kết hợp massage thư giãn cho bé - kích thích phát triển, giúp bé ăn ngon ngủ sâu.',
-    priceLabel: 'Buổi lẻ 150.000đ · Gói 10 buổi 1.200.000đ',
+    priceLabel: 'Buổi lẻ 150.000đ · Gói 10 buổi 1.200.000đ · Gói 30 buổi 3.000.000đ',
     image: '/images/tam-be.png',
     imageAlt: 'Minh hoạ bé bơi float trong làn nước ấm',
     imageWidth: 900,
     imageHeight: 520,
+    href: '/tam-be',
   },
   {
     id: 'float',
-    name: 'Floating Baby - Bơi Thuỷ Liệu',
+    name: 'Floating Baby - Bơi Thủy Liệu',
     badge: 'Tại spa',
     description:
       'Bé thả nổi thư giãn trong làn nước ấm với phao chuyên dụng - kích thích giác quan, hỗ trợ tiêu hoá, bé vận động toàn thân và ngủ sâu hơn sau mỗi buổi bơi.',
     priceLabel: '150.000đ / buổi',
     image: '/images/bai-viet/boi-float-cho-be.png',
-    imageAlt: 'Minh hoạ bé bơi float thuỷ liệu trong làn nước ấm tại spa',
+    imageAlt: 'Minh hoạ bé bơi float thủy liệu trong làn nước ấm tại spa',
     imageWidth: 900,
     imageHeight: 560,
+    href: '/boi-thuy-lieu-cho-be',
   },
   {
     id: 'tia-sua',
@@ -52,6 +56,7 @@ export const serviceCards: ServiceCard[] = [
     imageAlt: 'Minh hoạ giọt sữa mẹ',
     imageWidth: 900,
     imageHeight: 520,
+    href: '/thong-tac-tia-sua',
   },
   {
     id: 'massage',
@@ -64,6 +69,7 @@ export const serviceCards: ServiceCard[] = [
     imageAlt: 'Minh hoạ hoa sen thư giãn',
     imageWidth: 900,
     imageHeight: 520,
+    href: '/massage-bau',
   },
   {
     id: 'goi-dau',
@@ -128,6 +134,7 @@ export const priceGroups: PriceGroup[] = [
     items: [
       { code: 'DV01', name: 'Tắm bé (buổi lẻ)', priceLabel: '150.000đ', priceVnd: 150000, schemaName: 'Tắm bé (buổi lẻ)' },
       { code: 'DV01G', name: 'Tắm bé - gói 10 buổi', priceLabel: '1.200.000đ', priceVnd: 1200000, schemaName: 'Tắm bé - gói 10 buổi' },
+      { code: 'DV01G30', name: 'Tắm bé - gói 30 buổi (tại nhà)', priceLabel: '3.000.000đ', priceVnd: 3000000, schemaName: 'Tắm bé - gói 30 buổi tại nhà' },
       { code: 'DV02', name: 'Bơi float', priceLabel: '150.000đ', priceVnd: 150000, schemaName: 'Bơi float cho bé' },
     ],
   },

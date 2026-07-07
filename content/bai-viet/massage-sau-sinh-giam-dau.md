@@ -48,7 +48,7 @@ faq:
 - **Mẹ Bầu Quyến Rũ - 90 phút:** lẻ 565.000đ, combo 4.650.000đ.
 - **Mẹ Bầu Hạnh Phúc - 120 phút:** lẻ 765.000đ, combo 6.665.000đ.
 
-Mẹ muốn trải nghiệm trước có thể đặt **buổi lẻ từ 355.000đ** rồi chuyển sang gói - chi tiết đầy đủ tại [trang gói liệu trình](/goi-lieu-trinh). Tất cả các gói làm được **tại spa hoặc tại nhà** (Tây Mỗ, Nam Từ Liêm) - mẹ ở cữ không cần ra ngoài, bé nằm cạnh trong tầm mắt.
+Mẹ muốn trải nghiệm trước có thể đặt **buổi lẻ từ 355.000đ** rồi chuyển sang gói - chi tiết đầy đủ tại [trang gói liệu trình](/goi-lieu-trinh), mẹ bầu xem thêm [trang massage bầu](/massage-bau). Tất cả các gói làm được **tại spa hoặc tại nhà** (Tây Mỗ, Nam Từ Liêm) - mẹ ở cữ không cần ra ngoài, bé nằm cạnh trong tầm mắt.
 
 ## Lưu ý an toàn
 

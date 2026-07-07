@@ -12,7 +12,7 @@ faq:
   - q: "Bé mấy tháng tuổi thì bơi float được?"
     a: "Tại Hà Phương, bé bơi float từ khi rốn rụng và khô hẳn (thường sau 2-4 tuần tuổi) đến khoảng 24 tháng. Mỗi buổi 15-20 phút trong nước ấm 32-34°C, luôn có kỹ thuật viên giám sát liên tục 1 kèm 1."
   - q: "Bơi float giá bao nhiêu một buổi?"
-    a: "Buổi bơi float tại Hà Phương Mom & Baby Care giá 150.000đ/buổi, thực hiện tại spa hoặc tại nhà (kỹ thuật viên mang bể và phao chuyên dụng đến). Đặt lịch qua hotline/Zalo 0987 475 822."
+    a: "Buổi bơi float tại Hà Phương Mom & Baby Care giá 150.000đ/buổi, thực hiện tại spa ở tòa West A, Masteri West Heights, Vinhomes Smart City (bể chuyên dụng, nước ấm ổn định 32-34 độ C). Đặt lịch qua hotline/Zalo 0987 475 822."
 ---
 
 **Trả lời nhanh:** Bơi float (thuỷ liệu) là hoạt động cho bé nổi và đạp nước trong bể nhỏ với phao chuyên dụng, nước ấm 32-34°C, mỗi buổi **15-20 phút**. Lợi ích chính: bé vận động toàn thân khi xương khớp chưa chịu trọng lực, hỗ trợ tiêu hoá, giải phóng năng lượng nên **ăn ngon, ngủ sâu hơn**. Điều kiện tiên quyết: **người giám sát sát bên trong suốt buổi bơi** - không bao giờ để bé nổi một mình.
@@ -40,6 +40,6 @@ faq:
 
 ## Bơi float tại Hà Phương
 
-**150.000đ/buổi** tại spa hoặc tại nhà; kết hợp cùng buổi tắm thảo dược (150.000đ/buổi lẻ, gói 10 buổi 1.200.000đ) - bé được tắm và bơi trong một buổi trọn vẹn. Khu vực Vinhomes Smart City - Tây Mỗ - Nam Từ Liêm, Hà Nội. Hotline/Zalo: **0987 475 822**.
+**150.000đ/buổi** tại spa (tòa West A, Masteri West Heights, Vinhomes Smart City); kết hợp cùng buổi tắm thảo dược (150.000đ/buổi lẻ, gói 10 buổi 1.200.000đ) - bé được tắm và bơi trong một buổi trọn vẹn. Xem chi tiết và đặt lịch tại [trang bơi thủy liệu cho bé](/boi-thuy-lieu-cho-be). Hotline/Zalo: **0987 475 822**.
 
 *Bài viết mang tính tham khảo; trẻ có bệnh lý nền cần ý kiến bác sĩ nhi trước khi bơi.*

@@ -18,6 +18,7 @@ export const BLOG_CATEGORIES = [
   'Tắm bé & Float',
   'Mẹ sau sinh',
   'Chọn dịch vụ',
+  'Mẹ bầu',
 ] as const;
 
 export interface PostFaq {

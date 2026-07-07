@@ -25,13 +25,20 @@ export function Services() {
             />
             <div className="service-card__body">
               <div className="service-card__head">
-                <h3 className="service-card__name">{service.name}</h3>
+                <h3 className="service-card__name">
+                  {service.href ? <a href={service.href}>{service.name}</a> : service.name}
+                </h3>
                 <span className={`badge ${service.badge === 'Tại nhà' ? 'badge--blush' : 'badge--sage'}`}>
                   {service.badge}
                 </span>
               </div>
               <p className="service-card__desc">{service.description}</p>
               <p className="service-card__price">{service.priceLabel}</p>
+              {service.href && (
+                <a href={service.href} className="service-card__more">
+                  Xem chi tiết &amp; đặt lịch
+                </a>
+              )}
             </div>
           </article>
         ))}

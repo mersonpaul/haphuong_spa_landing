@@ -49,6 +49,6 @@ faq:
 
 ## Nếu mẹ chưa tự tin?
 
-Buổi **tắm bé của Hà Phương giá 150.000đ/buổi lẻ, gói 10 buổi chỉ 1.200.000đ** (tại spa hoặc tại nhà, khu vực Tây Mỗ - Nam Từ Liêm, Hà Nội): kỹ thuật viên tắm thảo dược dịu nhẹ đúng quy trình, massage, vệ sinh rốn và hướng dẫn mẹ thao tác đến khi tự tin. Hotline/Zalo: **0987 475 822**.
+Buổi [tắm bé của Hà Phương](/tam-be) giá **150.000đ/buổi lẻ, gói 10 buổi chỉ 1.200.000đ** (tại spa hoặc tại nhà, khu vực Tây Mỗ - Nam Từ Liêm, Hà Nội): kỹ thuật viên tắm thảo dược dịu nhẹ đúng quy trình, massage, vệ sinh rốn và hướng dẫn mẹ thao tác đến khi tự tin. Hotline/Zalo: **0987 475 822**.
 
 *Bài viết mang tính tham khảo, không thay thế hướng dẫn y khoa cá nhân.*

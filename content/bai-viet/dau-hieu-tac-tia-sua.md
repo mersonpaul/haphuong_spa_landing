@@ -41,7 +41,7 @@ Gọi kỹ thuật viên thông tắc hoặc đi khám khi: cục cứng **khôn
 
 ## Dịch vụ thông tắc tia sữa tại nhà của Hà Phương
 
-Kỹ thuật viên của Hà Phương xử lý bằng massage không đau, hỗ trợ khẩn trong ngày, đến tận nhà khu vực Vinhomes Smart City - Tây Mỗ - Nam Từ Liêm (Hà Nội). Giá dịch vụ **từ 350.000đ/buổi tuỳ tình trạng** - từ cương sữa sinh lý, tắc sữa non đến tắc sữa viêm; kỹ thuật viên đánh giá và báo giá rõ trước khi thực hiện.
+Kỹ thuật viên của [dịch vụ thông tắc tia sữa Hà Phương](/thong-tac-tia-sua) xử lý bằng massage không đau, hỗ trợ khẩn trong ngày, đến tận nhà khu vực Vinhomes Smart City - Tây Mỗ - Nam Từ Liêm (Hà Nội). Giá dịch vụ **từ 350.000đ/buổi tuỳ tình trạng** - từ cương sữa sinh lý, tắc sữa non đến tắc sữa viêm; kỹ thuật viên đánh giá và báo giá rõ trước khi thực hiện.
 
 Gọi **0987 475 822** (hoặc nhắn Zalo cùng số) - Hà Phương xác nhận lịch trong khoảng 15 phút, 8:00-17:30 hằng ngày.
 

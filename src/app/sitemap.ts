@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { site } from '@/config/site';
+import { servicePages } from '@/data/servicePages';
 import { getAllPostMeta, POSTS_PER_PAGE } from '@/lib/posts';
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -30,6 +31,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+    ...servicePages.map((page) => ({
+      url: `${site.url}/${page.slug}`,
+      lastModified: latestUpdate,
+      changeFrequency: 'monthly' as const,
+      priority: 0.9,
+    })),
     {
       url: `${site.url}/hinh-anh`,
       lastModified: latestUpdate,

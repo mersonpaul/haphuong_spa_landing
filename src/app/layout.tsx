@@ -22,14 +22,14 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
     default:
-      'Ha Phuong Mom & Baby Care - Tắm bé & Float, Thông tắc tia sữa, Massage sau sinh, Chăm sóc tại nhà',
+      'Ha Phuong Mom & Baby Care - Spa mẹ và bé Vinhomes Smart City: Tắm bé, Bơi thủy liệu, Massage bầu, Thông tắc tia sữa',
     template: `%s - ${site.name}`,
   },
   description: site.description,
   openGraph: {
-    title: 'Ha Phuong Mom & Baby Care - Spa mẹ và bé, chăm sóc tại nhà',
+    title: 'Ha Phuong Mom & Baby Care - Spa mẹ và bé tại Vinhomes Smart City',
     description:
-      'Tắm bé & float, thông tắc tia sữa, massage sau sinh, gội & xông hơi, trông bé tại nhà. Đặt lịch qua điện thoại, Zalo, Facebook.',
+      'Tắm bé, bơi thủy liệu (float), thông tắc tia sữa, massage bầu & sau sinh, gội & xông hơi, trông bé tại nhà - Vinhomes Smart City, Nam Từ Liêm. Đặt lịch qua điện thoại, Zalo, Facebook.',
     url: '/',
     type: 'website',
     locale: 'vi_VN',

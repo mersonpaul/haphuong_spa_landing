@@ -3,11 +3,25 @@ import { allPriceItems } from '@/data/services';
 import { carePackages, formatVnd } from '@/data/packages';
 import { faqItems } from '@/data/faq';
 import type { PostMeta, PostFaq } from '@/lib/posts';
+import type { ServicePageContent } from '@/data/servicePages';
 
 /**
  * JSON-LD builders - all schema blocks are server-rendered into the static
  * HTML so search engines and AI agents read them without executing JS.
  */
+
+/**
+ * Localities listed for local SEO - includes the colloquial "Vin Smart"
+ * variant residents actually search for alongside the official name.
+ */
+export const AREA_SERVED = [
+  'Vinhomes Smart City (Vin Smart)',
+  'Masteri West Heights',
+  'Tây Mỗ',
+  'Đại Mỗ',
+  'Nam Từ Liêm',
+  'Hà Nội',
+];
 
 export function localBusinessJsonLd() {
   return {
@@ -45,7 +59,7 @@ export function localBusinessJsonLd() {
     ],
     priceRange: '85.000đ - 7.350.000đ',
     currenciesAccepted: 'VND',
-    areaServed: 'Vinhomes Smart City, Nam Từ Liêm, Hà Nội và khu vực lân cận',
+    areaServed: AREA_SERVED,
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: 'Bảng giá dịch vụ Ha Phuong Mom & Baby Care',
@@ -110,6 +124,26 @@ export function packagesCatalogJsonLd() {
       price: String(pkg.packagePriceVnd),
       priceCurrency: 'VND',
       url: `${site.url}/goi-lieu-trinh#${pkg.id}`,
+    })),
+  };
+}
+
+/** Service schema for the standalone service pages (/tam-be, /massage-bau, ...). */
+export function serviceJsonLd(page: ServicePageContent) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: page.serviceName,
+    serviceType: page.serviceType,
+    description: page.metaDescription,
+    url: `${site.url}/${page.slug}`,
+    provider: { '@id': `${site.url}/#business` },
+    areaServed: AREA_SERVED,
+    offers: page.offers.map((offer) => ({
+      '@type': 'Offer',
+      itemOffered: { '@type': 'Service', name: offer.name },
+      price: String(offer.priceVnd),
+      priceCurrency: 'VND',
     })),
   };
 }

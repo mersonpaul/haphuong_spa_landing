@@ -1,6 +1,7 @@
 import { site } from '@/config/site';
 import { priceGroups } from '@/data/services';
 import { packagesMarkdown } from '@/data/packages';
+import { servicePages } from '@/data/servicePages';
 import { faqItems } from '@/data/faq';
 import { getAllPostMeta } from '@/lib/posts';
 
@@ -40,6 +41,10 @@ export function GET(): Response {
 - Khu vực phục vụ tại nhà: ${site.khuVuc}
 - Giờ mở cửa: ${site.gioMoCua}
 - Website: ${site.url}
+
+## Trang dịch vụ chính
+
+${servicePages.map((page) => `- ${page.serviceName}: ${site.url}/${page.slug}`).join('\n')}
 
 ## Bảng giá dịch vụ lẻ (niêm yết, VND)
 
